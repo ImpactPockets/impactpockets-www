@@ -1144,9 +1144,10 @@ header {
 
 @media (max-width: 768px) {
 
-    .hero-text{
-    width: auto !important;
+    .hero-text {
+        width: auto !important;
     }
+
     .nav-menu.active {
         left: 0;
     }
@@ -1217,7 +1218,8 @@ header {
     }
 
     .footer-nav-pages {
-        position: static
+        position: static;
+        padding-top: 40px;
     }
 }
 
@@ -1240,6 +1242,13 @@ header {
         /* padding: 15px var(--space-md); */
     }
 
+    .money_head1 {
+        width: 100% !important;
+    }
+
+    .fund_lunch .in_inv_two div {
+        padding-top: 65px;
+    }
 
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
@@ -1367,7 +1376,7 @@ header {
         display: flex;
     }
 
-   
+
 
     .business_row {
         display: flex;
@@ -1561,9 +1570,9 @@ header {
     .footer-contact a {
         font-size: 14px;
     }
-    .hero-text{
-    top: 133px !important 
-        
+
+    .hero-text {
+        top: 133px !important
     }
 }
 
@@ -1611,8 +1620,11 @@ header {
 
     .hero-text {
         padding: 25px 11px;
-        position: relative;
+        position: absolute;
         margin-bottom: 100px;
+        bottom: 0;
+        left: 0;
+        width: 85% !important;
     }
 
     .section-title {
@@ -1866,7 +1878,7 @@ header {
     text-transform: capitalize;
     color: #3C4144;
     padding-top: 20px;
-    
+
 
 }
 
@@ -1879,7 +1891,7 @@ header {
     text-transform: capitalize;
     color: #3C4144;
     padding-top: 10px;
-  
+
 }
 
 hr.hr_we_say {
@@ -2080,7 +2092,7 @@ hr.hr_we_say {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     margin: auto;
 }
 
@@ -2339,7 +2351,7 @@ hr.hr_we_say {
         font-weight: 600;
         font-size: 18px;
         line-height: 30px;
-      
+
     }
 
     .main_str {
@@ -2454,7 +2466,7 @@ hr.hr_we_say {
         padding: 40px 25px 80px 25px;
     }
 
-   
+
 
 }
 
@@ -2463,14 +2475,16 @@ hr.hr_we_say {
     .we_say-perfoma {
         width: 100%;
     }
-    .we_say{
-    width: 100% !important;
+
+    .we_say {
+        width: 100% !important;
     }
 
     .our_process_section {
 
         padding-top: 390px;
     }
+
     .role_upper .op_para {
         width: 100% !important;
     }
@@ -2626,7 +2640,7 @@ hr.hr_we_say {
         display: flex;
     }
 
-   
+
 
     .business_row {
         display: flex;
@@ -2738,7 +2752,7 @@ hr.hr_we_say {
         padding: 30px 0px;
         width: 100%;
         margin-top: 40px;
-        margin-bottom: -20px;
+        margin-bottom: 20px;
     }
 
     .fund_lunch {
@@ -4807,7 +4821,7 @@ ul li a {
         padding-bottom: 50px;
     }
 
-   
+
     .process-section {
 
         padding-bottom: 10px;
@@ -4913,7 +4927,7 @@ ul li a {
     }
 
     .section-title {
-       
+
         position: static;
 
     }
@@ -4934,7 +4948,7 @@ ul li a {
         margin-top: var(--space-xl);
     }
 
-    
+
 
     .about-content {
         padding: 20px;
@@ -4993,4 +5007,3 @@ ul li a {
         gap: 0px !important;
     }
 }
-
