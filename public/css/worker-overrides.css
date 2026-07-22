@@ -40,7 +40,7 @@ body {
   height: auto;
 }
 
-.hero-section {
+.hero-section .hero {
   background-image: url("/images/optimized/home-hero.webp");
 }
 
@@ -51,6 +51,10 @@ body {
 .btn,
 .member-info2 {
   background-color: #b54720;
+}
+
+.btn {
+  color: #fff;
 }
 
 .square-box-pattern {
@@ -66,6 +70,10 @@ body {
   flex: 0 0 auto;
   height: auto;
   width: 42px;
+}
+
+.benefit-icon {
+  flex: 0 0 72px;
 }
 
 .why-join-grid > *,
