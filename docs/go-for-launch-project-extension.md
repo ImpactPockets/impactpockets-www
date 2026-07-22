@@ -11,7 +11,7 @@
 
 | Extension | Files and commands | Owner | Reason |
 |---|---|---|---|
-| Legacy source bridge | `src/layouts/LegacyDocument.astro`, root HTML files | Impact Pockets | Preserves the approved site while adding Astro routes, metadata, semantics, and form security |
+| Legacy source bridge | `src/layouts/LegacyDocument.astro`, root HTML files, `scripts/generate-minified-styles.mjs` | Impact Pockets | Preserves the approved site while adding Astro routes, metadata, semantics, form security, and optimized inline styles |
 | Brand asset contract | `brand-assets.config.mjs`, `brand/Impact_Pockets_Brand_Guide.pdf`, `npm run verify:brand` | Impact Pockets | Binds approved logos, surfaces, minimum widths, and clear space to exact hashes |
 | Open Graph renderer | `scripts/generate-open-graph.mjs`, `open-graph.config.mjs`, state and approval JSON, `npm run verify:open-graph` | Impact Pockets | Uses the approved palette and primary logo in deterministic page-specific cards while the shared toolkit verifies immutable state and hash-bound approval |
 | Content review | `content-quality.config.mjs`, `content-quality.reviews.json`, `npm run verify:content-quality` | Impact Pockets | Defines route audiences, tasks, content families, similarity limits, and exact editorial approvals |
@@ -29,4 +29,4 @@ When Go for Launch changes, fetch its upstream first, review changes that overla
 
 ## Current validation
 
-On 2026-07-22, `npm run verify` passed the complete local chain. The one content warning for the repeated route label `Our Process` is acknowledged in the exact editorial review and does not represent repeated generic page copy. Candidate `51aa1424209da1df03f7b7345eba9c934169022c` then passed exact-candidate staging, a real Worker form submission, native Safari, PageSpeed, redirects, canonical-host verification, and production smoke tests.
+On 2026-07-22, `npm run verify` passed the complete local chain for candidate `36e4a5e66ea19bb59515a0bda527d7fbe7fb906c`: 15 unit tests, 50 interface checks, 84 Chromium and WebKit composition checks, 30 browser tests, and no content, SEO, image, brand, or site-health findings. The candidate then passed exact-candidate staging, mobile and desktop PageSpeed at 100 in all four categories, WebKit, native iOS Safari, canonical-host verification, production cache purge, and live production smoke tests.
