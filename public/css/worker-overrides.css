@@ -44,6 +44,36 @@ body {
   background-image: url("/images/optimized/home-hero.webp");
 }
 
+.nav-menu .active {
+  color: #b54720;
+}
+
+.btn,
+.member-info2 {
+  background-color: #b54720;
+}
+
+.square-box-pattern {
+  display: block;
+  float: right;
+  height: 106px;
+  position: relative;
+  top: -106px;
+  width: 149px;
+}
+
+.info-list img {
+  flex: 0 0 auto;
+  height: auto;
+  width: 42px;
+}
+
+.why-join-grid > *,
+.benefit-item > *,
+.info-list span {
+  min-width: 0;
+}
+
 @media (max-width: 768px) {
   .nav-menu:not(.active) {
     visibility: hidden;
@@ -120,4 +150,16 @@ body {
     width: 0;
   }
 
+}
+
+@media (max-width: 340px) {
+  .highlight-box {
+    max-width: 100%;
+    right: 0;
+    transform: translate(0, 20%);
+  }
+
+  .info-list span {
+    width: auto;
+  }
 }
