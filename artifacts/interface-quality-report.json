@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-22T21:13:33.068Z",
+  "generatedAt": "2026-07-22T21:17:28.532Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -169,6 +169,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -179,11 +180,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -400,6 +401,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -410,11 +412,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -631,6 +633,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -641,11 +644,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -862,6 +865,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -872,11 +876,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1093,6 +1097,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -1103,11 +1108,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1324,6 +1329,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -1334,11 +1340,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1555,6 +1561,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -1565,11 +1572,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1786,6 +1793,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -1796,11 +1804,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -2017,6 +2025,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -2027,11 +2036,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -2248,6 +2257,7 @@
         "palette": [
           "rgb(245, 246, 250)",
           "rgb(255, 255, 255)",
+          "rgb(30, 30, 51)",
           "rgba(255, 255, 255, 0.97)"
         ],
         "typography": [
@@ -2258,11 +2268,11 @@
           "start"
         ],
         "media": {
-          "images": 0,
+          "images": 1,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },

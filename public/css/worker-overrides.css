@@ -966,6 +966,7 @@ main[data-page-archetype="fund-formation-process"] {
 
 main[data-page-archetype="fund-formation-process"] .hero.container {
   align-items: end;
+  background: #1e1e33;
   background-position: center;
   background-size: cover;
   border-radius: 0 0 28px 28px;
@@ -973,6 +974,24 @@ main[data-page-archetype="fund-formation-process"] .hero.container {
   min-height: clamp(500px, 60vw, 650px);
   overflow: hidden;
   padding: clamp(28px, 5vw, 64px);
+}
+
+main[data-page-archetype="fund-formation-process"] .hero.container::before {
+  background: linear-gradient(85.28deg, rgba(0, 0, 0, 0.5) 3.67%, rgba(54, 53, 93, 0.9) 69.57%, #1e1e33 118.1%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+main[data-page-archetype="fund-formation-process"] .hero-media {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 
 main[data-page-archetype="fund-formation-process"] .hero-text {
@@ -985,6 +1004,7 @@ main[data-page-archetype="fund-formation-process"] .hero-text {
   padding: clamp(28px, 4vw, 48px);
   top: 0;
   width: min(100%, 650px);
+  z-index: 2;
 }
 
 main[data-page-archetype="fund-formation-process"] .hero-text h1 {
