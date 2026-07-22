@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-22T20:17:06.518Z",
+  "generatedAt": "2026-07-22T20:59:13.346Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -137,11 +137,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 23,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -153,8 +154,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:1312px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -164,12 +166,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "48px",
+          "80px",
           "600",
-          "57.6px",
+          "78.4px",
           "start"
         ],
         "media": {
@@ -362,11 +368,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 23,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -378,8 +385,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:921.625px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -389,12 +397,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "48px",
+          "61.44px",
           "600",
-          "57.6px",
+          "60.2112px",
           "start"
         ],
         "media": {
@@ -587,11 +599,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -603,8 +616,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:720px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -614,12 +628,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "46.08px",
           "600",
-          "38.4px",
+          "45.1584px",
           "start"
         ],
         "media": {
@@ -812,11 +830,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -828,8 +847,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:none:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -839,12 +859,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "44px",
           "600",
-          "38.4px",
+          "43.12px",
           "start"
         ],
         "media": {
@@ -1037,11 +1061,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -1053,8 +1078,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:none:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -1064,12 +1090,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "44px",
           "600",
-          "38.4px",
+          "43.12px",
           "start"
         ],
         "media": {
@@ -1262,11 +1292,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 23,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -1278,8 +1309,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:1312px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -1289,12 +1321,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "48px",
+          "80px",
           "600",
-          "57.599998px",
+          "78.400002px",
           "start"
         ],
         "media": {
@@ -1487,11 +1523,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 23,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -1503,8 +1540,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:921.625px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -1514,12 +1552,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "48px",
+          "61.439999px",
           "600",
-          "57.599998px",
+          "60.211197px",
           "start"
         ],
         "media": {
@@ -1712,11 +1754,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -1728,8 +1771,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:720px:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -1739,12 +1783,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "46.079998px",
           "600",
-          "38.400002px",
+          "45.158398px",
           "start"
         ],
         "media": {
@@ -1937,11 +1985,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -1953,8 +2002,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:none:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -1964,12 +2014,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "44px",
           "600",
-          "38.400002px",
+          "43.119999px",
           "start"
         ],
         "media": {
@@ -2162,11 +2216,12 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
+          "section:grid",
           "section:block",
-          "section:block",
+          "nav:block",
           "section:block",
           "section:block",
           "section:block",
@@ -2178,8 +2233,9 @@
         ],
         "layout": [
           "block:none:row",
-          "block:none:row:relative",
+          "grid:none:row:relative",
           "block:none:row:static",
+          "block:none:row:sticky",
           "block:none:row:static",
           "block:none:row:static",
           "block:none:row:static",
@@ -2189,12 +2245,16 @@
           "block:none:row:static",
           "block:none:row:static"
         ],
-        "palette": [],
+        "palette": [
+          "rgb(245, 246, 250)",
+          "rgb(255, 255, 255)",
+          "rgba(255, 255, 255, 0.97)"
+        ],
         "typography": [
           "jost, sans-serif",
-          "32px",
+          "44px",
           "600",
-          "38.400002px",
+          "43.119999px",
           "start"
         ],
         "media": {
@@ -2320,6 +2380,7 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
         "typography",
         "media"
       ]
@@ -2361,6 +2422,8 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
+        "typography",
         "media"
       ]
     },
@@ -2403,6 +2466,7 @@
         "structure",
         "layout",
         "palette",
+        "typography",
         "media"
       ]
     },
@@ -2416,6 +2480,7 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
         "typography",
         "media"
       ]
@@ -2459,6 +2524,7 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
         "typography",
         "media"
       ]
@@ -2500,6 +2566,8 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
+        "typography",
         "media"
       ]
     },
@@ -2542,6 +2610,7 @@
         "structure",
         "layout",
         "palette",
+        "typography",
         "media"
       ]
     },
@@ -2555,6 +2624,7 @@
       "differences": [
         "structure",
         "layout",
+        "palette",
         "typography",
         "media"
       ]

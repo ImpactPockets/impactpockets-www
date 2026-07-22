@@ -22,7 +22,20 @@ This route does not contain a process graphic. Its partner, value, and FAQ secti
 
 The discovery and proforma graphics contained important text that was not exposed to assistive technology. At phone width, the graphics and supporting cards became small, pale, and visually disconnected from their stage headings. Stage 2, Stage 4, and Stage 5 also depended on small raster icons to establish sequence.
 
-The route now contains five semantic process stories. Discovery questions, business analysis checks, proforma design, investor testing, and formal launch responsibilities are readable HTML. The layouts use an ordered visual path on desktop and a consistent vertical timeline on mobile. All stage content remains visible when JavaScript is disabled.
+The route now contains five semantic stage stories plus a sixth partnership story. Discovery questions, business analysis checks, proforma design, investor testing, formal launch responsibilities, and General Partnership roles are readable HTML. The layouts use an ordered visual path on desktop and a consistent vertical timeline on mobile. All stage content remains visible when JavaScript is disabled.
+
+The initial semantic conversion still inherited legacy flex, position, and card rules. Those rules pushed the hero card outside its artboard, stranded the Stage 4 outcome below the step cards, split Stage 5 into unrelated columns, and left oversized empty cards in the partnership section. The revised page replaces those hybrids with one narrative system:
+
+- A native five-stage anchor rail remains below the site header and identifies the active stage as the reader scrolls.
+- Stage 1 turns the three discovery questions into a connected decision path.
+- Stage 2 turns the operating review into a proof sequence ending in Capital Follows Track Record.
+- Stage 3 retains the dark proforma blueprint and its three complete structural elements.
+- Stage 4 connects feedback, alignment, and material optimization to one explicit market-readiness outcome.
+- Stage 5 uses a four-step launch timeline instead of two disconnected card columns.
+- Our Role in Your Fund connects the two conditional compensation roles to the shared commitment statement.
+- How Funds Make Money and Why Ohio now render as equal, complete cards instead of an offset layout that could hide the first card.
+
+Desktop stages use balanced alternating columns. Tablet and mobile stages put the narrative before the visual, then convert every visual sequence into a single connected vertical path. Section spacing is capped with responsive values so adjoining sections do not create the large empty fields visible in the rejected layouts.
 
 ### Our Services
 
@@ -43,6 +56,7 @@ This route does not contain a process graphic. Its form, Turnstile placement, di
 | `images/performa.png` | Deal Thesis And Capital Deployment Framework, Management And Performance Fee Structure, Target IRRs And Return Waterfalls |
 | Stage 4 icon group | Gather investor feedback, Gauge appetite and alignment, Optimize materials based on real world input |
 | Stage 5 icon group | Entity and legal structuring, Technology and back-office setup if needed, LP agreement drafting, Recruitment services |
+| Our Role plain card group | Management-team compensation condition, fund-specific technology compensation condition, shared investment of time, energy, and reputation |
 | `images/our-services/fund-incobation.png` | End-To-End Fund Setup Support, Trusted Vendor Recommendations, Budget-Friendly Launch Strategies |
 | `images/our-services/Group 1321315542@2x.png` | AI Use-Case Design For PE Workflows, Tech Evaluations For Investment Decisions, International Cybersecurity Expertise |
 
@@ -53,6 +67,7 @@ Six large infographic references and ten supporting process icon references were
 - Ordered lists and text render before JavaScript runs.
 - JavaScript adds one-time, in-view sequencing only.
 - Connector motion explains direction and completion rather than adding decorative movement.
+- JavaScript updates the active item in the native stage rail while leaving every anchor usable without JavaScript.
 - `prefers-reduced-motion: reduce` disables transitions and displays the complete story immediately.
 - A JavaScript-disabled mobile check confirmed full text, opacity 1, and zero horizontal overflow.
 - Public navigation and calls to action remain native links.
@@ -60,9 +75,9 @@ Six large infographic references and ten supporting process icon references were
 ## Layout Evidence
 
 - Interface quality: 5 routes, 50 browser and viewport checks, 0 errors, 0 warnings.
-- Visual composition: 60 artboard checks across Chromium and WebKit passed.
+- Visual composition: 84 artboard checks across Chromium and WebKit passed.
 - Measured horizontal overflow: 0 pixels on all five routes at 1440 and 390 pixel widths.
 - Largest measured gap between top-level sections: 60 pixels.
-- Semantic story count: 2 on Home, 5 on Our Process, 2 on Our Services.
+- Semantic story count: 2 on Home, 6 on Our Process, 2 on Our Services.
 
 Final release evidence is stored with the production candidate after the complete Go for Launch staging and production gate passes.

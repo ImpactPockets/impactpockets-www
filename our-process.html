@@ -59,8 +59,8 @@
         style="background: linear-gradient(85.28deg, rgba(0, 0, 0, 0.5) 3.67%, rgba(54, 53, 93, 0.9) 69.57%, #1E1E33 118.1%),url('./images/our-process-background.png');">
         <div class="hero-text">
             <h1>Our Process</h1>
-            <h4 class="section-subtitle">Turning Experts Into Fund Managers</h4>
-            <p class="about-text">
+            <p class="section-subtitle">Turning Experts Into Fund Managers</p>
+            <p class="about-text" data-visual-label data-visual-name="Fund formation hero context">
                 At Impact Pockets, we work with seasoned operators ready to build a fund, not just raise capital.
                 Our process is selective, strategic, and built to set you up for success from day one.
             </p>
@@ -79,7 +79,7 @@
             </div>
             <div class="right_section">
                 <div class="inner_right">
-                    <div class="section-title">It Starts With a Conversation</div>
+                    <h2 class="section-title">It Starts With a Conversation</h2>
                     <p class="about-text"> We're not here to mass-produce funds. We're here to build the right ones
                         with the right people.
                         If we move forward together, we become part of your General Partnership aligned with your
@@ -91,16 +91,26 @@
         </div>
     </section>
 
+    <nav class="process-journey" aria-label="Fund formation stages" data-process-journey>
+        <ol class="container">
+            <li><a href="#stage-discovery" data-stage-link="stage-discovery"><span>01</span>Discovery</a></li>
+            <li><a href="#stage-analysis" data-stage-link="stage-analysis"><span>02</span>Analysis</a></li>
+            <li><a href="#stage-proforma" data-stage-link="stage-proforma"><span>03</span>Proforma</a></li>
+            <li><a href="#stage-testing" data-stage-link="stage-testing"><span>04</span>Testing</a></li>
+            <li><a href="#stage-launch" data-stage-link="stage-launch"><span>05</span>Launch</a></li>
+        </ol>
+    </nav>
+
     <!-- Discovery & Interviews -->
-    <section>
+    <section id="stage-discovery" class="process-stage process-stage--discovery" data-process-stage>
         <div class="container">
             <div class="DiscoveryInterviews">
                 <div class="DI_left">
-                    <div class="stage1">Stage 01</div>
-                    <div class="section-title">Discovery & Interviews</div>
-                    <div class="section-small-title">
+                    <p class="stage1">Stage 01</p>
+                    <h2 class="section-title">Discovery & Interviews</h2>
+                    <h3 class="section-small-title">
                         Are we building something big or just building something?
-                    </div>
+                    </h3>
                     <div class="Typography">
                         We meet with high-performing individuals and teams to understand your story, track record, and
                         vision.
@@ -141,36 +151,42 @@
     </section>
 
     <!-- Strategic Business Analysis -->
-    <section>
+    <section id="stage-analysis" class="process-stage process-stage--analysis" data-process-stage>
         <div class="container-bg_business">
             <div class="row business_row">
                 <div class="first_business">
-                    <div class="main_str process-story process-story--stage-cards" data-process-story>
-                        <div class="str_1" data-process-step>
-                            <span class="process-story__number" aria-hidden="true">01</span>
-                            <p>Deep dive into your operational and financial history</p>
-                        </div>
-                        <div class="str_2" data-process-step>
-                            <span class="process-story__number" aria-hidden="true">02</span>
-                            <p>Assess market potential and fundability</p>
-                        </div>
-                        <div class="str_3" data-process-step>
-                            <span class="process-story__number" aria-hidden="true">03</span>
-                            <p>Identify red flags and growth levers</p>
-                        </div>
-                    </div>
-                    <div class="capital">
-                        <p>
-                            Capital Follows Track Record
-                        </p>
+                    <div class="process-story process-story--analysis" data-process-story
+                        data-visual-artboard data-visual-name="Strategic business analysis"
+                        data-min-horizontal-fill="0.62" data-min-vertical-fill="0.48" data-min-edge-inset="12">
+                        <span class="process-story__progress" data-visual-decoration
+                            data-visual-name="Analysis progression" aria-hidden="true"></span>
+                        <ol class="process-story__steps">
+                            <li class="process-story__step" data-process-step>
+                                <span class="process-story__number" aria-hidden="true">01</span>
+                                <span class="process-story__label" data-visual-label
+                                    data-visual-name="Operational history">Deep dive into your operational and financial history</span>
+                            </li>
+                            <li class="process-story__step" data-process-step>
+                                <span class="process-story__number" aria-hidden="true">02</span>
+                                <span class="process-story__label" data-visual-label
+                                    data-visual-name="Market potential">Assess market potential and fundability</span>
+                            </li>
+                            <li class="process-story__step" data-process-step>
+                                <span class="process-story__number" aria-hidden="true">03</span>
+                                <span class="process-story__label" data-visual-label
+                                    data-visual-name="Growth levers">Identify red flags and growth levers</span>
+                            </li>
+                        </ol>
+                        <p class="process-story__outcome" data-process-step data-visual-label
+                            data-visual-name="Analysis outcome">Capital Follows Track Record</p>
                     </div>
                 </div>
                 <div class="sec_business">
-                    <div class="stage1">Stage 02</div>
-                    <div class="section-title">Strategic Business Analysis</div>
-                    <div class="section-small-title">
+                    <p class="stage1">Stage 02</p>
+                    <h2 class="section-title">Strategic Business Analysis</h2>
+                    <h3 class="section-small-title">
                         We don't raise capital until the Track Record is proven
-                    </div>
+                    </h3>
                     <div class="op_para">
                         <p class="Typography"> Great funds are built on great operators but also great preparation. We
                             dig into your business
@@ -183,7 +199,7 @@
     </section>
 
     <!-- Proforma design -->
-    <section class="performa-main">
+    <section id="stage-proforma" class="performa-main process-stage process-stage--proforma" data-process-stage>
         <div class="container performa">
             <div class="DI_right performa_left">
                 <div class="process-story process-story--proforma" data-process-story
@@ -212,11 +228,11 @@
                 </div>
             </div>
             <div class="DI_left">
-                <div class="stage1">Stage 3</div>
-                <div class="section-title">Custom Proforma Design</div>
-                <div class="section-small-title">
+                <p class="stage1">Stage 03</p>
+                <h2 class="section-title">Custom Proforma Design</h2>
+                <h3 class="section-small-title">
                     Your fund. Your fees. Your future
-                </div>
+                </h3>
                 <div class="Typography">
                     Once we've validated the opportunity, we craft a tailored proforma with a structure that reflects
                     your strengths and fund strategy.
@@ -230,80 +246,87 @@
     </section>
 
     <!-- Investor testing -->
-    <section class="investor-main">
+    <section id="stage-testing" class="investor-main process-stage process-stage--testing" data-process-stage>
         <div class="container investor">
             <div class="DI_left">
-                <div class="stage1">Stage 4</div>
-                <div class="section-title">Investor Testing & Outreach</div>
-                <div class="section-small-title">
+                <p class="stage1">Stage 04</p>
+                <h2 class="section-title">Investor Testing & Outreach</h2>
+                <h3 class="section-small-title">
                     Before you launch, we test the waters
-                </div>
+                </h3>
                 <div class="Typography">
                     We take your fund thesis and proforma to select members of our investor network.
                 </div>
             </div>
             <div class="inv_right">
-                <div class="main_in_inv process-story process-story--stage-cards" data-process-story>
-                    <div class="in_inv_one">
-                        <div class="inv_feed" data-process-step>
-                            <p>Gather investor feedback</p>
+                <div class="process-story process-story--validation" data-process-story
+                    data-visual-artboard data-visual-name="Investor testing loop"
+                    data-min-horizontal-fill="0.62" data-min-vertical-fill="0.48" data-min-edge-inset="12">
+                    <span class="process-story__progress" data-visual-decoration
+                        data-visual-name="Investor testing progression" aria-hidden="true"></span>
+                    <ol class="process-story__steps">
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">01</span>
-                        </div>
-                        <div class="inv_empty"></div>
-                    </div>
-                    <div class="in_inv_two">
-                        <div class="inv_appetite" data-process-step>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Investor feedback">Gather investor feedback</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">02</span>
-                            <p>Gauge appetite and alignment</p>
-                        </div>
-                        <div class="inv_material" data-process-step>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Investor alignment">Gauge appetite and alignment</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">03</span>
-                            <p>Optimize materials based on real world input</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="capital2 inv_cap">
-                    <p>
-                        You'll know where you stand before a single dollar is raised
-                    </p>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Materials optimization">Optimize materials based on real world input</span>
+                        </li>
+                    </ol>
+                    <p class="process-story__outcome" data-process-step data-visual-label
+                        data-visual-name="Investor testing outcome">You'll know where you stand before a single dollar is raised</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Fund launch -->
-    <section class="stag-5-main">
+    <section id="stage-launch" class="stag-5-main process-stage process-stage--launch" data-process-stage>
         <div class="container fund_lunch">
             <div class="DI_right performa_left">
-                <div class="main_in_inv process-story process-story--stage-cards" data-process-story>
-                    <div class="in_inv_two">
-                        <div class="inv_appetite" data-process-step>
+                <div class="process-story process-story--launch-sequence" data-process-story
+                    data-visual-artboard data-visual-name="Formal fund launch sequence"
+                    data-min-horizontal-fill="0.62" data-min-vertical-fill="0.5" data-min-edge-inset="12">
+                    <span class="process-story__progress" data-visual-decoration
+                        data-visual-name="Fund launch progression" aria-hidden="true"></span>
+                    <ol class="process-story__steps">
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">01</span>
-                            <p>Entity and legal structuring</p>
-                        </div>
-                        <div class="inv_material" data-process-step>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Legal structuring">Entity and legal structuring</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">02</span>
-                            <p>Technology and back-office setup (if needed)</p>
-                        </div>
-                    </div>
-                    <div class="in_inv_two">
-                        <div class="inv_appetite" data-process-step>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Technology setup">Technology and back-office setup (if needed)</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">03</span>
-                            <p>LP agreement drafting</p>
-                        </div>
-                        <div class="inv_material" data-process-step>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="LP agreement">LP agreement drafting</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
                             <span class="process-story__number" aria-hidden="true">04</span>
-                            <p>Recruitment services</p>
-                        </div>
-                    </div>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Recruitment">Recruitment services</span>
+                        </li>
+                    </ol>
                 </div>
             </div>
             <div class="DI_left">
-                <div class="stage1">Stage 5</div>
-                <div class="section-title">Formal Fund Launch</div>
-                <div class="section-small-title">
+                <p class="stage1">Stage 05</p>
+                <h2 class="section-title">Formal Fund Launch</h2>
+                <h3 class="section-small-title">
                     From concept to capital
-                </div>
+                </h3>
                 <div class="Typography">
                     Once we have investor conviction and legal clarity, at this stage we move to formal fund formation
                 </div>
@@ -316,31 +339,37 @@
     </section>
 
     <!-- Role section -->
-    <section class="role-main">
+    <section class="role-main process-partnership" data-process-stage>
         <div class="container role_section">
             <div class="role_upper">
-                <div class="section-title">Our Role in Your Fund</div>
+                <h2 class="section-title">Our Role in Your Fund</h2>
                 <div class="about-text">
                     When we help you build, we co own the fund as part of the General Partnership
                 </div>
             </div>
             <div class="role_bottom">
-                <div class="inner_bottom">
-                    <div class="role1">
-                        <p class="role_para">
-                            If Chris or Lane join your management team, additional compensation applies
-                        </p>
-                    </div>
-                    <div class="role2">
-                        <p class="role_para">
-                            If we build fund-specific technology, additional compensation applies
-                        </p>
-                    </div>
-                    <div class="role3">
-                        <p class="role_para1">
-                            We invest time, energy, and reputation because we believe in what we help build
-                        </p>
-                    </div>
+                <div class="process-story process-story--partnership" data-process-story
+                    data-visual-artboard data-visual-name="General Partnership roles"
+                    data-min-horizontal-fill="0.55" data-min-vertical-fill="0.14" data-min-edge-inset="12">
+                    <span class="process-story__progress" data-visual-decoration
+                        data-visual-name="Partnership role connection" aria-hidden="true"></span>
+                    <ol class="process-story__steps">
+                        <li class="process-story__step" data-process-step>
+                            <span class="process-story__number" aria-hidden="true">01</span>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Management role">If Chris or Lane join your management team, additional compensation applies</span>
+                        </li>
+                        <li class="process-story__step" data-process-step>
+                            <span class="process-story__number" aria-hidden="true">02</span>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Technology role">If we build fund-specific technology, additional compensation applies</span>
+                        </li>
+                        <li class="process-story__step process-story__step--commitment" data-process-step>
+                            <span class="process-story__number" aria-hidden="true">03</span>
+                            <span class="process-story__label" data-visual-label
+                                data-visual-name="Shared commitment">We invest time, energy, and reputation because we believe in what we help build</span>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -350,9 +379,9 @@
     <section class="ohio-main">
         <div class="container ohio_section">
             <div class="make_money">
-                <div class="money_head1">
+                <h2 class="money_head1">
                     How Funds Make Money
-                </div>
+                </h2>
                 <div class="money_model1">
                     Understanding the model we're building together:
                 </div>
@@ -368,12 +397,12 @@
                 </div>
             </div>
             <div class="why_ohio">
-                <div class="section-title">
+                <h2 class="section-title">
                     Why Ohio
-                </div>
-                <div class="section-small-title">
+                </h2>
+                <h3 class="section-small-title">
                     The hidden gem of fund formation
-                </div>
+                </h3>
                 <div class="ohio_list">
                     <ul>
                         <li>Delaware-like LLC laws make fund setup smooth</li>
@@ -392,7 +421,7 @@
     <section>
         <div class="container ready_build">
             <div class="role_upper">
-                <div class="section-title">Ready to Build?</div>
+                <h2 class="section-title">Ready to Build?</h2>
                 <div class="about-text">
                     Let's start the conversation. If you're ready to take your operating experience and turn it into a
                     fund that can scale we're ready to partner.

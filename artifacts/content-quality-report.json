@@ -1,12 +1,12 @@
 {
   "gate": "Stanford Rule content quality",
   "definition": "A Go for Launch editorial standard, not a Stanford University policy or AI-authorship detector.",
-  "generatedAt": "2026-07-22T20:16:38.804Z",
+  "generatedAt": "2026-07-22T20:58:43.823Z",
   "outputDirectory": "/Users/lane/Dev/impactpockets-www/dist/client",
   "counts": {
     "pages": 5,
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "pages": [
     {
@@ -53,14 +53,14 @@
     },
     {
       "route": "/our-process/",
-      "contentHash": "4801bccd1a4f355a137fbb7d24ca39872e4a136c2554292476d1ce7de86c4638",
+      "contentHash": "7393675a5af22bf4e1e41fb63ddca4083f5bd29082b4f52d4ea6ac89e7114254",
       "audience": "Experienced operators evaluating fund formation",
       "primaryTask": "Understand each stage from discovery through formal launch",
       "contentFamily": "fund-formation-process",
       "metrics": {
-        "words": 305,
-        "sentences": 39,
-        "readingEase": 51.3,
+        "words": 391,
+        "sentences": 60,
+        "readingEase": 57.9,
         "longestSentenceWords": 22,
         "longestParagraphWords": 37
       }
@@ -104,9 +104,9 @@
       "secondRoute": "/our-process/",
       "firstContentFamily": "company-and-partner-profile",
       "secondContentFamily": "fund-formation-process",
-      "openingSimilarity": 0.0145,
-      "closingSimilarity": 0,
-      "fullSimilarity": 0.0246
+      "openingSimilarity": 0.0139,
+      "closingSimilarity": 0.0065,
+      "fullSimilarity": 0.0289
     },
     {
       "firstRoute": "/about-impact-pockets/",
@@ -131,9 +131,9 @@
       "secondRoute": "/our-process/",
       "firstContentFamily": "qualified-contact-intake",
       "secondContentFamily": "fund-formation-process",
-      "openingSimilarity": 0.014,
-      "closingSimilarity": 0,
-      "fullSimilarity": 0.0092
+      "openingSimilarity": 0.0134,
+      "closingSimilarity": 0.0065,
+      "fullSimilarity": 0.0194
     },
     {
       "firstRoute": "/contact-us/",
@@ -149,9 +149,9 @@
       "secondRoute": "/our-process/",
       "firstContentFamily": "operator-partnership-overview",
       "secondContentFamily": "fund-formation-process",
-      "openingSimilarity": 0.0146,
-      "closingSimilarity": 0,
-      "fullSimilarity": 0.0128
+      "openingSimilarity": 0.0211,
+      "closingSimilarity": 0.0073,
+      "fullSimilarity": 0.0108
     },
     {
       "firstRoute": "/",
@@ -167,17 +167,10 @@
       "secondRoute": "/our-services/",
       "firstContentFamily": "fund-formation-process",
       "secondContentFamily": "service-capability-catalog",
-      "openingSimilarity": 0.0292,
+      "openingSimilarity": 0.028,
       "closingSimilarity": 0,
-      "fullSimilarity": 0.0178
+      "fullSimilarity": 0.0202
     }
   ],
-  "findings": [
-    {
-      "severity": "warning",
-      "code": "repetitive-sentence-opening",
-      "route": "/our-process/",
-      "message": "The sentence opening \"our process\" appears 4 times."
-    }
-  ]
+  "findings": []
 }

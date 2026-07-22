@@ -32,7 +32,7 @@
     },
     {
       "route": "/our-process/",
-      "contentHash": "4801bccd1a4f355a137fbb7d24ca39872e4a136c2554292476d1ce7de86c4638",
+      "contentHash": "7393675a5af22bf4e1e41fb63ddca4083f5bd29082b4f52d4ea6ac89e7114254",
       "audience": "Experienced operators evaluating fund formation",
       "reviewer": "OpenAI Codex editorial review",
       "perspective": "senior-psychology-professor",
@@ -43,7 +43,7 @@
       "evidenceAware": true,
       "readAloud": true,
       "routeSpecific": true,
-      "notes": "The staged sequence answers how an operator moves from an initial conversation to formal formation. The discovery questions, analysis checks, proforma structure, investor testing, and launch responsibilities now remain visible as page text rather than raster-only copy. The repeated phrase Our Process is limited to navigation and section labeling, not a repeated generic argument, and the detailed stage copy remains route-specific."
+      "notes": "The staged sequence answers how an operator moves from an initial conversation to formal formation. The native stage navigator and semantic ordered stories make the progression explicit without changing the approved claims. Discovery questions, analysis checks, proforma structure, investor testing, launch responsibilities, partnership roles, fund economics, and Ohio context remain visible as page text. The detailed copy remains route-specific and proportionate."
     },
     {
       "route": "/our-services/",

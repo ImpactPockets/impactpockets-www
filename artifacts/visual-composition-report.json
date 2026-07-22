@@ -66,12 +66,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8461820083682008,
-        "verticalFill": 0.1977058997821816,
+        "verticalFill": 0.19746866191167678,
         "labelBounds": {
           "left": 132,
-          "top": 1072.3369140625,
+          "top": 1072.46240234375,
           "width": 505.59375,
-          "height": 72.3294677734375
+          "height": 72.24267578125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -90,12 +90,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8825576654240447,
-        "verticalFill": 0.32626398940759205,
+        "verticalFill": 0.3266212135736196,
         "labelBounds": {
           "left": 246.5,
-          "top": 3647.709228515625,
+          "top": 3647.71826171875,
           "width": 946.984375,
-          "height": 106.362060546875
+          "height": 106.478515625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -137,13 +137,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.3221462673611111,
-        "verticalFill": 0.435625,
+        "horizontalFill": 0.38055555555555554,
+        "verticalFill": 0.3479807692307692,
         "labelBounds": {
-          "left": 83,
-          "top": 383.640625,
-          "width": 463.890625,
-          "height": 239.59375
+          "left": 118,
+          "top": 391.453125,
+          "width": 548,
+          "height": 226.1875
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -161,15 +161,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.8575900248344371,
-        "verticalFill": 0.16569767441860464,
+        "horizontalFill": 0.8353104655052623,
+        "verticalFill": 0.1962932975924745,
         "labelBounds": {
-          "left": 799,
-          "top": 1637.640625,
-          "width": 517.984375,
-          "height": 71.25
+          "left": 762.796875,
+          "top": 1850.1383056640625,
+          "width": 507.203125,
+          "height": 96.1837158203125
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8429941814750747,
+        "verticalFill": 0.7357117944834184,
+        "labelBounds": {
+          "left": 159,
+          "top": 2405.307373046875,
+          "width": 418.796875,
+          "height": 360.498779296875
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -185,13 +209,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.7414965986394558,
-        "verticalFill": 0.5356382978723404,
+        "horizontalFill": 0.694039943387325,
+        "verticalFill": 0.5348906847895408,
         "labelBounds": {
-          "left": 195,
-          "top": 2804.359375,
-          "width": 436,
-          "height": 251.75
+          "left": 219,
+          "top": 3157.744873046875,
+          "width": 344.796875,
+          "height": 262.096435546875
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8847173258536837,
+        "verticalFill": 0.5045212765957446,
+        "labelBounds": {
+          "left": 747.796875,
+          "top": 3867.96875,
+          "width": 537.203125,
+          "height": 237.125
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6535630590487507,
+        "verticalFill": 0.6459163743622449,
+        "labelBounds": {
+          "left": 252,
+          "top": 4489.10400390625,
+          "width": 309.390625,
+          "height": 316.4990234375
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.9004654169082642,
+        "verticalFill": 0.14461805555555557,
+        "labelBounds": {
+          "left": 136.02706909179688,
+          "top": 5553.046875,
+          "width": 1152.5957336425781,
+          "height": 52.0625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -306,12 +402,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5927152317880795,
-        "verticalFill": 0.5175054898648649,
+        "verticalFill": 0.5207207207207207,
         "labelBounds": {
           "left": 134,
-          "top": 902.3181762695312,
+          "top": 902.375,
           "width": 179,
-          "height": 224.38714599609375
+          "height": 225.78125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -330,12 +426,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6357615894039735,
-        "verticalFill": 0.7357163027108434,
+        "verticalFill": 0.7385165662650602,
         "labelBounds": {
           "left": 123,
-          "top": 5369.818359375,
+          "top": 5369.875,
           "width": 192,
-          "height": 366.38671875
+          "height": 367.78125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -377,13 +473,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.7915865384615385,
-        "verticalFill": 0.4407102272727273,
+        "horizontalFill": 0.7166666666666667,
+        "verticalFill": 0.5051704545454545,
         "labelBounds": {
-          "left": 11,
-          "top": 231.640625,
-          "width": 308.71875,
-          "height": 242.390625
+          "left": 28,
+          "top": 236.640625,
+          "width": 279.5,
+          "height": 277.84375
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -401,15 +497,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.4870995273109244,
+        "horizontalFill": 0.6497175141242938,
+        "verticalFill": 0.48389133485425423,
         "labelBounds": {
-          "left": 103,
-          "top": 2282.703125,
-          "width": 232,
-          "height": 231.859375
+          "left": 104,
+          "top": 2363.151123046875,
+          "width": 230,
+          "height": 230.332275390625
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8813559322033898,
+        "verticalFill": 0.8083019855311099,
+        "labelBounds": {
+          "left": 39,
+          "top": 3365.682373046875,
+          "width": 312,
+          "height": 360.502685546875
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -425,13 +545,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.5613855995644481,
+        "horizontalFill": 0.7005649717514124,
+        "verticalFill": 0.5580594120049,
         "labelBounds": {
-          "left": 97,
-          "top": 3986.96875,
-          "width": 236,
-          "height": 257.78125
+          "left": 91,
+          "top": 4476.2138671875,
+          "width": 248,
+          "height": 256.25390625
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8700564971751412,
+        "verticalFill": 0.79296875,
+        "labelBounds": {
+          "left": 41,
+          "top": 5359.375,
+          "width": 308,
+          "height": 383.796875
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.7062146892655368,
+        "verticalFill": 0.7128433365005631,
+        "labelBounds": {
+          "left": 92,
+          "top": 6409.2451171875,
+          "width": 250,
+          "height": 316.50244140625
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6457933544439111,
+        "verticalFill": 0.7747965691664834,
+        "labelBounds": {
+          "left": 94.02703094482422,
+          "top": 7186.1875,
+          "width": 228.61084747314453,
+          "height": 330.28125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -474,12 +666,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.5367415856386961,
+        "verticalFill": 0.5367395918402069,
         "labelBounds": {
           "left": 97,
-          "top": 947.8338012695312,
+          "top": 947.833740234375,
           "width": 236,
-          "height": 246.46502685546875
+          "height": 246.464111328125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -498,12 +690,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.5699717384730326,
+        "verticalFill": 0.5699695149067882,
         "labelBounds": {
           "left": 103,
           "top": 3456.271240234375,
           "width": 232,
-          "height": 250.324462890625
+          "height": 250.323486328125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -546,12 +738,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5294409526959973,
+        "verticalFill": 0.5265419543913331,
         "labelBounds": {
           "left": 134,
-          "top": 916.828125,
+          "top": 916.7732543945312,
           "width": 109,
-          "height": 250.078125
+          "height": 248.70880126953125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -570,12 +762,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5258620689655172,
-        "verticalFill": 0.7775310418165327,
+        "verticalFill": 0.7747894708034905,
         "labelBounds": {
           "left": 123,
-          "top": 5865.671875,
+          "top": 5865.6171875,
           "width": 122,
-          "height": 388.4375
+          "height": 387.06787109375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -617,13 +809,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.777197265625,
-        "verticalFill": 0.5461647727272727,
+        "horizontalFill": 0.6875,
+        "verticalFill": 0.6873579545454546,
         "labelBounds": {
-          "left": 11,
-          "top": 231.640625,
-          "width": 248.703125,
-          "height": 300.390625
+          "left": 28,
+          "top": 236.640625,
+          "width": 220,
+          "height": 378.046875
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -641,15 +833,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5064002944544413,
+        "horizontalFill": 0.5633802816901409,
+        "verticalFill": 0.5087377415045776,
         "labelBounds": {
-          "left": 103,
-          "top": 2374.63525390625,
-          "width": 162,
-          "height": 241.845703125
+          "left": 104,
+          "top": 2424.818115234375,
+          "width": 160,
+          "height": 243.9794921875
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.852112676056338,
+        "verticalFill": 0.8315630505115523,
+        "labelBounds": {
+          "left": 39,
+          "top": 3453.239990234375,
+          "width": 242,
+          "height": 383.532470703125
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -665,13 +881,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5592667876000129,
+        "horizontalFill": 0.6267605633802817,
+        "verticalFill": 0.5562534674629593,
         "labelBounds": {
-          "left": 97,
-          "top": 4169.24462890625,
-          "width": 166,
-          "height": 269.767578125
+          "left": 91,
+          "top": 4687.53662109375,
+          "width": 178,
+          "height": 266.32373046875
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8380281690140845,
+        "verticalFill": 0.8205650851390762,
+        "labelBounds": {
+          "left": 41,
+          "top": 5589.609375,
+          "width": 238,
+          "height": 408.859375
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6338028169014085,
+        "verticalFill": 0.7380734005489865,
+        "labelBounds": {
+          "left": 92,
+          "top": 6713.27099609375,
+          "width": 180,
+          "height": 327.70458984375
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.558303349454638,
+        "verticalFill": 0.8351842910027362,
+        "labelBounds": {
+          "left": 94.02276611328125,
+          "top": 7563.375,
+          "width": 158.5581512451172,
+          "height": 486.46875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -714,12 +1002,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5799868090291956,
+        "verticalFill": 0.579978435075541,
         "labelBounds": {
           "left": 97,
-          "top": 937.9118041992188,
+          "top": 937.9114990234375,
           "width": 166,
-          "height": 266.32269287109375
+          "height": 266.31884765625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -738,12 +1026,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5456249787139841,
+        "verticalFill": 0.545616996458007,
         "labelBounds": {
           "left": 103,
-          "top": 3661.646240234375,
+          "top": 3661.645751953125,
           "width": 162,
-          "height": 250.322509765625
+          "height": 250.31884765625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -786,12 +1074,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8461558577405858,
-        "verticalFill": 0.19701987859827455,
+        "verticalFill": 0.19685404565644485,
         "labelBounds": {
           "left": 132,
-          "top": 1072.6983642578125,
+          "top": 1072.78466796875,
           "width": 505.578125,
-          "height": 72.0784912109375
+          "height": 72.017822265625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -810,12 +1098,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8825722273998136,
-        "verticalFill": 0.3272974681269172,
+        "verticalFill": 0.3275461021376534,
         "labelBounds": {
           "left": 246.5,
-          "top": 3647.73388671875,
+          "top": 3647.739013671875,
           "width": 947,
-          "height": 106.698974609375
+          "height": 106.780029296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -857,13 +1145,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.322137451171875,
-        "verticalFill": 0.4354220303622159,
+        "horizontalFill": 0.38055555555555554,
+        "verticalFill": 0.3479567307692308,
         "labelBounds": {
-          "left": 83,
-          "top": 383.75732421875,
-          "width": 463.8779296875,
-          "height": 239.48211669921875
+          "left": 118,
+          "top": 391.46875,
+          "width": 548,
+          "height": 226.171875
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -881,15 +1169,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.8576158940397351,
-        "verticalFill": 0.16779728379360465,
+        "horizontalFill": 0.8352847327654975,
+        "verticalFill": 0.19566177056760203,
         "labelBounds": {
-          "left": 799,
-          "top": 1636.4512939453125,
-          "width": 518,
-          "height": 72.15283203125
+          "left": 762.796875,
+          "top": 1850.4296875,
+          "width": 507.1875,
+          "height": 95.874267578125
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8429941814750747,
+        "verticalFill": 0.7383350605867347,
+        "labelBounds": {
+          "left": 159,
+          "top": 2405.135986328125,
+          "width": 418.796875,
+          "height": 361.7841796875
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -905,13 +1217,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.7414965986394558,
-        "verticalFill": 0.5331896193484043,
+        "horizontalFill": 0.694039943387325,
+        "verticalFill": 0.5357396962691326,
         "labelBounds": {
-          "left": 195,
-          "top": 2804.32080078125,
-          "width": 436,
-          "height": 250.59912109375
+          "left": 219,
+          "top": 3157.573486328125,
+          "width": 344.796875,
+          "height": 262.512451171875
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8847173258536837,
+        "verticalFill": 0.5045212765957446,
+        "labelBounds": {
+          "left": 747.796875,
+          "top": 3867.765625,
+          "width": 537.203125,
+          "height": 237.125
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6535630590487507,
+        "verticalFill": 0.6485391422193878,
+        "labelBounds": {
+          "left": 252,
+          "top": 4488.9326171875,
+          "width": 309.390625,
+          "height": 317.7841796875
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.900347638130188,
+        "verticalFill": 0.14461805555555557,
+        "labelBounds": {
+          "left": 136.01437377929688,
+          "top": 5552.84375,
+          "width": 1152.4449768066406,
+          "height": 52.0625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -954,12 +1338,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.766473821926687,
-        "verticalFill": 0.501300048828125,
+        "verticalFill": 0.501349609375,
         "labelBounds": {
           "left": 195,
-          "top": 1071.3243408203125,
+          "top": 1071.325927734375,
           "width": 498.890625,
-          "height": 250.6500244140625
+          "height": 250.6748046875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -981,7 +1365,7 @@
         "verticalFill": 0.16569767441860464,
         "labelBounds": {
           "left": 127,
-          "top": 2697.255615234375,
+          "top": 2697.281982421875,
           "width": 588.890625,
           "height": 71.25
         },
@@ -1026,12 +1410,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5927152317880795,
-        "verticalFill": 0.5182688626126126,
+        "verticalFill": 0.5183516328828829,
         "labelBounds": {
           "left": 134,
-          "top": 902.3424072265625,
+          "top": 902.3447265625,
           "width": 179,
-          "height": 224.7181396484375
+          "height": 224.7540283203125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1050,12 +1434,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6357615894039735,
-        "verticalFill": 0.7363820516440763,
+        "verticalFill": 0.7364536270080321,
         "labelBounds": {
           "left": 123,
-          "top": 5369.84228515625,
+          "top": 5369.8447265625,
           "width": 192,
-          "height": 366.71826171875
+          "height": 366.75390625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1097,13 +1481,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.7915743314302884,
-        "verticalFill": 0.4407826926491477,
+        "horizontalFill": 0.7166666666666667,
+        "verticalFill": 0.5051704545454545,
         "labelBounds": {
-          "left": 11,
-          "top": 231.7158203125,
-          "width": 308.7139892578125,
-          "height": 242.43048095703125
+          "left": 28,
+          "top": 236.640625,
+          "width": 279.5,
+          "height": 277.84375
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -1121,15 +1505,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.48468171448266806,
+        "horizontalFill": 0.6497175141242938,
+        "verticalFill": 0.4847622398568803,
         "labelBounds": {
-          "left": 103,
-          "top": 2282.66455078125,
-          "width": 232,
-          "height": 230.70849609375
+          "left": 104,
+          "top": 2362.823486328125,
+          "width": 230,
+          "height": 230.746826171875
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8813559322033898,
+        "verticalFill": 0.811175290779148,
+        "labelBounds": {
+          "left": 39,
+          "top": 3365.182861328125,
+          "width": 312,
+          "height": 361.7841796875
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -1145,13 +1553,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.5588792619436505,
+        "horizontalFill": 0.7005649717514124,
+        "verticalFill": 0.5589632673199946,
         "labelBounds": {
-          "left": 97,
-          "top": 3986.93017578125,
-          "width": 236,
-          "height": 256.63037109375
+          "left": 91,
+          "top": 4475.5732421875,
+          "width": 248,
+          "height": 256.6689453125
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8700564971751412,
+        "verticalFill": 0.79296875,
+        "labelBounds": {
+          "left": 41,
+          "top": 5358.625,
+          "width": 308,
+          "height": 383.796875
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.7062146892655368,
+        "verticalFill": 0.7157301344313063,
+        "labelBounds": {
+          "left": 92,
+          "top": 6408.3857421875,
+          "width": 250,
+          "height": 317.7841796875
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6453247716871359,
+        "verticalFill": 0.7747965691664834,
+        "labelBounds": {
+          "left": 94.0143814086914,
+          "top": 7185.296875,
+          "width": 228.4449691772461,
+          "height": 330.28125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1194,12 +1674,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.537409906892269,
+        "verticalFill": 0.537489127152239,
         "labelBounds": {
           "left": 97,
-          "top": 947.8563842773438,
+          "top": 947.8588256835938,
           "width": 236,
-          "height": 246.77191162109375
+          "height": 246.80828857421875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1218,12 +1698,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.5706699382738011,
+        "verticalFill": 0.5707533220079692,
         "labelBounds": {
           "left": 103,
-          "top": 3456.2939453125,
+          "top": 3456.29638671875,
           "width": 232,
-          "height": 250.631103515625
+          "height": 250.667724609375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1266,12 +1746,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5271386815663248,
+        "verticalFill": 0.5272910291928548,
         "labelBounds": {
           "left": 134,
-          "top": 916.7938842773438,
+          "top": 916.798583984375,
           "width": 109,
-          "height": 248.99066162109375
+          "height": 249.0626220703125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1290,12 +1770,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5258620689655172,
-        "verticalFill": 0.7753544005879961,
+        "verticalFill": 0.7755215337941388,
         "labelBounds": {
           "left": 123,
-          "top": 5865.6376953125,
+          "top": 5865.64306640625,
           "width": 122,
-          "height": 387.35009765625
+          "height": 387.43359375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1337,13 +1817,13 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.7771749496459961,
-        "verticalFill": 0.5462372381036932,
+        "horizontalFill": 0.6875,
+        "verticalFill": 0.6873579545454546,
         "labelBounds": {
-          "left": 11,
-          "top": 231.7158203125,
-          "width": 248.69598388671875,
-          "height": 300.43048095703125
+          "left": 28,
+          "top": 236.640625,
+          "width": 220,
+          "height": 378.046875
         },
         "labelCount": 3,
         "decorationCount": 0
@@ -1361,15 +1841,39 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5071947079993456,
+        "horizontalFill": 0.5633802816901409,
+        "verticalFill": 0.5093796834783175,
         "labelBounds": {
-          "left": 103,
-          "top": 2374.66357421875,
-          "width": 162,
-          "height": 242.22509765625
+          "left": 104,
+          "top": 2424.4814453125,
+          "width": 160,
+          "height": 244.287353515625
         },
         "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Strategic business analysis",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.852112676056338,
+        "verticalFill": 0.833632232874856,
+        "labelBounds": {
+          "left": 39,
+          "top": 3452.7001953125,
+          "width": 242,
+          "height": 384.48681640625
+        },
+        "labelCount": 4,
         "decorationCount": 1
       }
     },
@@ -1385,13 +1889,85 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5600513021929967,
+        "horizontalFill": 0.6267605633802817,
+        "verticalFill": 0.5568959679524835,
         "labelBounds": {
-          "left": 97,
-          "top": 4169.27392578125,
-          "width": 166,
-          "height": 270.14599609375
+          "left": 91,
+          "top": 4686.7939453125,
+          "width": 178,
+          "height": 266.63134765625
+        },
+        "labelCount": 3,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Investor testing loop",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8380281690140845,
+        "verticalFill": 0.8205650851390762,
+        "labelBounds": {
+          "left": 41,
+          "top": 5588.734375,
+          "width": 238,
+          "height": 408.859375
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "Formal fund launch sequence",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.6338028169014085,
+        "verticalFill": 0.7402222779420045,
+        "labelBounds": {
+          "left": 92,
+          "top": 6712.2470703125,
+          "width": 180,
+          "height": 328.65869140625
+        },
+        "labelCount": 4,
+        "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "artboard": "General Partnership roles",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.5578697097133583,
+        "verticalFill": 0.8351842910027362,
+        "labelBounds": {
+          "left": 94.01370239257812,
+          "top": 7562.328125,
+          "width": 158.43499755859375,
+          "height": 486.46875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1434,12 +2010,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5806043548812441,
+        "verticalFill": 0.5807642575200762,
         "labelBounds": {
           "left": 97,
-          "top": 937.9328002929688,
+          "top": 937.937744140625,
           "width": 166,
-          "height": 266.60626220703125
+          "height": 266.6796875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1458,12 +2034,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5462433374770111,
+        "verticalFill": 0.5464035147469518,
         "labelBounds": {
           "left": 103,
-          "top": 3661.667236328125,
+          "top": 3661.672119140625,
           "width": 162,
-          "height": 250.606201171875
+          "height": 250.6796875
         },
         "labelCount": 3,
         "decorationCount": 1
