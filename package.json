@@ -17,6 +17,7 @@
     "verify:sitemap": "node scripts/run-go-for-launch.mjs verify-sitemap.mjs --dir=dist/client --site=https://www.impactpockets.com --sitemap=sitemap.xml",
     "verify:seo": "node scripts/run-go-for-launch.mjs verify-seo.mjs --dir=dist/client --site=https://www.impactpockets.com --trailing-slash=always",
     "verify:images": "node scripts/run-go-for-launch.mjs verify-images.mjs --dir=dist/client",
+    "verify:brand": "node scripts/run-go-for-launch.mjs verify-brand-assets.mjs --config=brand-assets.config.mjs",
     "verify:site-health": "node scripts/run-go-for-launch.mjs verify-site-health.mjs --config=site-health.config.mjs",
     "verify:semantic-seo": "node scripts/run-go-for-launch.mjs verify-semantic-seo.mjs --config=semantic-seo.config.mjs",
     "verify:content-quality": "node scripts/run-go-for-launch.mjs verify-content-quality.mjs --config=content-quality.config.mjs",
@@ -24,7 +25,7 @@
     "verify:side-navigation": "node scripts/run-go-for-launch.mjs verify-side-navigation.mjs --root=dist/client --output=artifacts/side-navigation-report.json",
     "verify:design": "node scripts/run-go-for-launch.mjs run-design-gate.mjs --config=design-gate.config.mjs",
     "test:browser": "playwright test",
-    "verify": "npm run check && npm run test:unit && npm run build && npm run verify:seo && npm run verify:images && npm run verify:site-health && npm run verify:semantic-seo && npm run verify:content-quality && npm run verify:render && npm run verify:side-navigation && npm run verify:design && npm run test:browser"
+    "verify": "npm run check && npm run test:unit && npm run build && npm run verify:seo && npm run verify:images && npm run verify:brand && npm run verify:site-health && npm run verify:semantic-seo && npm run verify:content-quality && npm run verify:render && npm run verify:side-navigation && npm run verify:design && npm run test:browser"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.9",

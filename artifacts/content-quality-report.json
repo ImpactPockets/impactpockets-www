@@ -1,7 +1,7 @@
 {
   "gate": "Stanford Rule content quality",
   "definition": "A Go for Launch editorial standard, not a Stanford University policy or AI-authorship detector.",
-  "generatedAt": "2026-07-22T01:26:04.623Z",
+  "generatedAt": "2026-07-22T01:53:13.227Z",
   "outputDirectory": "/Users/lane/Dev/impactpockets-www/dist/client",
   "counts": {
     "pages": 5,
@@ -24,13 +24,13 @@
     },
     {
       "route": "/contact-us/",
-      "contentHash": "016dd2223e7030a50f61faa65d2db1df499e0bcf9aa897330d52bcc71aa8ac5c",
+      "contentHash": "030c965667af7bb6027092c36c5b3ec68d501ffb4dd90b7e625f95de0f5bc87f",
       "audience": "Operators ready to discuss a fund opportunity",
       "primaryTask": "Find contact details or send a complete inquiry",
       "metrics": {
-        "words": 188,
+        "words": 185,
         "sentences": 21,
-        "readingEase": 5.1,
+        "readingEase": 5.4,
         "longestSentenceWords": 22,
         "longestParagraphWords": 30
       }

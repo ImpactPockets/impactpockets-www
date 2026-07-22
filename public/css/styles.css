@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/jost-latin-variable.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/fonts/jost-latin-variable.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/jost-latin-variable.woff2') format('woff2');
+}
+
 body {
     font-family: var(--font-main);
     color: var(--text-color);
@@ -1202,6 +1226,7 @@ header {
         flex-direction: column;
         padding: var(--spacing-xl);
         box-shadow: var(--shadow-md);
+        --render-sharpness-intent: intentional;
         transform: translateY(-150%);
         transition: transform 0.3s ease;
     }
@@ -1659,7 +1684,7 @@ body {
     font-family: var(--font-primary);
     color: var(--text);
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: auto;
 }
 
 
@@ -1690,6 +1715,7 @@ body {
     background: var(--primary);
     color: var(--text-on-dark);
     z-index: 100;
+    --render-sharpness-intent: intentional;
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
@@ -2989,6 +3015,7 @@ hr.hr_we_say {
     position: absolute;
     bottom: 0;
     right: -55px;
+    --render-sharpness-intent: intentional;
     transform: translate(-20%, 20%);
     margin: 0;
 }
@@ -3215,6 +3242,7 @@ hr.hr_we_say {
         flex-direction: column;
         padding: var(--space-xl);
         box-shadow: var(--shadow-md);
+        --render-sharpness-intent: intentional;
         transform: translateY(-150%);
         transition: transform 0.3s ease;
     }
@@ -3337,7 +3365,7 @@ body {
     font-family: var(--font-primary);
     color: var(--text);
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: auto;
 }
 
 h1,
@@ -3388,6 +3416,7 @@ a {
     background: var(--primary);
     color: var(--text-on-dark);
     z-index: 100;
+    --render-sharpness-intent: intentional;
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
@@ -3871,6 +3900,7 @@ blockquote {
         flex-direction: column;
         padding: var(--space-xl);
         box-shadow: var(--shadow-md);
+        --render-sharpness-intent: intentional;
         transform: translateY(-150%);
         transition: transform 0.3s ease;
     }
@@ -4150,7 +4180,7 @@ body {
     font-family: var(--font-primary);
     color: var(--text);
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: auto;
 }
 
 h1,
@@ -4206,6 +4236,7 @@ img {
     background: var(--primary);
     color: var(--text-on-dark);
     z-index: 100;
+    --render-sharpness-intent: intentional;
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
@@ -4508,6 +4539,7 @@ ul li a {
     position: absolute;
     bottom: 0;
     right: -55px;
+    --render-sharpness-intent: intentional;
     transform: translate(-20%, 20%);
     margin: 0;
 }
@@ -4854,6 +4886,7 @@ ul li a {
         flex-direction: column;
         padding: var(--space-xl);
         box-shadow: var(--shadow-md);
+        --render-sharpness-intent: intentional;
         transform: translateY(-150%);
         transition: transform 0.3s ease;
     }

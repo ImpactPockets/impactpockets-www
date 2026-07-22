@@ -25,15 +25,15 @@
     "TURNSTILE_SITEKEY": "0x4AAAAAAD6yxt8rewqfmDCh",
     "CONTACT_ALLOWED_ORIGINS": "https://impactpockets-www-staging.biglane.workers.dev",
     "CONTACT_ALLOWED_HOSTNAMES": "impactpockets-www-staging.biglane.workers.dev",
-    "CONTACT_FROM": "website@impactpockets.com",
-    "CONTACT_TO": "info@impactpockets.com"
+    "CONTACT_FROM": "hello@impactpockets.com",
+    "CONTACT_TO": "lane@impactpockets.com"
   },
   "send_email": [
     {
       "name": "EMAIL",
-      "destination_address": "info@impactpockets.com",
+      "destination_address": "lane@impactpockets.com",
       "allowed_sender_addresses": [
-        "website@impactpockets.com"
+        "hello@impactpockets.com"
       ],
       "remote": true
     }
@@ -52,15 +52,15 @@
         "TURNSTILE_SITEKEY": "0x4AAAAAAD6yxt8rewqfmDCh",
         "CONTACT_ALLOWED_ORIGINS": "https://www.impactpockets.com",
         "CONTACT_ALLOWED_HOSTNAMES": "www.impactpockets.com",
-        "CONTACT_FROM": "website@impactpockets.com",
-        "CONTACT_TO": "info@impactpockets.com"
+        "CONTACT_FROM": "hello@impactpockets.com",
+        "CONTACT_TO": "lane@impactpockets.com"
       },
       "send_email": [
         {
           "name": "EMAIL",
-          "destination_address": "info@impactpockets.com",
+          "destination_address": "lane@impactpockets.com",
           "allowed_sender_addresses": [
-            "website@impactpockets.com"
+            "hello@impactpockets.com"
           ],
           "remote": true
         }

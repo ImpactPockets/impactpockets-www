@@ -33,8 +33,8 @@ const createEnv = () => {
     TURNSTILE_SECRET: "test-secret",
     CONTACT_ALLOWED_ORIGINS: TEST_ORIGIN,
     CONTACT_ALLOWED_HOSTNAMES: "staging.impactpockets.com",
-    CONTACT_FROM: "website@impactpockets.com",
-    CONTACT_TO: "info@impactpockets.com",
+    CONTACT_FROM: "hello@impactpockets.com",
+    CONTACT_TO: "lane@impactpockets.com",
     EMAIL: { send }
   };
   return { env, send };
@@ -128,8 +128,8 @@ describe("contact endpoint", () => {
     expect(send).toHaveBeenCalledOnce();
     expect(send).toHaveBeenCalledWith(
       expect.objectContaining({
-        to: "info@impactpockets.com",
-        from: { name: "Impact Pockets Website", email: "website@impactpockets.com" },
+        to: "lane@impactpockets.com",
+        from: { name: "Impact Pockets Website", email: "hello@impactpockets.com" },
         replyTo: { name: "Lane <Admin>", email: "lane@example.com" },
         html: expect.stringContaining("Lane &lt;Admin&gt;")
       })
