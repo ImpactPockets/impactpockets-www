@@ -1,6 +1,10 @@
 export function canonicalRedirectPath(pathname: string) {
   if (pathname === "/index.html") return "/";
 
+  if (pathname === "/about-impact-pocket" || pathname === "/about-impact-pocket.html") {
+    return "/about-impact-pockets/";
+  }
+
   if (pathname.endsWith(".html")) {
     return `${pathname.slice(0, -5).replace(/\/+$/, "")}/`;
   }
@@ -11,4 +15,8 @@ export function canonicalRedirectPath(pathname: string) {
   }
 
   return null;
+}
+
+export function isAlternateProductionHostname(hostname: string) {
+  return hostname.toLowerCase() === "impactpockets.com";
 }

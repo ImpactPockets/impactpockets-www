@@ -44,6 +44,10 @@
         {
           "pattern": "www.impactpockets.com/*",
           "zone_id": "d3519f1a807b6b73b58b610a692b02bf"
+        },
+        {
+          "pattern": "impactpockets.com/*",
+          "zone_id": "d3519f1a807b6b73b58b610a692b02bf"
         }
       ],
       "vars": {
