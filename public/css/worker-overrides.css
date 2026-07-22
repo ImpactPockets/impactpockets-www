@@ -156,7 +156,7 @@ body {
   .highlight-box {
     max-width: 100%;
     right: 0;
-    transform: translate(0, 20%);
+    transform: translateY(55px);
   }
 
   .info-list span {
