@@ -63,7 +63,7 @@ body {
   flex: none;
   margin-top: 1rem;
   min-width: 0;
-  text-align: right;
+  text-align: left;
   width: 100%;
 }
 
@@ -91,6 +91,12 @@ body {
 
 .contact-security-row:has(.cf-turnstile:empty) .cont_btn {
   margin-top: 0;
+}
+
+@media (min-width: 577px) {
+  .contact-security-row .cont_btn {
+    text-align: right;
+  }
 }
 
 @media (max-width: 576px) {
