@@ -85,6 +85,17 @@ test("contact form has named, labeled required fields", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Send", exact: true })).toBeVisible();
 });
 
+test("footer uses a high-density logo and omits placeholder social links", async ({ page }) => {
+  for (const route of routes) {
+    await page.goto(route);
+    const footerLogo = page.locator(".footer-brand img");
+    await expect(footerLogo).toHaveAttribute("src", "/images/Logo.png");
+    const logoDensity = await footerLogo.evaluate((image: HTMLImageElement) => image.naturalWidth / image.getBoundingClientRect().width);
+    expect(logoDensity).toBeGreaterThanOrEqual(2);
+    await expect(page.locator("footer .social-links")).toHaveCount(0);
+  }
+});
+
 test("first-viewport hero requests and preloads match the measured LCP resource", async ({ page }) => {
   for (const [route, expectedImage] of heroImages) {
     const imageRequests: string[] = [];

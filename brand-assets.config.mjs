@@ -15,9 +15,9 @@ export default {
     },
     {
       id: "reverse-raster",
-      file: "public/images/footer-logo.png",
-      sha256: "07233167e57676814cbfec30c522ed02724e83196cf46a03ebc770d0b64b9b76",
-      variant: "Reverse raster",
+      file: "public/images/Logo.png",
+      sha256: "915567547460503305e8c374e88473f041a3e2ac43fbefcf7103bf05f53135b9",
+      variant: "Reverse rendering from approved 408 pixel source",
       allowedSurfaces: ["dark"],
       minimumClearSpaceRatio: 0.25,
       minimumRenderedWidth: 180

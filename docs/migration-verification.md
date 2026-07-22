@@ -22,6 +22,8 @@ Reference captures are in `artifacts/visual-fidelity/source-loaded/`. Astro capt
 
 The production Contact page intentionally differs after Cloudflare loads the managed Turnstile widget. The original field layout and Send button remain in place. Public email references now show `hello@impactpockets.com` by owner direction, and private form delivery targets `lane@impactpockets.com`.
 
+On 2026-07-22, the owner approved removing the placeholder social media links from every footer and requested a sharper footer logo. The footer now renders the approved 408-pixel logo source at 180 pixels with the approved reverse-color treatment. This is an intentional post-migration exception to the original footer source.
+
 After the Go for Launch render-sharpness remediation, the five pages were recaptured at the same viewports. The required switch to browser-default font smoothing creates subpixel rasterization differences while preserving page dimensions, composition, spacing, and asset geometry. A controlled comparison that applies the same smoothing setting to the source remains below 0.34 percent changed pixels on every route and viewport.
 
 ## Verification

@@ -228,6 +228,7 @@ const cleanHead = head
   .replace(/\s*<link[^>]+href=["']https:\/\/cdnjs\.cloudflare\.com\/ajax\/libs\/font-awesome\/[^"']+["'][^>]*>/gi, "")
   .replace(/\s*<link[^>]+href=["']\/css\/styles\.css["'][^>]*>/gi, "")
   .replace(/\s*<link[^>]+href=["']https:\/\/fonts\.(?:googleapis|gstatic)\.com[^>]*>/gi, "");
+const usesFontAwesome = /\bfa(?:s|r|b)\s+fa-[a-z0-9-]+/i.test(structuredBody);
 ---
 
 <!doctype html>
@@ -258,7 +259,7 @@ const cleanHead = head
     {usesVariableJost && <style is:inline set:html={variableJostFaces} />}
     <style is:inline set:html={legacyStyles} />
     <style is:inline set:html={workerOverrides} />
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" /></noscript>
+    {usesFontAwesome && <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" /></noscript>}
     <script is:inline type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -288,7 +289,7 @@ const cleanHead = head
       }
     </script>}
     {contactForm && <script is:inline src="/js/contact-form.js" defer></script>}
-    <script is:inline>
+    {usesFontAwesome && <script is:inline>
       const footer = document.querySelector("footer");
       const loadIconStyles = () => {
         if (document.querySelector("link[data-icon-styles]")) return;
@@ -309,6 +310,6 @@ const cleanHead = head
       } else {
         loadIconStyles();
       }
-    </script>
+    </script>}
   </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:58:02.662Z",
+  "generatedAt": "2026-07-22T19:49:56.581Z",
   "site": "https://www.impactpockets.com",
   "thresholds": {
     "maximumImageBytes": 100000,
@@ -53,7 +53,7 @@
     "htmlPages": 5,
     "indexablePages": 5,
     "redirectRoutes": 0,
-    "referencedLocalImages": 60,
+    "referencedLocalImages": 59,
     "errors": 0
   },
   "errors": []

@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-22T18:58:31.236Z",
+  "generatedAt": "2026-07-22T19:50:26.063Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -57,7 +57,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 21,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -92,7 +92,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -134,63 +134,6 @@
       "route": "/our-process/",
       "family": "process-explainer",
       "archetype": "fund-formation-process",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 22,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:relative",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [
-          "jost, sans-serif",
-          "48px",
-          "600",
-          "57.6px",
-          "start"
-        ],
-        "media": {
-          "images": 12,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 1
-        }
-      }
-    },
-    {
-      "engine": "chromium",
-      "viewport": {
-        "name": "expanded",
-        "width": 1440,
-        "height": 1000
-      },
-      "route": "/our-services/",
-      "family": "service-catalog",
-      "archetype": "service-capability-catalog",
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
@@ -198,6 +141,63 @@
       "fingerprint": {
         "structure": [
           "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 14,
+      "fingerprint": {
+        "structure": [
+          "section:block",
           "section:flex",
           "section:block",
           "section:flex",
@@ -244,178 +244,6 @@
       "route": "/contact-us/",
       "family": "contact-intake",
       "archetype": "qualified-contact-intake",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 22,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [],
-        "media": {
-          "images": 6,
-          "figures": 0,
-          "videos": 0,
-          "forms": 1,
-          "backgroundImages": 0
-        }
-      }
-    },
-    {
-      "engine": "chromium",
-      "viewport": {
-        "name": "compact-desktop",
-        "width": 1024,
-        "height": 900
-      },
-      "route": "/",
-      "family": "home",
-      "archetype": "operator-fund-landing",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 21,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "div:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [],
-        "media": {
-          "images": 11,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 0
-        }
-      }
-    },
-    {
-      "engine": "chromium",
-      "viewport": {
-        "name": "compact-desktop",
-        "width": 1024,
-        "height": 900
-      },
-      "route": "/about-impact-pockets/",
-      "family": "company-profile",
-      "archetype": "managing-partner-profile",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 17,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:relative",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [
-          "jost, sans-serif",
-          "48px",
-          "600",
-          "57.6px",
-          "start"
-        ],
-        "media": {
-          "images": 10,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 1
-        }
-      }
-    },
-    {
-      "engine": "chromium",
-      "viewport": {
-        "name": "compact-desktop",
-        "width": 1024,
-        "height": 900
-      },
-      "route": "/our-process/",
-      "family": "process-explainer",
-      "archetype": "fund-formation-process",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 22,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:relative",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [
-          "jost, sans-serif",
-          "48px",
-          "600",
-          "57.6px",
-          "start"
-        ],
-        "media": {
-          "images": 12,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 1
-        }
-      }
-    },
-    {
-      "engine": "chromium",
-      "viewport": {
-        "name": "compact-desktop",
-        "width": 1024,
-        "height": 900
-      },
-      "route": "/our-services/",
-      "family": "service-catalog",
-      "archetype": "service-capability-catalog",
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
@@ -423,6 +251,178 @@
       "fingerprint": {
         "structure": [
           "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 11,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 14,
+      "fingerprint": {
+        "structure": [
+          "section:block",
           "section:flex",
           "section:block",
           "section:flex",
@@ -472,7 +472,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 22,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -507,7 +507,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -542,7 +542,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -587,7 +587,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -644,7 +644,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -697,7 +697,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -732,7 +732,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -767,7 +767,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -812,7 +812,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -869,7 +869,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -922,7 +922,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -957,7 +957,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -992,7 +992,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1037,7 +1037,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1094,7 +1094,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1147,7 +1147,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1182,7 +1182,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 21,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1217,7 +1217,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1259,63 +1259,6 @@
       "route": "/our-process/",
       "family": "process-explainer",
       "archetype": "fund-formation-process",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 22,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:relative",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [
-          "jost, sans-serif",
-          "48px",
-          "600",
-          "57.599998px",
-          "start"
-        ],
-        "media": {
-          "images": 12,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 1
-        }
-      }
-    },
-    {
-      "engine": "webkit",
-      "viewport": {
-        "name": "expanded",
-        "width": 1440,
-        "height": 1000
-      },
-      "route": "/our-services/",
-      "family": "service-catalog",
-      "archetype": "service-capability-catalog",
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
@@ -1323,6 +1266,63 @@
       "fingerprint": {
         "structure": [
           "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 14,
+      "fingerprint": {
+        "structure": [
+          "section:block",
           "section:flex",
           "section:block",
           "section:flex",
@@ -1372,7 +1372,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 22,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1407,7 +1407,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 21,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1442,7 +1442,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1484,63 +1484,6 @@
       "route": "/our-process/",
       "family": "process-explainer",
       "archetype": "fund-formation-process",
-      "issues": [],
-      "warnings": [],
-      "horizontalOverflow": 0,
-      "controlCount": 22,
-      "fingerprint": {
-        "structure": [
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block",
-          "section:block"
-        ],
-        "layout": [
-          "block:none:row",
-          "block:none:row:relative",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static",
-          "block:none:row:static"
-        ],
-        "palette": [],
-        "typography": [
-          "jost, sans-serif",
-          "48px",
-          "600",
-          "57.599998px",
-          "start"
-        ],
-        "media": {
-          "images": 12,
-          "figures": 0,
-          "videos": 0,
-          "forms": 0,
-          "backgroundImages": 1
-        }
-      }
-    },
-    {
-      "engine": "webkit",
-      "viewport": {
-        "name": "compact-desktop",
-        "width": 1024,
-        "height": 900
-      },
-      "route": "/our-services/",
-      "family": "service-catalog",
-      "archetype": "service-capability-catalog",
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
@@ -1548,6 +1491,63 @@
       "fingerprint": {
         "structure": [
           "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 14,
+      "fingerprint": {
+        "structure": [
+          "section:block",
           "section:flex",
           "section:block",
           "section:flex",
@@ -1597,7 +1597,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 22,
+      "controlCount": 18,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1632,7 +1632,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1667,7 +1667,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1712,7 +1712,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1769,7 +1769,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1822,7 +1822,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1857,7 +1857,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1892,7 +1892,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1937,7 +1937,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1994,7 +1994,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2047,7 +2047,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2082,7 +2082,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 16,
+      "controlCount": 12,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2117,7 +2117,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 12,
+      "controlCount": 8,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2162,7 +2162,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2219,7 +2219,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 13,
+      "controlCount": 9,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2272,7 +2272,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 17,
+      "controlCount": 13,
       "fingerprint": {
         "structure": [
           "section:block",
