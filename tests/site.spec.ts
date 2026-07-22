@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 const routes = ["/", "/about-impact-pockets/", "/our-process/", "/our-services/", "/contact-us/"];
 const heroImages = new Map([
-  ["/", "/images/optimized/home-hero.webp"],
+  ["/", "/images/optimized/home-hero.avif"],
   ["/about-impact-pockets/", "/images/optimized/about-hero.webp"],
   ["/our-process/", "/images/optimized/process-hero.webp"],
   ["/our-services/", "/images/optimized/services-hero.webp"]

@@ -19,6 +19,7 @@ let { source, canonicalPath, description, socialImage, heroImage, pageArchetype,
 const canonicalUrl = new URL(canonicalPath, "https://www.impactpockets.com").toString();
 const socialImageUrl = new URL(socialImage, "https://www.impactpockets.com").toString();
 const releaseCandidate = import.meta.env.PUBLIC_RELEASE_CANDIDATE || "local-uncommitted";
+const heroImageType = heroImage?.endsWith(".avif") ? "image/avif" : "image/webp";
 
 const routeReplacements = new Map([
   ["./index.html", "/"],
@@ -252,7 +253,7 @@ const cleanHead = head
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImageUrl} />
     <link rel="preload" href="/fonts/jost-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    {heroImage && <link rel="preload" href={heroImage} as="image" type="image/webp" fetchpriority="high" />}
+    {heroImage && <link rel="preload" href={heroImage} as="image" type={heroImageType} fetchpriority="high" />}
     {usesVariableJost && <link rel="preload" href="/fonts/jost-latin-variable-italic.woff2" as="font" type="font/woff2" crossorigin />}
     {usesVariableJost && <style is:inline set:html={variableJostFaces} />}
     <style is:inline set:html={legacyStyles} />
