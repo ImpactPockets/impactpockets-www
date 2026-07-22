@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "templateVersion": "impact-pockets-1",
+  "seoContractVersion": "1",
+  "reviewContract": {
+    "reviewer": "Lane Campbell",
+    "reviewedOn": "2026-07-22",
+    "brandReference": "Impact Pockets Brand Guide, SHA-256 265967ec51729f23978ce23a59ebf0b97c59ac1b8bf795c1f37e663bd048a161",
+    "readabilityApproved": true,
+    "brandIntegrityApproved": true,
+    "contactInformationApproved": true
+  },
+  "cards": [
+    {
+      "name": "about",
+      "file": "og-about.png",
+      "purpose": "Introduce the Impact Pockets managing partners when the company page is shared.",
+      "inputSha256": "a47c78f27ca167cbedc542eacf9df1d1201eb8e91635fb5356ef0b43cfc419dc",
+      "sha256": "2918076b16b2551737131aa9cfc9d86fb821424f5e7a6f28a1ab0f99f2436cc4"
+    },
+    {
+      "name": "contact",
+      "file": "og-contact.png",
+      "purpose": "Invite qualified operators to connect when the contact page is shared.",
+      "inputSha256": "9fd5591eadbe4480dc81fca65ec787d057cc379a464d54a6087eb8a9950bf4bf",
+      "sha256": "e99987e8397e5afd7445f2b97b128614685338cc189739d6b416ffbbbd0c9436"
+    },
+    {
+      "name": "home",
+      "file": "og-home.png",
+      "purpose": "Introduce the operator partnership when the homepage is shared.",
+      "inputSha256": "5797ec8bcf134ffdc7964ea1161195b96654c8a44b747fb14bff6820fdfade24",
+      "sha256": "f6d4f38588cc2ee91c0c5ab39052b9ca99ea72df6f910e17a59d9406fbfa0d7f"
+    },
+    {
+      "name": "process",
+      "file": "og-process.png",
+      "purpose": "Summarize the fund-formation journey when the process page is shared.",
+      "inputSha256": "86c34ff13f6c3f08ef3006de6bdb078ec7d0ca8c4e147622016b8724438d0024",
+      "sha256": "fffec7ecc8d8a16903b2f3ed28de8f03d815d70ebdd6e834ed02358ba80b6444"
+    },
+    {
+      "name": "services",
+      "file": "og-services.png",
+      "purpose": "Present the breadth of Impact Pockets support when the services page is shared.",
+      "inputSha256": "7c99350a01f94d8bfeac59ebae87ce10b3ab97c71a600582ab13dc14cb95f4e2",
+      "sha256": "27267469ac7f78dcec7461f20390c2876bed4f0c020aa7099759ff4225d2ee55"
+    }
+  ]
+}

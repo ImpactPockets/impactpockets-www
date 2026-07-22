@@ -1,0 +1,2577 @@
+{
+  "gate": "interface quality and page differentiation",
+  "generatedAt": "2026-07-22T17:28:30.747Z",
+  "status": "passed",
+  "root": "/Users/lane/Dev/impactpockets-www/dist/client",
+  "viewports": [
+    {
+      "name": "expanded",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "compact-desktop",
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "minimum",
+      "width": 320,
+      "height": 720
+    }
+  ],
+  "engines": [
+    "chromium",
+    "webkit"
+  ],
+  "minimumDistinctiveDimensions": 2,
+  "counts": {
+    "routes": 5,
+    "viewports": 5,
+    "browsers": 2,
+    "checks": 50,
+    "errors": 0,
+    "warnings": 0
+  },
+  "records": [
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 21,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 22,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 23,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 21,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 22,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.6px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 23,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.4px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 21,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 22,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "expanded",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 23,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 21,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 22,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "flex:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "48px",
+          "600",
+          "57.599998px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 900
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 23,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/",
+      "family": "home",
+      "archetype": "operator-fund-landing",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 16,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "div:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/about-impact-pockets/",
+      "family": "company-profile",
+      "archetype": "managing-partner-profile",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 12,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 10,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-process/",
+      "family": "process-explainer",
+      "archetype": "fund-formation-process",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 17,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 12,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "family": "service-catalog",
+      "archetype": "service-capability-catalog",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 13,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:flex",
+          "section:block",
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:relative",
+          "flex:none:column:static",
+          "block:none:row:static",
+          "flex:none:column:static",
+          "block:none:column:static",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [
+          "rgb(240, 241, 247)"
+        ],
+        "typography": [
+          "jost, sans-serif",
+          "32px",
+          "600",
+          "38.400002px",
+          "start"
+        ],
+        "media": {
+          "images": 15,
+          "figures": 0,
+          "videos": 0,
+          "forms": 0,
+          "backgroundImages": 1
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/contact-us/",
+      "family": "contact-intake",
+      "archetype": "qualified-contact-intake",
+      "issues": [],
+      "warnings": [],
+      "horizontalOverflow": 0,
+      "controlCount": 18,
+      "fingerprint": {
+        "structure": [
+          "section:block",
+          "section:block"
+        ],
+        "layout": [
+          "block:none:row",
+          "block:none:row:static",
+          "block:none:row:static"
+        ],
+        "palette": [],
+        "typography": [],
+        "media": {
+          "images": 6,
+          "figures": 0,
+          "videos": 0,
+          "forms": 1,
+          "backgroundImages": 0
+        }
+      }
+    }
+  ],
+  "differentiation": [
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/",
+      "secondRoute": "/about-impact-pockets/",
+      "firstFamily": "home",
+      "secondFamily": "company-profile",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/",
+      "secondRoute": "/our-process/",
+      "firstFamily": "home",
+      "secondFamily": "process-explainer",
+      "differences": [
+        "structure",
+        "layout",
+        "typography"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "home",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "home",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-process/",
+      "firstFamily": "company-profile",
+      "secondFamily": "process-explainer",
+      "differences": [
+        "structure",
+        "layout",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "company-profile",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "company-profile",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/our-process/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "process-explainer",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/our-process/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "process-explainer",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "expanded",
+      "firstRoute": "/our-services/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "service-catalog",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/",
+      "secondRoute": "/about-impact-pockets/",
+      "firstFamily": "home",
+      "secondFamily": "company-profile",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/",
+      "secondRoute": "/our-process/",
+      "firstFamily": "home",
+      "secondFamily": "process-explainer",
+      "differences": [
+        "structure",
+        "layout",
+        "typography"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "home",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "home",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-process/",
+      "firstFamily": "company-profile",
+      "secondFamily": "process-explainer",
+      "differences": [
+        "structure",
+        "layout",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "company-profile",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "company-profile",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/our-process/",
+      "secondRoute": "/our-services/",
+      "firstFamily": "process-explainer",
+      "secondFamily": "service-catalog",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/our-process/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "process-explainer",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "typography",
+        "media"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "firstRoute": "/our-services/",
+      "secondRoute": "/contact-us/",
+      "firstFamily": "service-catalog",
+      "secondFamily": "contact-intake",
+      "differences": [
+        "structure",
+        "layout",
+        "palette",
+        "typography",
+        "media"
+      ]
+    }
+  ],
+  "findings": []
+}

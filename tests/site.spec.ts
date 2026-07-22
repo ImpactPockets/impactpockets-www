@@ -1,6 +1,12 @@
 import { expect, test } from "@playwright/test";
 
 const routes = ["/", "/about-impact-pockets/", "/our-process/", "/our-services/", "/contact-us/"];
+const heroImages = new Map([
+  ["/", "/images/optimized/home-hero.webp"],
+  ["/about-impact-pockets/", "/images/optimized/about-hero.webp"],
+  ["/our-process/", "/images/optimized/process-hero.webp"],
+  ["/our-services/", "/images/optimized/services-hero.webp"]
+]);
 
 test.beforeEach(async ({ page }) => {
   await page.route("https://challenges.cloudflare.com/turnstile/v0/api.js*", async (route) => {
@@ -76,4 +82,42 @@ test("contact form has named, labeled required fields", async ({ page }) => {
   await expect(page.getByLabel("Subject")).toHaveAttribute("name", "subject");
   await expect(page.getByLabel("Message")).toHaveAttribute("name", "message");
   await expect(page.getByRole("button", { name: "Send", exact: true })).toBeVisible();
+});
+
+test("first-viewport hero requests and preloads match the measured LCP resource", async ({ page }) => {
+  for (const [route, expectedImage] of heroImages) {
+    const imageRequests: string[] = [];
+    page.on("request", (request) => {
+      if (request.resourceType() === "image") imageRequests.push(new URL(request.url()).pathname);
+    });
+    await page.addInitScript(() => {
+      window.__impactPocketsLcp = [];
+      if (PerformanceObserver.supportedEntryTypes.includes("largest-contentful-paint")) {
+        new PerformanceObserver((list) => {
+          window.__impactPocketsLcp.push(...list.getEntries().map((entry) => {
+            const lcpEntry = entry as PerformanceEntry & { url: string; element?: Element };
+            return {
+              url: lcpEntry.url,
+              backgroundImage: lcpEntry.element ? getComputedStyle(lcpEntry.element).backgroundImage : ""
+            };
+          }));
+        }).observe({ type: "largest-contentful-paint", buffered: true });
+      }
+    });
+    await page.goto(route, { waitUntil: "networkidle" });
+    await page.waitForTimeout(250);
+
+    await expect(page.locator('link[rel="preload"][as="image"]')).toHaveAttribute("href", expectedImage);
+    expect(imageRequests).toContain(expectedImage);
+    for (const alternateImage of heroImages.values()) {
+      if (alternateImage !== expectedImage) expect(imageRequests).not.toContain(alternateImage);
+    }
+
+    const lcpEntries = await page.evaluate(() => window.__impactPocketsLcp);
+    if (lcpEntries.length > 0) {
+      const measured = lcpEntries.at(-1);
+      const measuredResource = measured?.url || measured?.backgroundImage || "";
+      expect(measuredResource).toContain(expectedImage);
+    }
+  }
 });

@@ -1,51 +1,54 @@
 {
   "gate": "Stanford Rule content quality",
   "definition": "A Go for Launch editorial standard, not a Stanford University policy or AI-authorship detector.",
-  "generatedAt": "2026-07-22T01:53:13.227Z",
+  "generatedAt": "2026-07-22T17:28:00.848Z",
   "outputDirectory": "/Users/lane/Dev/impactpockets-www/dist/client",
   "counts": {
     "pages": 5,
     "errors": 0,
-    "warnings": 4
+    "warnings": 1
   },
   "pages": [
     {
       "route": "/about-impact-pockets/",
-      "contentHash": "de4835fe6b03de0779b4bc3b125575885eaf9673bfdd9d4287b147842b3d96f2",
+      "contentHash": "4cf72f3f0f7eb8b71666a50a2566c6f025c72fb69ccdbbabcde8877e93d21ffd",
       "audience": "Operators evaluating the Impact Pockets managing partners",
       "primaryTask": "Understand the partners' experience and decide whether to contact them",
+      "contentFamily": "company-and-partner-profile",
       "metrics": {
-        "words": 370,
-        "sentences": 41,
-        "readingEase": 23.9,
+        "words": 371,
+        "sentences": 35,
+        "readingEase": 40.3,
         "longestSentenceWords": 24,
         "longestParagraphWords": 62
       }
     },
     {
       "route": "/contact-us/",
-      "contentHash": "030c965667af7bb6027092c36c5b3ec68d501ffb4dd90b7e625f95de0f5bc87f",
+      "contentHash": "6fd05a8f2f6ffa0b5772369d9b44ad4eec998dc4046c8831eeb3bac1b4570dc5",
       "audience": "Operators ready to discuss a fund opportunity",
       "primaryTask": "Find contact details or send a complete inquiry",
+      "contentFamily": "qualified-contact-intake",
       "metrics": {
-        "words": 185,
-        "sentences": 21,
-        "readingEase": 5.4,
-        "longestSentenceWords": 22,
+        "words": 159,
+        "sentences": 15,
+        "readingEase": 38,
+        "longestSentenceWords": 16,
         "longestParagraphWords": 30
       }
     },
     {
       "route": "/",
-      "contentHash": "cc0f209eedfe786f27b2e964bcaa0a1e274856332b4566bc646d2ba5aea194f0",
+      "contentHash": "d46ccfb471d3d077f8bf0849423adf63c8e79c2cfde4031361a1b551ae12912d",
       "audience": "Experienced operators considering a private equity fund",
       "primaryTask": "Understand the partnership and decide whether to explore the process",
+      "contentFamily": "operator-partnership-overview",
       "metrics": {
-        "words": 200,
-        "sentences": 27,
-        "readingEase": 40.3,
+        "words": 189,
+        "sentences": 26,
+        "readingEase": 45.5,
         "longestSentenceWords": 23,
-        "longestParagraphWords": 37
+        "longestParagraphWords": 36
       }
     },
     {
@@ -53,6 +56,7 @@
       "contentHash": "06a6fe82b27536d2c95a350f2b46d220f624ab4b05845e70c0e365b56e5d77dc",
       "audience": "Experienced operators evaluating fund formation",
       "primaryTask": "Understand each stage from discovery through formal launch",
+      "contentFamily": "fund-formation-process",
       "metrics": {
         "words": 260,
         "sentences": 31,
@@ -66,6 +70,7 @@
       "contentHash": "e5670d18d2c1a110ee6a4a8243344fa7ff55c960b39035bafd361959b4c6de7c",
       "audience": "Operators comparing private equity fund support services",
       "primaryTask": "Understand the available support and decide whether it fits their needs",
+      "contentFamily": "service-capability-catalog",
       "metrics": {
         "words": 254,
         "sentences": 37,
@@ -75,25 +80,99 @@
       }
     }
   ],
+  "similarityComparisons": [
+    {
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/contact-us/",
+      "firstContentFamily": "company-and-partner-profile",
+      "secondContentFamily": "qualified-contact-intake",
+      "openingSimilarity": 0.0136,
+      "closingSimilarity": 0.1783,
+      "fullSimilarity": 0.1059
+    },
+    {
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/",
+      "firstContentFamily": "company-and-partner-profile",
+      "secondContentFamily": "operator-partnership-overview",
+      "openingSimilarity": 0.0136,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0593
+    },
+    {
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-process/",
+      "firstContentFamily": "company-and-partner-profile",
+      "secondContentFamily": "fund-formation-process",
+      "openingSimilarity": 0.0145,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0247
+    },
+    {
+      "firstRoute": "/about-impact-pockets/",
+      "secondRoute": "/our-services/",
+      "firstContentFamily": "company-and-partner-profile",
+      "secondContentFamily": "service-capability-catalog",
+      "openingSimilarity": 0.0069,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0638
+    },
+    {
+      "firstRoute": "/contact-us/",
+      "secondRoute": "/",
+      "firstContentFamily": "qualified-contact-intake",
+      "secondContentFamily": "operator-partnership-overview",
+      "openingSimilarity": 0.0267,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0328
+    },
+    {
+      "firstRoute": "/contact-us/",
+      "secondRoute": "/our-process/",
+      "firstContentFamily": "qualified-contact-intake",
+      "secondContentFamily": "fund-formation-process",
+      "openingSimilarity": 0.014,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0076
+    },
+    {
+      "firstRoute": "/contact-us/",
+      "secondRoute": "/our-services/",
+      "firstContentFamily": "qualified-contact-intake",
+      "secondContentFamily": "service-capability-catalog",
+      "openingSimilarity": 0.0272,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0205
+    },
+    {
+      "firstRoute": "/",
+      "secondRoute": "/our-process/",
+      "firstContentFamily": "operator-partnership-overview",
+      "secondContentFamily": "fund-formation-process",
+      "openingSimilarity": 0.014,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0125
+    },
+    {
+      "firstRoute": "/",
+      "secondRoute": "/our-services/",
+      "firstContentFamily": "operator-partnership-overview",
+      "secondContentFamily": "service-capability-catalog",
+      "openingSimilarity": 0.0342,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.02
+    },
+    {
+      "firstRoute": "/our-process/",
+      "secondRoute": "/our-services/",
+      "firstContentFamily": "fund-formation-process",
+      "secondContentFamily": "service-capability-catalog",
+      "openingSimilarity": 0.029,
+      "closingSimilarity": 0,
+      "fullSimilarity": 0.0166
+    }
+  ],
   "findings": [
-    {
-      "severity": "warning",
-      "code": "repetitive-sentence-opening",
-      "route": "/about-impact-pockets/",
-      "message": "The sentence opening \"lorem ipsum\" appears 5 times."
-    },
-    {
-      "severity": "warning",
-      "code": "repetitive-sentence-opening",
-      "route": "/contact-us/",
-      "message": "The sentence opening \"lorem ipsum\" appears 5 times."
-    },
-    {
-      "severity": "warning",
-      "code": "repetitive-sentence-opening",
-      "route": "/",
-      "message": "The sentence opening \"impact pockets\" appears 5 times."
-    },
     {
       "severity": "warning",
       "code": "repetitive-sentence-opening",

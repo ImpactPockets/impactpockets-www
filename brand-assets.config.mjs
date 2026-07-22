@@ -28,16 +28,16 @@ export default {
       context: "Desktop header",
       assetId: "primary-full-color",
       surface: "light",
-      renderedWidth: 136,
-      renderedHeight: 36,
-      clearSpace: { top: 16, right: 1000, bottom: 16, left: 0 }
+      renderedWidth: 180,
+      renderedHeight: 48,
+      clearSpace: { top: 16, right: 1000, bottom: 16, left: 24 }
     },
     {
       context: "Site footer",
       assetId: "reverse-raster",
       surface: "dark",
-      renderedWidth: 157,
-      renderedHeight: 42,
+      renderedWidth: 180,
+      renderedHeight: 48,
       clearSpace: { top: 24, right: 80, bottom: 24, left: 24 }
     }
   ]

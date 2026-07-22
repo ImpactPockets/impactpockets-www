@@ -2,9 +2,9 @@
 
 ## Outcome
 
-The five-page Impact Pockets site is represented in Astro without redesigning the original. Each Astro page imports its corresponding checked-in HTML file as raw source. `LegacyDocument.astro` preserves the original body, stylesheet, scripts, and image assets, then applies only routing, metadata, image-dimension, and form-security transformations.
+The five-page Impact Pockets site is represented in Astro without redesigning its composition. Each Astro page imports its corresponding checked-in HTML file as raw source. `LegacyDocument.astro` preserves the body, stylesheet, scripts, and image assets, then applies routing, metadata, semantic structure, image-dimension, release-audit, and form-security transformations.
 
-The root HTML files, `css/styles.css`, `js/main.js`, and `images/` directory remain the visual and content source of truth.
+The root HTML files, `css/styles.css`, `js/main.js`, and `images/` directory remain the visual source of truth. Placeholder FAQ copy was replaced with route-specific answers to satisfy the mandatory content-quality gate. The approved brand guide requires 180-pixel header and footer logos, and the project-owned override now enforces that minimum with clear space.
 
 ## Visual fidelity
 
@@ -26,18 +26,23 @@ After the Go for Launch render-sharpness remediation, the five pages were recapt
 
 ## Verification
 
-Passed locally on 2026-07-21:
+Passed locally on 2026-07-22:
 
 - Astro Check, 0 errors, 0 warnings, 0 hints
 - Unit tests, 11 passed
 - Build and sitemap verification, 5 pages
 - SEO, image, site-health, and semantic SEO gates
-- Content quality, 0 errors and 4 inherited copy warnings
+- Content quality, 0 errors, 1 reviewed route-label warning, and 5 current hash-bound reviews
 - Render sharpness, 0 findings after self-hosting the original Jost files, restoring browser-default smoothing, and declaring intentional transforms
 - Side-navigation audit
+- Brand assets, 2 approved assets across 2 usage contexts
+- Open Graph, 5 deterministic page-specific cards with exact hash-bound approval
+- Interface quality, 5 routes and 50 browser and viewport checks, 0 errors and 0 warnings
+- Visual composition, 24 artboard checks across Chromium and WebKit
+- Cloudflare advisory baseline, RUM and edge analytics available with no findings
 - Browser coverage, 24 passed and 3 viewport-specific skips across Chromium, desktop WebKit, and iPhone WebKit
 
-The full release chain is blocked by the current brand guide. It requires the primary logo to render at least 180 CSS pixels wide with clear space on every side. The original site renders the header logo at 136 pixels and the footer logo at 157 pixels, and the desktop header has no left clear space. `npm run verify:brand` records all three failures. Increasing the logo sizes would change the approved 1:1 layout, so that conflict has not been silently resolved.
+The local release chain is green. Production remains gated on the exact staging deployment, a real Turnstile-protected form submission, native iOS Safari, eight perfect PageSpeed category scores, redirect checks, and canonical-host verification.
 
 ## Release status
 

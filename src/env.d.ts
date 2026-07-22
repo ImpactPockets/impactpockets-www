@@ -13,6 +13,7 @@ declare namespace Cloudflare {
 }
 
 interface Window {
+  __impactPocketsLcp: Array<{ url: string; backgroundImage: string }>;
   turnstile?: {
     reset: (widgetId?: string) => void;
   };

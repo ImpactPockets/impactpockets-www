@@ -15,5 +15,8 @@ test-results/
 playwright-report/
 output/
 artifacts/visual-fidelity/
+artifacts/interface-quality/
+artifacts/visual-composition/
+artifacts/open-graph-review/
 .DS_Store
 *.log

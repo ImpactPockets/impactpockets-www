@@ -20,17 +20,20 @@ No email credential or Turnstile secret is shipped to browser code.
 - Production Worker: `impactpockets-www`
 - Production route: `www.impactpockets.com/*`
 
-The corrected visual-fidelity candidate has not replaced the existing staging version because the Go for Launch brand asset gate is not green.
+The corrected candidate has not yet replaced the previous staging version. Local Go for Launch gates are green as of 2026-07-22, and exact-candidate staging is the next release step.
 
 ## Current blockers
 
 Production promotion is prohibited until all of these pass:
 
-1. Resolve the conflict between the 1:1 layout and the current brand guide minimum logo width and clear-space requirements.
-2. A real staging form submission passes Turnstile and arrives at `lane@impactpockets.com`.
-3. The remaining Go for Launch staging, native Safari, PageSpeed, redirect, and exact-candidate gates pass.
+1. A real staging form submission passes Turnstile and arrives at `lane@impactpockets.com`.
+2. Native Safari passes on the dedicated iOS Simulator.
+3. Mobile and desktop PageSpeed each report 100 for Performance, Accessibility, Best Practices, and SEO.
+4. Exact-candidate, sitemap, robots, Open Graph, redirect, WebKit, and canonical-host checks pass.
 
 Cloudflare Email Sending is enabled for `impactpockets.com`. On 2026-07-21, a narrowly scoped Email Sending token was created for the Impact Pockets account and stored in the 1Password `AgentWork` vault. A real Cloudflare Email Sending API message from `hello@impactpockets.com` to `lane@impactpockets.com` was reported as delivered, and the matching message was confirmed in the `lane@impactpockets.com` Gmail inbox. The exact staging Worker form flow still requires verification after the local hard gates pass. No production DNS or route change was made.
+
+The advisory Cloudflare baseline on 2026-07-22 passed with both RUM and edge analytics available, 2 RUM route groups, 15,034 edge requests, and no findings.
 
 ## Secret handling
 

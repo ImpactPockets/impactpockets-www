@@ -1,0 +1,79 @@
+{
+  "reviews": [
+    {
+      "route": "/",
+      "contentHash": "d46ccfb471d3d077f8bf0849423adf63c8e79c2cfde4031361a1b551ae12912d",
+      "audience": "Experienced operators considering a private equity fund",
+      "reviewer": "OpenAI Codex editorial review",
+      "perspective": "senior-psychology-professor",
+      "reviewedAt": "2026-07-22",
+      "approachable": true,
+      "humanTone": true,
+      "clearPurpose": true,
+      "evidenceAware": true,
+      "readAloud": true,
+      "routeSpecific": true,
+      "notes": "The page opens with the operator opportunity, uses short benefit statements, distinguishes the team and process sections, and ends with a direct native link to the process. Claims remain proportionate to the firm's stated role."
+    },
+    {
+      "route": "/about-impact-pockets/",
+      "contentHash": "4cf72f3f0f7eb8b71666a50a2566c6f025c72fb69ccdbbabcde8877e93d21ffd",
+      "audience": "Operators evaluating the Impact Pockets managing partners",
+      "reviewer": "OpenAI Codex editorial review",
+      "perspective": "senior-psychology-professor",
+      "reviewedAt": "2026-07-22",
+      "approachable": true,
+      "humanTone": true,
+      "clearPurpose": true,
+      "evidenceAware": true,
+      "readAloud": true,
+      "routeSpecific": true,
+      "notes": "The page gives partner context, describes the value of the partnership, and replaces placeholder FAQ text with specific answers. Biographical statements are presented as the organization's own profile and were not expanded beyond the approved source."
+    },
+    {
+      "route": "/our-process/",
+      "contentHash": "06a6fe82b27536d2c95a350f2b46d220f624ab4b05845e70c0e365b56e5d77dc",
+      "audience": "Experienced operators evaluating fund formation",
+      "reviewer": "OpenAI Codex editorial review",
+      "perspective": "senior-psychology-professor",
+      "reviewedAt": "2026-07-22",
+      "approachable": true,
+      "humanTone": true,
+      "clearPurpose": true,
+      "evidenceAware": true,
+      "readAloud": true,
+      "routeSpecific": true,
+      "notes": "The staged sequence answers how an operator moves from an initial conversation to formal formation. The repeated phrase Our Process is limited to navigation and section labeling, not a repeated generic argument, and the detailed stage copy remains route-specific."
+    },
+    {
+      "route": "/our-services/",
+      "contentHash": "e5670d18d2c1a110ee6a4a8243344fa7ff55c960b39035bafd361959b4c6de7c",
+      "audience": "Operators comparing private equity fund support services",
+      "reviewer": "OpenAI Codex editorial review",
+      "perspective": "senior-psychology-professor",
+      "reviewedAt": "2026-07-22",
+      "approachable": true,
+      "humanTone": true,
+      "clearPurpose": true,
+      "evidenceAware": true,
+      "readAloud": true,
+      "routeSpecific": true,
+      "notes": "The page separates incubation, advisory, technology, tax, and fundraising capabilities so the reader can compare areas of support. The copy uses concrete service categories and avoids adding performance promises."
+    },
+    {
+      "route": "/contact-us/",
+      "contentHash": "6fd05a8f2f6ffa0b5772369d9b44ad4eec998dc4046c8831eeb3bac1b4570dc5",
+      "audience": "Operators ready to discuss a fund opportunity",
+      "reviewer": "OpenAI Codex editorial review",
+      "perspective": "senior-psychology-professor",
+      "reviewedAt": "2026-07-22",
+      "approachable": true,
+      "humanTone": true,
+      "clearPurpose": true,
+      "evidenceAware": true,
+      "readAloud": true,
+      "routeSpecific": true,
+      "notes": "The page gives the reader a clear contact route, explains what information to include, and uses plain FAQ answers to set expectations. It displays hello@impactpockets.com publicly while the private delivery destination remains outside the page copy."
+    }
+  ]
+}
