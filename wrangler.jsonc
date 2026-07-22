@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "impactpockets-www-staging",
   "account_id": "588dde8dea5c387c6858b80a900a4269",
-  "main": "@astrojs/cloudflare/entrypoints/server",
+  "main": "./src/worker.ts",
   "compatibility_date": "2026-07-21",
   "compatibility_flags": [
     "nodejs_compat",
@@ -14,9 +14,7 @@
     "directory": "./dist",
     "html_handling": "force-trailing-slash",
     "not_found_handling": "404-page",
-    "run_worker_first": [
-      "/api/*"
-    ]
+    "run_worker_first": true
   },
   "observability": {
     "enabled": true
