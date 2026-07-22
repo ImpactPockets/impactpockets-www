@@ -109,6 +109,12 @@ body {
 }
 
 @media (max-width: 576px) {
+  .form-fields_main input:not([type="hidden"]),
+  .form-fields_main textarea,
+  .form-fields_main select {
+    font-size: 16px;
+  }
+
   .process-diagram img[loading="lazy"] {
     height: 0;
     width: 0;
