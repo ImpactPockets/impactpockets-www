@@ -16,7 +16,7 @@ interface Props {
 let { source, canonicalPath, description, socialImage, heroImage, pageArchetype, pageTitle, h1Context, contactForm = false } = Astro.props;
 const canonicalUrl = new URL(canonicalPath, "https://www.impactpockets.com").toString();
 const socialImageUrl = new URL(socialImage, "https://www.impactpockets.com").toString();
-const releaseCandidate = process.env.RELEASE_CANDIDATE || "local-uncommitted";
+const releaseCandidate = import.meta.env.PUBLIC_RELEASE_CANDIDATE || "local-uncommitted";
 
 const routeReplacements = new Map([
   ["./index.html", "/"],
