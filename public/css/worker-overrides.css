@@ -11,6 +11,14 @@
   border: 0;
 }
 
+.form-trap input {
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  width: 1px !important;
+}
+
 html,
 body {
   overflow-x: hidden;
