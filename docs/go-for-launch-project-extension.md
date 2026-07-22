@@ -29,4 +29,4 @@ When Go for Launch changes, fetch its upstream first, review changes that overla
 
 ## Current validation
 
-On 2026-07-22, `npm run verify` passed the complete local chain. The one content warning for the repeated route label `Our Process` is acknowledged in the exact editorial review and does not represent repeated generic page copy. Candidate `a9a0db7b64af31c9496c2a896ff8e214a0580ed9` then passed exact-candidate staging, real Worker form submissions, native Safari, PageSpeed, redirects, canonical-host verification, and production smoke tests.
+On 2026-07-22, `npm run verify` passed the complete local chain. The one content warning for the repeated route label `Our Process` is acknowledged in the exact editorial review and does not represent repeated generic page copy. Candidate `51aa1424209da1df03f7b7345eba9c934169022c` then passed exact-candidate staging, a real Worker form submission, native Safari, PageSpeed, redirects, canonical-host verification, and production smoke tests.

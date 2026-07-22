@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T19:09:06.587Z",
+  "generatedAt": "2026-07-22T20:27:17.086Z",
   "source": "api",
   "status": "advisory",
   "authenticationMode": "global-api-key",
@@ -7,9 +7,9 @@
   "skippedReason": "",
   "hostname": "www.impactpockets.com",
   "window": {
-    "start": "2026-07-21T19:09:03.848Z",
-    "end": "2026-07-22T19:09:03.848Z",
-    "hours": 24
+    "start": "2026-07-21T20:33:15.999Z",
+    "end": "2026-07-22T20:27:15.999Z",
+    "hours": 23.9
   },
   "availability": {
     "rum": true,
@@ -146,46 +146,51 @@
   ],
   "edge": {
     "available": true,
-    "totalRequests": 16803,
-    "requests4xx": 9079,
-    "requests5xx": 217,
-    "rate4xx": 0.5403201809200738,
-    "rate5xx": 0.012914360530857585,
+    "totalRequests": 17916,
+    "requests4xx": 9482,
+    "requests5xx": 277,
+    "rate4xx": 0.5292475999106944,
+    "rate5xx": 0.015461040410805984,
     "errorPaths": [
       {
         "path": "/",
         "status": 403,
-        "requests": 484
+        "requests": 890
       },
       {
         "path": "/admin.php",
         "status": 403,
-        "requests": 102
+        "requests": 99
       },
       {
         "path": "/wp-content/plugins/hellopress/wp_filemanager.php",
         "status": 403,
-        "requests": 73
+        "requests": 71
       },
       {
         "path": "/this_is_a_new_hello_world.php",
         "status": 403,
-        "requests": 72
+        "requests": 70
       },
       {
         "path": "/wp-content/admin.php",
         "status": 403,
-        "requests": 68
-      },
-      {
-        "path": "/wp-content/uploads/",
-        "status": 403,
-        "requests": 61
+        "requests": 66
       },
       {
         "path": "/about.php",
         "status": 403,
         "requests": 60
+      },
+      {
+        "path": "/wp-content/uploads/",
+        "status": 403,
+        "requests": 58
+      },
+      {
+        "path": "/",
+        "status": 504,
+        "requests": 56
       },
       {
         "path": "/inputs.php",
@@ -195,7 +200,7 @@
       {
         "path": "/edit.php",
         "status": 403,
-        "requests": 51
+        "requests": 50
       },
       {
         "path": "/k.php",
@@ -213,19 +218,9 @@
         "requests": 46
       },
       {
-        "path": "/wp.php",
-        "status": 403,
-        "requests": 45
-      },
-      {
         "path": "/1.php",
         "status": 403,
-        "requests": 45
-      },
-      {
-        "path": "/dr.php",
-        "status": 403,
-        "requests": 45
+        "requests": 44
       },
       {
         "path": "/chosen.php",
@@ -233,9 +228,19 @@
         "requests": 44
       },
       {
+        "path": "/dr.php",
+        "status": 403,
+        "requests": 44
+      },
+      {
+        "path": "/wp.php",
+        "status": 403,
+        "requests": 43
+      },
+      {
         "path": "/classwithtostring.php",
         "status": 403,
-        "requests": 42
+        "requests": 41
       },
       {
         "path": "/a1.php",
@@ -245,192 +250,132 @@
       {
         "path": "/wp-includes/assets/",
         "status": 403,
-        "requests": 41
+        "requests": 40
+      },
+      {
+        "path": "/our-process/",
+        "status": 504,
+        "requests": 38
       },
       {
         "path": "/BDKR28WP.php",
-        "status": 403,
-        "requests": 39
-      },
-      {
-        "path": "/aaa.php",
-        "status": 403,
-        "requests": 39
-      },
-      {
-        "path": "/x.php",
-        "status": 403,
-        "requests": 39
-      },
-      {
-        "path": "/8.php",
-        "status": 403,
-        "requests": 38
-      },
-      {
-        "path": "/222.php",
-        "status": 403,
-        "requests": 38
-      },
-      {
-        "path": "/fpwch.php",
-        "status": 403,
-        "requests": 38
-      },
-      {
-        "path": "/simple.php",
         "status": 403,
         "requests": 38
       },
       {
         "path": "/f35.php",
         "status": 403,
-        "requests": 38
+        "requests": 37
       },
       {
-        "path": "/ms-edit.php",
+        "path": "/222.php",
         "status": 403,
         "requests": 37
       },
       {
-        "path": "/ops.php",
+        "path": "/simple.php",
+        "status": 403,
+        "requests": 37
+      },
+      {
+        "path": "/fpwch.php",
+        "status": 403,
+        "requests": 37
+      },
+      {
+        "path": "/aaa.php",
+        "status": 403,
+        "requests": 37
+      },
+      {
+        "path": "/x.php",
         "status": 403,
         "requests": 36
       },
       {
-        "path": "/",
-        "status": 504,
-        "requests": 36
-      },
-      {
-        "path": "/abcd.php",
+        "path": "/ms-edit.php",
         "status": 403,
         "requests": 36
       },
       {
-        "path": "/mac.php",
-        "status": 403,
-        "requests": 35
-      },
-      {
-        "path": "/cgi-bin/index.php",
-        "status": 403,
-        "requests": 35
-      },
-      {
-        "path": "/xyn.php",
-        "status": 403,
-        "requests": 35
-      },
-      {
-        "path": "/w.php",
+        "path": "/8.php",
         "status": 403,
         "requests": 35
       },
       {
         "path": "/155.php",
         "status": 403,
-        "requests": 35
+        "requests": 34
       },
       {
-        "path": "/av.php",
+        "path": "/w.php",
+        "status": 403,
+        "requests": 34
+      },
+      {
+        "path": "/cgi-bin/index.php",
         "status": 403,
         "requests": 34
       },
       {
         "path": "/wp-content/themes/index.php",
         "status": 403,
-        "requests": 34
+        "requests": 33
       },
       {
-        "path": "/gettest.php",
-        "status": 403,
-        "requests": 34
-      },
-      {
-        "path": "/wp-includes/l10n/",
+        "path": "/ops.php",
         "status": 403,
         "requests": 33
       },
       {
-        "path": "/177.php",
+        "path": "/gettest.php",
+        "status": 403,
+        "requests": 33
+      },
+      {
+        "path": "/av.php",
+        "status": 403,
+        "requests": 33
+      },
+      {
+        "path": "/abcd.php",
         "status": 403,
         "requests": 33
       },
       {
         "path": "/wp-admin/css/colors/modern/",
         "status": 403,
-        "requests": 33
+        "requests": 32
+      },
+      {
+        "path": "/wp-includes/l10n/",
+        "status": 403,
+        "requests": 32
       },
       {
         "path": "/wp-admin/js/",
         "status": 403,
-        "requests": 33
+        "requests": 32
       },
       {
-        "path": "/wp-includes/ID3/about.php",
+        "path": "/177.php",
         "status": 403,
-        "requests": 33
+        "requests": 32
       },
       {
         "path": "/wp-includes/blocks/details/",
         "status": 403,
-        "requests": 33
+        "requests": 32
       },
       {
-        "path": "/k2.php",
+        "path": "/mac.php",
         "status": 403,
         "requests": 32
       },
       {
-        "path": "/coffexium.php",
+        "path": "/wp-includes/ID3/about.php",
         "status": 403,
         "requests": 32
-      },
-      {
-        "path": "/wefile.php",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/wp-includes/js/jquery/",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/wp-admin/css/colors/sunrise/",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/wp-load.php",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/wp-includes/css/dist/",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/wp-blog.php",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/ccou.php",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/hypo.php",
-        "status": 403,
-        "requests": 32
-      },
-      {
-        "path": "/file6.php",
-        "status": 403,
-        "requests": 31
       },
       {
         "path": "/for.php",
@@ -438,22 +383,82 @@
         "requests": 31
       },
       {
-        "path": "/file15.php",
+        "path": "/wp-includes/js/jquery/",
         "status": 403,
         "requests": 31
+      },
+      {
+        "path": "/wp-blog.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/wp-load.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/k2.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/coffexium.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/xyn.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/wefile.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/ms.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/wp-admin/css/colors/sunrise/",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/wp-includes/css/dist/",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/ccou.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/hypo.php",
+        "status": 403,
+        "requests": 31
+      },
+      {
+        "path": "/file6.php",
+        "status": 403,
+        "requests": 30
       },
       {
         "path": "/file5.php",
         "status": 403,
-        "requests": 31
+        "requests": 30
+      },
+      {
+        "path": "/file15.php",
+        "status": 403,
+        "requests": 30
       },
       {
         "path": "/ss.php",
-        "status": 403,
-        "requests": 31
-      },
-      {
-        "path": "/adminfuns.php",
         "status": 403,
         "requests": 30
       },
@@ -463,27 +468,12 @@
         "requests": 30
       },
       {
-        "path": "/wp-includes/blocks/post-comments-form/",
-        "status": 403,
-        "requests": 30
-      },
-      {
-        "path": "/ms.php",
-        "status": 403,
-        "requests": 30
-      },
-      {
-        "path": "/images.php",
-        "status": 403,
-        "requests": 30
-      },
-      {
-        "path": "/goods.php",
+        "path": "/adminfuns.php",
         "status": 403,
         "requests": 29
       },
       {
-        "path": "/get.php",
+        "path": "/wp-includes/blocks/post-comments-form/",
         "status": 403,
         "requests": 29
       },
@@ -496,6 +486,16 @@
         "path": "/dp.php",
         "status": 403,
         "requests": 29
+      },
+      {
+        "path": "/images.php",
+        "status": 403,
+        "requests": 29
+      },
+      {
+        "path": "/goods.php",
+        "status": 403,
+        "requests": 28
       },
       {
         "path": "/adminner.php",
@@ -513,59 +513,24 @@
         "requests": 28
       },
       {
-        "path": "/bless.php",
-        "status": 403,
-        "requests": 27
-      },
-      {
-        "path": "/a2.php",
+        "path": "/get.php",
         "status": 403,
         "requests": 27
       },
       {
         "path": "/ccc.php",
         "status": 403,
-        "requests": 27
+        "requests": 25
       },
       {
-        "path": "/bthil.php",
-        "status": 403,
-        "requests": 26
-      },
-      {
-        "path": "/blurbs.php",
-        "status": 403,
-        "requests": 26
-      },
-      {
-        "path": "/FWAZ.php",
-        "status": 403,
-        "requests": 26
-      },
-      {
-        "path": "/wp-includes/Text/",
-        "status": 403,
-        "requests": 26
-      },
-      {
-        "path": "/w3lls.php",
+        "path": "/bless.php",
         "status": 403,
         "requests": 25
       },
       {
-        "path": "/biufile.php",
+        "path": "/a2.php",
         "status": 403,
         "requests": 25
-      },
-      {
-        "path": "/red.php",
-        "status": 403,
-        "requests": 25
-      },
-      {
-        "path": "/als.php",
-        "status": 403,
-        "requests": 24
       },
       {
         "path": "/themes.php",
@@ -573,57 +538,62 @@
         "requests": 24
       },
       {
-        "path": "/xxx.php",
+        "path": "/FWAZ.php",
         "status": 403,
         "requests": 24
       },
       {
-        "path": "/wp-admin/js/index.php",
+        "path": "/wp-includes/Text/",
+        "status": 403,
+        "requests": 24
+      },
+      {
+        "path": "/blurbs.php",
         "status": 403,
         "requests": 24
       },
       {
         "path": "/aa.php",
         "status": 403,
+        "requests": 24
+      },
+      {
+        "path": "/bthil.php",
+        "status": 403,
+        "requests": 24
+      },
+      {
+        "path": "/wp-admin/js/index.php",
+        "status": 403,
         "requests": 23
+      },
+      {
+        "path": "/w3lls.php",
+        "status": 403,
+        "requests": 23
+      },
+      {
+        "path": "/biufile.php",
+        "status": 403,
+        "requests": 23
+      },
+      {
+        "path": "/config.php",
+        "status": 403,
+        "requests": 23
+      },
+      {
+        "path": "/wp-config.php.bak",
+        "status": 403,
+        "requests": 22
+      },
+      {
+        "path": "/als.php",
+        "status": 403,
+        "requests": 22
       },
       {
         "path": "/wp-content/",
-        "status": 403,
-        "requests": 23
-      },
-      {
-        "path": "/wp-admin/css/",
-        "status": 403,
-        "requests": 23
-      },
-      {
-        "path": "/wp-temp.php",
-        "status": 403,
-        "requests": 23
-      },
-      {
-        "path": "/wp-includes/block-bindings/",
-        "status": 403,
-        "requests": 23
-      },
-      {
-        "path": "/aa2.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/wp-admin/css/colors/blue/",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/yup.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/cgi-bin/admin.php",
         "status": 403,
         "requests": 22
       },
@@ -633,62 +603,42 @@
         "requests": 22
       },
       {
-        "path": "/wp-config.php.bak",
+        "path": "/wp-admin/css/",
         "status": 403,
         "requests": 22
       },
       {
-        "path": "/puc.php",
+        "path": "/wp-temp.php",
         "status": 403,
         "requests": 22
       },
       {
-        "path": "/min.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/fffm.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/hur.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/wp-includes/blocks/audio/",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/wp-includes/Text/Diff/Engine/about.php",
-        "status": 403,
-        "requests": 22
-      },
-      {
-        "path": "/pucci.php",
+        "path": "/wp-includes/block-bindings/",
         "status": 403,
         "requests": 22
       },
       {
         "path": "/ingfo.php",
         "status": 403,
-        "requests": 22
+        "requests": 21
       },
       {
-        "path": "/wp-includes/Requests/",
+        "path": "/a.php",
         "status": 403,
         "requests": 21
       },
       {
-        "path": "/config.php",
+        "path": "/aa2.php",
         "status": 403,
         "requests": 21
       },
       {
-        "path": "/error_log.php",
+        "path": "/puc.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/pucci.php",
         "status": 403,
         "requests": 21
       },
@@ -698,12 +648,72 @@
         "requests": 21
       },
       {
-        "path": "/4PJcpMFsD8B.php",
+        "path": "/xxx.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/red.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/cgi-bin/admin.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/min.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/hur.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/about-impact-pockets/",
+        "status": 504,
+        "requests": 21
+      },
+      {
+        "path": "/wp-admin/css/colors/blue/",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/init.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/wp-includes/Text/Diff/Engine/about.php",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/wp-includes/blocks/audio/",
+        "status": 403,
+        "requests": 21
+      },
+      {
+        "path": "/fffm.php",
         "status": 403,
         "requests": 20
       },
       {
-        "path": "/a.php",
+        "path": "/wp-includes/Requests/",
+        "status": 403,
+        "requests": 20
+      },
+      {
+        "path": "/yup.php",
+        "status": 403,
+        "requests": 20
+      },
+      {
+        "path": "/4PJcpMFsD8B.php",
         "status": 403,
         "requests": 20
       },
@@ -713,19 +723,9 @@
         "requests": 20
       },
       {
-        "path": "/init.php",
+        "path": "/error_log.php",
         "status": 403,
         "requests": 20
-      },
-      {
-        "path": "/f6.php",
-        "status": 403,
-        "requests": 19
-      },
-      {
-        "path": "/wp-content/index.php",
-        "status": 403,
-        "requests": 19
       },
       {
         "path": "/wp-admin/css/colour.php",
@@ -734,6 +734,11 @@
       },
       {
         "path": "/f900.php",
+        "status": 403,
+        "requests": 19
+      },
+      {
+        "path": "/f6.php",
         "status": 403,
         "requests": 19
       },
@@ -753,42 +758,37 @@
         "requests": 18
       },
       {
-        "path": "/cdn-cgi/l/email-protection",
-        "status": 404,
+        "path": "/config.json.php",
+        "status": 403,
+        "requests": 18
+      },
+      {
+        "path": "/core.php",
+        "status": 403,
+        "requests": 18
+      },
+      {
+        "path": "/0.php",
+        "status": 403,
+        "requests": 18
+      },
+      {
+        "path": "/raw.php",
+        "status": 403,
         "requests": 18
       },
       {
         "path": "/users.php",
         "status": 403,
-        "requests": 17
+        "requests": 18
       },
       {
-        "path": "/config.json.php",
+        "path": "/media.php",
         "status": 403,
         "requests": 17
       },
       {
-        "path": "/mosty.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/wicked.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/core.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/info.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/makeasmtp.php",
+        "path": "/wp-content/index.php",
         "status": 403,
         "requests": 17
       },
@@ -798,117 +798,42 @@
         "requests": 17
       },
       {
-        "path": "/h02ugyh.php",
+        "path": "/wicked.php",
         "status": 403,
         "requests": 17
-      },
-      {
-        "path": "/v543.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/raw.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/0.php",
-        "status": 403,
-        "requests": 17
-      },
-      {
-        "path": "/w2025.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/dx.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/pol.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/xstelth.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/wp-admin/network/plugins.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/crgio.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/qterm.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/199.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/alls.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/green3.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/wp-admin/css/colors/coffee/wp-adochan.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/ha.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/about-impact-pockets/",
-        "status": 504,
-        "requests": 16
-      },
-      {
-        "path": "/file25.php",
-        "status": 403,
-        "requests": 16
-      },
-      {
-        "path": "/dejavu.php",
-        "status": 403,
-        "requests": 16
       },
       {
         "path": "/file31.php",
         "status": 403,
-        "requests": 16
+        "requests": 17
       },
       {
-        "path": "/media.php",
+        "path": "/our-services/",
+        "status": 504,
+        "requests": 17
+      },
+      {
+        "path": "/info.php",
         "status": 403,
-        "requests": 16
+        "requests": 17
       },
       {
-        "path": "/ups.php",
+        "path": "/contact-us/",
+        "status": 504,
+        "requests": 17
+      },
+      {
+        "path": "/makeasmtp.php",
         "status": 403,
-        "requests": 16
+        "requests": 17
       },
       {
-        "path": "/wp-includes/sodium_compat/",
+        "path": "/cdn-cgi/l/email-protection",
+        "status": 404,
+        "requests": 17
+      },
+      {
+        "path": "/modules/mod_simplefileuploadv1.3/elements/filemanager.php",
         "status": 403,
         "requests": 16
       },
@@ -918,17 +843,12 @@
         "requests": 16
       },
       {
-        "path": "/wp-ws68.php",
+        "path": "/memberfuns.php",
         "status": 403,
         "requests": 16
       },
       {
-        "path": "/hp3.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/cfile.php",
+        "path": "/h02ugyh.php",
         "status": 403,
         "requests": 15
       },
@@ -938,42 +858,12 @@
         "requests": 15
       },
       {
-        "path": "/koala.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/aaf.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
         "path": "/wp-explorer.php",
         "status": 403,
         "requests": 15
       },
       {
-        "path": "/122.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/2x.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/modules/mod_simplefileuploadv1.3/elements/filemanager.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/7.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/file52.php",
+        "path": "/mosty.php",
         "status": 403,
         "requests": 15
       },
@@ -983,42 +873,32 @@
         "requests": 15
       },
       {
-        "path": "/xwpg.php",
+        "path": "/hp3.php",
         "status": 403,
         "requests": 15
       },
       {
-        "path": "/memberfuns.php",
+        "path": "/v543.php",
         "status": 403,
         "requests": 15
       },
       {
-        "path": "/ww.php",
+        "path": "/2x.php",
         "status": 403,
         "requests": 15
-      },
-      {
-        "path": "/xamp.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/2P.php",
-        "status": 403,
-        "requests": 15
-      },
-      {
-        "path": "/mimpi.php",
-        "status": 403,
-        "requests": 14
-      },
-      {
-        "path": "/aa1.php",
-        "status": 403,
-        "requests": 14
       },
       {
         "path": "/bscclapb.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/ha.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/pol.php",
         "status": 403,
         "requests": 14
       },
@@ -1028,27 +908,17 @@
         "requests": 14
       },
       {
-        "path": "/track.php",
+        "path": "/wp-admin/css/colors/coffee/wp-adochan.php",
         "status": 403,
         "requests": 14
       },
       {
-        "path": "/2352356666.php",
+        "path": "/wp-ws68.php",
         "status": 403,
         "requests": 14
       },
       {
-        "path": "/inso.php",
-        "status": 403,
-        "requests": 14
-      },
-      {
-        "path": "/nhvoanpl.php",
-        "status": 403,
-        "requests": 14
-      },
-      {
-        "path": "/item.php",
+        "path": "/xstelth.php",
         "status": 403,
         "requests": 14
       },
@@ -1058,12 +928,77 @@
         "requests": 14
       },
       {
+        "path": "/mimpi.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/dejavu.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/green3.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/wp-includes/sodium_compat/",
+        "status": 403,
+        "requests": 14
+      },
+      {
         "path": "/berlin.php",
         "status": 403,
         "requests": 14
       },
       {
-        "path": "/qqqa.php",
+        "path": "/ups.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/2352356666.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/qterm.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/crgio.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/dx.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/track.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/inso.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/aa1.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/wp-admin/network/plugins.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/alls.php",
         "status": 403,
         "requests": 14
       },
@@ -1078,7 +1013,22 @@
         "requests": 14
       },
       {
+        "path": "/sss.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
         "path": "/old.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/199.php",
+        "status": 403,
+        "requests": 14
+      },
+      {
+        "path": "/footer.php",
         "status": 403,
         "requests": 14
       },
@@ -1088,42 +1038,32 @@
         "requests": 14
       },
       {
-        "path": "/buy.php",
+        "path": "/w2025.php",
         "status": 403,
-        "requests": 13
+        "requests": 14
       },
       {
-        "path": "/test10.php",
+        "path": "/file25.php",
         "status": 403,
-        "requests": 13
+        "requests": 14
       },
       {
-        "path": "/yj09.php",
+        "path": "/nhvoanpl.php",
         "status": 403,
-        "requests": 13
+        "requests": 14
       },
       {
-        "path": "/kua.php",
+        "path": "/122.php",
         "status": 403,
-        "requests": 13
+        "requests": 14
       },
       {
-        "path": "/ms-new.php",
+        "path": "/item.php",
         "status": 403,
-        "requests": 13
+        "requests": 14
       },
       {
-        "path": "/2larp.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/mgrr.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/billur.php",
+        "path": "/qqqa.php",
         "status": 403,
         "requests": 13
       },
@@ -1133,72 +1073,17 @@
         "requests": 13
       },
       {
-        "path": "/kir.php",
+        "path": "/xamp.php",
         "status": 403,
         "requests": 13
       },
       {
-        "path": "/up4.php",
+        "path": "/file52.php",
         "status": 403,
         "requests": 13
       },
       {
-        "path": "/X.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/zzz.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/file1221.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/ssh3ll.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/pn.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/hp2.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/geck.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/acew67.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/reviall.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/system_log.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/xiugai.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/green1.php",
+        "path": "/7.php",
         "status": 403,
         "requests": 13
       },
@@ -1208,7 +1093,57 @@
         "requests": 13
       },
       {
-        "path": "/footer.php",
+        "path": "/xwpg.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/cfile.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/2P.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/zzz.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/koala.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/acew67.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/hp2.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/ms-new.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/kua.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/billur.php",
+        "status": 403,
+        "requests": 13
+      },
+      {
+        "path": "/ww.php",
         "status": 403,
         "requests": 13
       },
@@ -1218,42 +1153,52 @@
         "requests": 13
       },
       {
-        "path": "/our-process/",
-        "status": 504,
-        "requests": 13
-      },
-      {
-        "path": "/1polka.php",
+        "path": "/pn.php",
         "status": 403,
         "requests": 13
       },
       {
-        "path": "/pbck.php",
+        "path": "/aaf.php",
         "status": 403,
         "requests": 13
       },
       {
-        "path": "/eee.php",
+        "path": "/buy.php",
         "status": 403,
         "requests": 13
+      },
+      {
+        "path": "/403.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/ws83.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/2larp.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/kir.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/yj09.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/ok.php",
+        "status": 403,
+        "requests": 12
       },
       {
         "path": "/dZ3wP5.php",
-        "status": 403,
-        "requests": 13
-      },
-      {
-        "path": "/001.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/echkm.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/else1.php",
         "status": 403,
         "requests": 12
       },
@@ -1263,72 +1208,32 @@
         "requests": 12
       },
       {
-        "path": "/inx.php",
+        "path": "/system_log.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/stdin.php",
+        "path": "/pbck.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/gec.php",
+        "path": "/eee.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/xhar.php",
+        "path": "/file1221.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/sh3ll.php",
+        "path": "/test10.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/sky.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/sss.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/wp-firewall.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/contact-us.html",
-        "status": 504,
-        "requests": 12
-      },
-      {
-        "path": "/ws83.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/403.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/ffffile.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/pp.php",
-        "status": 403,
-        "requests": 12
-      },
-      {
-        "path": "/wp-editor.php",
+        "path": "/ssh3ll.php",
         "status": 403,
         "requests": 12
       },
@@ -1338,32 +1243,87 @@
         "requests": 12
       },
       {
-        "path": "/e.php",
+        "path": "/geck.php",
         "status": 403,
         "requests": 12
       },
       {
-        "path": "/wp-links.php",
+        "path": "/mgrr.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/X.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/green1.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/up4.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/1polka.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/001.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/reviall.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/xiugai.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/wp-editor.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/else1.php",
+        "status": 403,
+        "requests": 12
+      },
+      {
+        "path": "/contact-us.html",
+        "status": 504,
+        "requests": 12
+      },
+      {
+        "path": "/xhar.php",
         "status": 403,
         "requests": 11
       },
       {
-        "path": "/cream1.php",
+        "path": "/sky.php",
         "status": 403,
         "requests": 11
       },
       {
-        "path": "/dvjul.php",
+        "path": "/ffffile.php",
         "status": 403,
         "requests": 11
       },
       {
-        "path": "/tkikikoko.php",
+        "path": "/test.php",
         "status": 403,
         "requests": 11
       },
       {
-        "path": "/ez.php",
+        "path": "/uiuvs58l.update.php",
         "status": 403,
         "requests": 11
       },
@@ -1373,17 +1333,22 @@
         "requests": 11
       },
       {
+        "path": "/tkikikoko.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/gec.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/ssend.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
         "path": "/la.php",
-        "status": 403,
-        "requests": 11
-      },
-      {
-        "path": "/lib.php",
-        "status": 403,
-        "requests": 11
-      },
-      {
-        "path": "/777.php",
         "status": 403,
         "requests": 11
       },
@@ -1393,13 +1358,48 @@
         "requests": 11
       },
       {
-        "path": "/d61.php",
+        "path": "/stdin.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/cream1.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/inx.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/wp-links.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/lib.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/dvjul.php",
+        "status": 403,
+        "requests": 11
+      },
+      {
+        "path": "/pp.php",
         "status": 403,
         "requests": 11
       },
       {
         "path": "/index.html",
         "status": 504,
+        "requests": 11
+      },
+      {
+        "path": "/e.php",
+        "status": 403,
         "requests": 11
       }
     ]
@@ -1408,10 +1408,10 @@
     {
       "severity": "warning",
       "code": "edge-5xx-rate",
-      "value": 0.012914360530857585,
+      "value": 0.015461040410805984,
       "maximum": 0.01,
-      "requests": 217,
-      "totalRequests": 16803
+      "requests": 277,
+      "totalRequests": 17916
     }
   ]
 }

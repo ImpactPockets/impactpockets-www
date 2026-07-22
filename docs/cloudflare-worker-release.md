@@ -19,9 +19,9 @@ No email credential or Turnstile secret is shipped to browser code.
 - Staging Worker: `impactpockets-www-staging.biglane.workers.dev`
 - Production Worker: `impactpockets-www`
 - Production routes: `www.impactpockets.com/*` and `impactpockets.com/*`
-- Released candidate: `a9a0db7b64af31c9496c2a896ff8e214a0580ed9`
-- Staging version: `6bd62a0c-1519-4c0f-a67e-23cb48cf89f7`
-- Production version: `a0622d37-f8ff-4c98-82db-e2dbbb3eaf3f`
+- Released candidate: `51aa1424209da1df03f7b7345eba9c934169022c`
+- Staging version: `cf6958e4-6d86-4bd5-b2b1-600d5a217dd8`
+- Production version: `1c0509fa-74f6-4717-babe-d790cc9aebb5`
 
 ## Release verification
 
@@ -39,7 +39,7 @@ The production Worker binding is restricted to `lane@impactpockets.com`, permits
 
 The advisory Cloudflare baseline on 2026-07-22 returned both RUM and edge analytics with 2 RUM route groups and 16,803 edge requests. Its one aggregate advisory was traced to Cloudflare's internal Early Hints crawler, not visitor responses. The affected requests had `requestSource=earlyHintsCache`, internal Early Hints user agents, no origin response, and visitor-facing checks remained 200. Early Hints was disabled for this Worker-served static site to remove that false edge-error signal.
 
-The complete evidence record is in `docs/release-evidence/2026-07-22-production/README.md`.
+The initial production evidence is in `docs/release-evidence/2026-07-22-production/README.md`. The semantic process story release is recorded in `docs/release-evidence/2026-07-22-process-story-release/README.md`.
 
 ## Secret handling
 
