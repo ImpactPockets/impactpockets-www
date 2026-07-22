@@ -953,7 +953,7 @@ body:has(main[data-page-archetype="fund-formation-process"]) {
 
 main[data-page-archetype="fund-formation-process"] {
   --process-header-height: 76px;
-  --process-orange: #c84f26;
+  --process-orange: #b84622;
   --process-orange-bright: #ff893b;
   --process-navy: #36355d;
   --process-navy-deep: #23233f;
@@ -1511,7 +1511,7 @@ main[data-page-archetype="fund-formation-process"] .process-story--partnership .
 }
 
 main[data-page-archetype="fund-formation-process"] .process-story--partnership .process-story__step--commitment .process-story__number {
-  background: var(--process-orange-bright);
+  background: var(--process-orange);
 }
 
 main[data-page-archetype="fund-formation-process"] .process-story--partnership .process-story__step--commitment .process-story__label {
