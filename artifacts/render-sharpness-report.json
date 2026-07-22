@@ -1,0 +1,258 @@
+{
+  "gate": "render-sharpness",
+  "status": "failed",
+  "blocking": true,
+  "root": "/Users/lane/Dev/impactpockets-www/dist/client",
+  "scanned": {
+    "css": 2,
+    "markup": 5
+  },
+  "fixedFiles": [],
+  "findings": [
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 622,
+      "code": "unshipped-font-family",
+      "selector": "span.acc_title",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1194,
+      "code": "fractional-content-transform",
+      "selector": ".navbar-menu",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1409,
+      "code": "unshipped-font-family",
+      "selector": ".Disc",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1416,
+      "code": "unshipped-font-family",
+      "selector": ".build_head",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1423,
+      "code": "unshipped-font-family",
+      "selector": ".we_say",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1655,
+      "code": "forced-font-smoothing",
+      "selector": "body",
+      "message": "Forced font smoothing can make text look thin or soft. Use the browser default."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1683,
+      "code": "fractional-content-transform",
+      "selector": ".skip-link",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1799,
+      "code": "unshipped-font-family",
+      "selector": ".inner_section",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1858,
+      "code": "unshipped-font-family",
+      "selector": ".stage1",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1869,
+      "code": "unshipped-font-family",
+      "selector": ".build_head",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1880,
+      "code": "unshipped-font-family",
+      "selector": ".we_say",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1893,
+      "code": "unshipped-font-family",
+      "selector": ".we_say-perfoma",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1965,
+      "code": "unshipped-font-family",
+      "selector": ".capital p",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 1976,
+      "code": "unshipped-font-family",
+      "selector": ".capital2 p",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2128,
+      "code": "unshipped-font-family",
+      "selector": ".role1,\r\n.role2",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2151,
+      "code": "unshipped-font-family",
+      "selector": ".role3",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2193,
+      "code": "unshipped-font-family",
+      "selector": ".ohio_list",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2204,
+      "code": "unshipped-font-family",
+      "selector": ".money_head",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2215,
+      "code": "unshipped-font-family",
+      "selector": ".money_head",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2226,
+      "code": "unshipped-font-family",
+      "selector": ".money_head1",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2237,
+      "code": "unshipped-font-family",
+      "selector": ".money_model",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2248,
+      "code": "unshipped-font-family",
+      "selector": ".money_model1",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2258,
+      "code": "unshipped-font-family",
+      "selector": ".sub_head_ohio",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2357,
+      "code": "unshipped-font-family",
+      "selector": ".we_say",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2673,
+      "code": "unshipped-font-family",
+      "selector": ".Disc",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2680,
+      "code": "unshipped-font-family",
+      "selector": ".we_say",
+      "message": "The first-choice font, jost, has no matching font-face declaration in this stylesheet."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 2980,
+      "code": "fractional-content-transform",
+      "selector": ".highlight-box",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 3207,
+      "code": "fractional-content-transform",
+      "selector": ".navbar-menu",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 3333,
+      "code": "forced-font-smoothing",
+      "selector": "body",
+      "message": "Forced font smoothing can make text look thin or soft. Use the browser default."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 3381,
+      "code": "fractional-content-transform",
+      "selector": ".skip-link",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 3863,
+      "code": "fractional-content-transform",
+      "selector": ".navbar-menu",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 4146,
+      "code": "forced-font-smoothing",
+      "selector": "body",
+      "message": "Forced font smoothing can make text look thin or soft. Use the browser default."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 4199,
+      "code": "fractional-content-transform",
+      "selector": ".skip-link",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 4500,
+      "code": "fractional-content-transform",
+      "selector": ".highlight-box",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    },
+    {
+      "file": "/Users/lane/Dev/impactpockets-www/dist/client/css/styles.css",
+      "line": 4846,
+      "code": "fractional-content-transform",
+      "selector": ".navbar-menu",
+      "message": "A persistent fractional transform can rasterize text between device pixels."
+    }
+  ]
+}

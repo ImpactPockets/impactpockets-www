@@ -1,0 +1,10 @@
+{
+  "gate": "design-system-conformance",
+  "mode": "off",
+  "framework": "none",
+  "scope": "changed-ui",
+  "status": "skipped",
+  "blocking": false,
+  "reason": "Disabled by project policy.",
+  "findings": []
+}

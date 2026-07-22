@@ -1,0 +1,58 @@
+.conversion-heading,
+.form-trap {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+#my-form-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.contact-security-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contact-security-row .cont_btn {
+  flex: 1;
+}
+
+.contact-security-row:has(.cf-turnstile:empty) {
+  display: block;
+}
+
+.contact-security-row .cf-turnstile:empty {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .process-diagram img[loading="lazy"] {
+    height: 0;
+    width: 0;
+  }
+
+  .contact-security-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .contact-security-row .cf-turnstile {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}

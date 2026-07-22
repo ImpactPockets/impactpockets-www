@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-22T01:26:04.228Z",
+  "site": "https://www.impactpockets.com",
+  "thresholds": {
+    "maximumImageBytes": 100000,
+    "imageByteLimits": [
+      {
+        "pattern": "/images/social/*",
+        "maximumBytes": 180000
+      },
+      {
+        "pattern": "/images/About-hero.png",
+        "maximumBytes": 1100000
+      },
+      {
+        "pattern": "/images/hero-background.png",
+        "maximumBytes": 1000000
+      },
+      {
+        "pattern": "/images/our-process-background.png",
+        "maximumBytes": 1300000
+      },
+      {
+        "pattern": "/images/our-services/ourservices-hero-background.png",
+        "maximumBytes": 1650000
+      },
+      {
+        "pattern": "/images/team-member-first.png",
+        "maximumBytes": 300000
+      },
+      {
+        "pattern": "/images/criss.png",
+        "maximumBytes": 250000
+      },
+      {
+        "pattern": "/images/criss1.jpg",
+        "maximumBytes": 130000
+      },
+      {
+        "pattern": "/images/team1.jpg",
+        "maximumBytes": 195000
+      },
+      {
+        "pattern": "/images/lane.png",
+        "maximumBytes": 275000
+      }
+    ],
+    "maximumTitleLength": 60,
+    "minimumDescriptionLength": 110,
+    "maximumDescriptionLength": 155
+  },
+  "counts": {
+    "htmlPages": 5,
+    "indexablePages": 5,
+    "redirectRoutes": 0,
+    "referencedLocalImages": 59,
+    "errors": 0
+  },
+  "errors": []
+}

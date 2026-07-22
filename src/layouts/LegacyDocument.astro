@@ -1,0 +1,207 @@
+---
+import imageDimensions from "@/data/image-dimensions.json";
+
+interface Props {
+  source: string;
+  canonicalPath: string;
+  description: string;
+  socialImage: string;
+  pageTitle?: string;
+  h1Context?: string;
+  contactForm?: boolean;
+}
+
+let { source, canonicalPath, description, socialImage, pageTitle, h1Context, contactForm = false } = Astro.props;
+const canonicalUrl = new URL(canonicalPath, "https://www.impactpockets.com").toString();
+const socialImageUrl = new URL(socialImage, "https://www.impactpockets.com").toString();
+
+const routeReplacements = new Map([
+  ["./index.html", "/"],
+  ["index.html", "/"],
+  ["./about-impact-pockets.html", "/about-impact-pockets/"],
+  ["about-impact-pockets.html", "/about-impact-pockets/"],
+  ["./about-impact-pocket.html", "/about-impact-pockets/"],
+  ["about-impact-pocket.html", "/about-impact-pockets/"],
+  ["./our-process.html", "/our-process/"],
+  ["our-process.html", "/our-process/"],
+  ["./our-services.html", "/our-services/"],
+  ["our-services.html", "/our-services/"],
+  ["./contact-us.html", "/contact-us/"],
+  ["contact-us.html", "/contact-us/"]
+]);
+
+for (const [legacyRoute, route] of routeReplacements) {
+  source = source.replaceAll(`href="${legacyRoute}"`, `href="${route}"`);
+  source = source.replaceAll(`href='${legacyRoute}'`, `href='${route}'`);
+}
+
+source = source
+  .replaceAll('src="./images/', 'src="/images/')
+  .replaceAll("src='./images/", "src='/images/")
+  .replaceAll('src="images/', 'src="/images/')
+  .replaceAll("src='images/", "src='/images/")
+  .replaceAll('src="/images//', 'src="/images/')
+  .replaceAll("src='/images//", "src='/images/")
+  .replaceAll('src="./js/', 'src="/js/')
+  .replaceAll("src='./js/", "src='/js/")
+  .replaceAll('href="./css/', 'href="/css/')
+  .replaceAll("href='./css/", "href='/css/")
+  .replaceAll("url('./images/", "url('/images/")
+  .replaceAll('href="./images/favicon.ico"', 'href="/favicon.png"')
+  .replaceAll('href="/images/favicon.ico"', 'href="/favicon.png"')
+  .replace(/\s*<link rel="preload" href="css\/main\.css" as="style">/i, "")
+  .replace(/\s*<link rel="stylesheet" href="css\/main\.css">/i, "")
+  .replace(/\s*<link rel="stylesheet" href="\/css\/about-impact-pocketstyles\.css">/i, "")
+  .replace(/\s*<script src="\/js\/main\.js" defer><\/script>/i, "");
+
+if (contactForm) {
+  source = source
+    .replace(
+      '<form id="my-form" action="https://formspree.io/f/xvgakozr" method="POST" class="form-fields_main">',
+      '<form id="my-form" action="/api/contact" method="POST" class="form-fields_main" data-contact-form>'
+    )
+    .replace('<label>First & Last Name</label>', '<label for="contact-name">First & Last Name</label>')
+    .replace(
+      '<input type="text" placeholder="i.e. John Doe" required>',
+      '<input id="contact-name" type="text" name="name" placeholder="i.e. John Doe" minlength="2" maxlength="100" autocomplete="name" required>'
+    )
+    .replace('<label>Email</label>', '<label for="contact-email">Email</label>')
+    .replace(
+      '<input type="email" name="email" placeholder="john@mail.com" required>',
+      '<input id="contact-email" type="email" name="email" placeholder="john@mail.com" maxlength="254" autocomplete="email" required>'
+    )
+    .replace('<label>Subject</label>', '<label for="contact-subject">Subject</label>')
+    .replace(
+      '<input type="text" name="subject" placeholder="I need help">',
+      '<input id="contact-subject" type="text" name="subject" placeholder="I need help" minlength="3" maxlength="160" required>'
+    )
+    .replace('<label>Message</label>', '<label for="contact-message">Message</label>')
+    .replace(
+      '<textarea rows="5" type="text" name="message" placeholder="Type your message..."></textarea>',
+      '<textarea id="contact-message" rows="5" name="message" placeholder="Type your message..." minlength="20" maxlength="5000" required></textarea>'
+    )
+    .replace(
+      '<div class="cont_btn">',
+      '<label class="form-trap" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off" maxlength="200"></label><div class="contact-security-row"><div class="cf-turnstile" data-sitekey="0x4AAAAAAD6yxt8rewqfmDCh" data-action="contact" data-theme="light"></div><div class="cont_btn">'
+    )
+    .replace('</button>\n        </div>\n        <p id="my-form-status">', '</button>\n        </div></div>\n        <p id="my-form-status">')
+    .replace('<p id="my-form-status"></p>', '<p id="my-form-status" role="status" aria-live="polite"></p>')
+    .replace(/\s*<script>\s*var form = document\.getElementById\("my-form"\);[\s\S]*?form\.addEventListener\("submit", handleSubmit\)\s*<\/script>/, "");
+}
+
+const head = source.match(/<head>([\s\S]*?)<\/head>/i)?.[1] ?? "";
+let body = source.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? "";
+const sourceTitle = head.match(/<title>([\s\S]*?)<\/title>/i)?.[1].trim() ?? "Impact Pockets";
+const title = pageTitle ?? sourceTitle;
+
+if (h1Context) {
+  body = body.replace(/<\/h1>/i, `<span class="conversion-heading"> ${h1Context}</span></h1>`);
+}
+
+const hasH1 = /<h1[\s>]/i.test(body);
+
+function bridgeHeadingLevels(markup: string, initialLevel: number) {
+  let previousLevel = initialLevel;
+
+  return markup.replace(/<h([1-6])\b/gi, (heading, levelText) => {
+    const level = Number(levelText);
+    let bridge = "";
+
+    for (let bridgeLevel = previousLevel + 1; bridgeLevel < level; bridgeLevel += 1) {
+      bridge += `<h${bridgeLevel} class="conversion-heading">${title}</h${bridgeLevel}>`;
+    }
+
+    previousLevel = level;
+    return `${bridge}${heading}`;
+  });
+}
+
+function addIntrinsicImageMetadata(markup: string) {
+  const imageTags = [...markup.matchAll(/<img\b[^>]*>/gi)];
+  let output = markup;
+
+  for (const match of imageTags) {
+    const originalTag = match[0];
+    let updatedTag = originalTag;
+
+    if (!/\salt\s*=/i.test(updatedTag)) {
+      updatedTag = updatedTag.replace(/(\s*\/?>)$/, ' alt=""$1');
+    }
+
+    if (!/\swidth\s*=/i.test(updatedTag) || !/\sheight\s*=/i.test(updatedTag)) {
+      const sourcePath = updatedTag.match(/\ssrc\s*=\s*["']([^"']+)["']/i)?.[1];
+
+      if (sourcePath?.startsWith("/images/")) {
+        const relativePath = decodeURIComponent(sourcePath.split(/[?#]/, 1)[0])
+          .replace(/^\/+/, "")
+          .replace(/\/{2,}/g, "/");
+        const metadata = imageDimensions[relativePath as keyof typeof imageDimensions];
+
+        if (metadata?.width && metadata?.height) {
+          updatedTag = updatedTag.replace(
+            /(\s*\/?>)$/,
+            ` width="${metadata.width}" height="${metadata.height}"$1`
+          );
+        }
+      }
+    }
+
+    output = output.replace(originalTag, updatedTag);
+  }
+
+  return output;
+}
+
+const semanticBody = addIntrinsicImageMetadata(bridgeHeadingLevels(body, hasH1 ? 0 : 1));
+const cleanHead = head
+  .replace(/\s*<title>[\s\S]*?<\/title>/i, "")
+  .replace(/\s*<link[^>]+rel=["']canonical["'][^>]*>/gi, "")
+  .replace(/\s*<meta[^>]+name=["']description["'][^>]*>/gi, "")
+  .replace(/\s*<meta[^>]+property=["']og:[^"']+["'][^>]*>/gi, "")
+  .replace(/\s*<meta[^>]+name=["']twitter:[^"']+["'][^>]*>/gi, "");
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Fragment set:html={cleanHead} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Impact Pockets" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${title} social preview`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <link rel="stylesheet" href="/css/worker-overrides.css" />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Impact Pockets",
+      url: "https://www.impactpockets.com/",
+      email: "info@impactpockets.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "26300 Cedar Rd, Unit 1105",
+        addressLocality: "Beachwood",
+        addressRegion: "OH",
+        postalCode: "44122",
+        addressCountry: "US"
+      }
+    })}></script>
+  </head>
+  <body>
+    {!hasH1 && <h1 class="conversion-heading">{title}</h1>}
+    <Fragment set:html={semanticBody} />
+    {contactForm && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+    {contactForm && <script is:inline src="/js/contact-form.js" defer></script>}
+  </body>
+</html>

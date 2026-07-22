@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "count": 11,
+  "records": [
+    {
+      "type": "A",
+      "name": "lane.impactpockets.com",
+      "content": "4.3.2.4",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "type": "A",
+      "name": "meet.impactpockets.com",
+      "content": "2.4.3.2",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "type": "CNAME",
+      "name": "impactpockets.com",
+      "content": "impactpockets.pages.dev",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "type": "CNAME",
+      "name": "pm-bounces.impactpockets.com",
+      "content": "pm.mtasv.net",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "CNAME",
+      "name": "www.impactpockets.com",
+      "content": "impactpockets.pages.dev",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "type": "MX",
+      "name": "impactpockets.com",
+      "content": "smtp.google.com",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "TXT",
+      "name": "20240717163628pm._domainkey.impactpockets.com",
+      "content": "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDJF654RK7KLDx4WSDGLNMhUJChCNmhRiw0byVgtKfHBu4PlYiOY6m2N+3MJQZ4GKSgAYwFRS1B6WL+JPVYQg7PN1hmCcy6PEKf7UvZJ1cjG0vJHR4mogI8ueAT4lkiKtMT43V6t+6dJrgcj74tdvzUD2LH3M2qCPskpECfka/yQIDAQAB",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "TXT",
+      "name": "_dmarc.impactpockets.com",
+      "content": "\"v=DMARC1; p=none; rua=mailto:28bd2fab7aa5491d8a575f74dacebf7e@dmarc-reports.cloudflare.net\"",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "TXT",
+      "name": "google._domainkey.impactpockets.com",
+      "content": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvjwwsJWOgIL9kZfvhuKuKVXS2Ol8ztipdw4YiM3lqAu6jaDRNvIe8adAe9LzYrSLNUwGpY50jRRe9FcWxc5oMaf9EiX+Ys84ImLAML1Pjxgws9F533QaLyUrwpFoj/3mycXHVVks1I4dDHxTn1pAz1dVkA1lec4U4IFPiwkPh8Tog6MNZl8Bc7IKYxZKaaS83c0iAohfyJYe8pjIyUe/xP5nWaNP3mnrmffjhf/RPL8EVA3LCNHrWsQHeyJDN43stmOHCaxeGjgdYHBoqNMVtGLXotEi35QIURF1/Ri3RQYGdi1ZOD22cCYSqq/IfawsSZRenpcxFHHduXAZrvNapQIDAQAB",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "TXT",
+      "name": "impactpockets.com",
+      "content": "\"v=spf1 include:spf.messagingengine.com include:_spf.google.com ?all\"",
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "type": "TXT",
+      "name": "impactpockets.com",
+      "content": "\"google-site-verification=dhNU84OPZmNPfgNwj7sARg-EHMBgmfBgNtp9g8ev_ms\"",
+      "proxied": false,
+      "ttl": 1
+    }
+  ]
+}

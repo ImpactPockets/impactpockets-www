@@ -1,0 +1,104 @@
+{
+  "gate": "Stanford Rule content quality",
+  "definition": "A Go for Launch editorial standard, not a Stanford University policy or AI-authorship detector.",
+  "generatedAt": "2026-07-22T01:26:04.623Z",
+  "outputDirectory": "/Users/lane/Dev/impactpockets-www/dist/client",
+  "counts": {
+    "pages": 5,
+    "errors": 0,
+    "warnings": 4
+  },
+  "pages": [
+    {
+      "route": "/about-impact-pockets/",
+      "contentHash": "de4835fe6b03de0779b4bc3b125575885eaf9673bfdd9d4287b147842b3d96f2",
+      "audience": "Operators evaluating the Impact Pockets managing partners",
+      "primaryTask": "Understand the partners' experience and decide whether to contact them",
+      "metrics": {
+        "words": 370,
+        "sentences": 41,
+        "readingEase": 23.9,
+        "longestSentenceWords": 24,
+        "longestParagraphWords": 62
+      }
+    },
+    {
+      "route": "/contact-us/",
+      "contentHash": "016dd2223e7030a50f61faa65d2db1df499e0bcf9aa897330d52bcc71aa8ac5c",
+      "audience": "Operators ready to discuss a fund opportunity",
+      "primaryTask": "Find contact details or send a complete inquiry",
+      "metrics": {
+        "words": 188,
+        "sentences": 21,
+        "readingEase": 5.1,
+        "longestSentenceWords": 22,
+        "longestParagraphWords": 30
+      }
+    },
+    {
+      "route": "/",
+      "contentHash": "cc0f209eedfe786f27b2e964bcaa0a1e274856332b4566bc646d2ba5aea194f0",
+      "audience": "Experienced operators considering a private equity fund",
+      "primaryTask": "Understand the partnership and decide whether to explore the process",
+      "metrics": {
+        "words": 200,
+        "sentences": 27,
+        "readingEase": 40.3,
+        "longestSentenceWords": 23,
+        "longestParagraphWords": 37
+      }
+    },
+    {
+      "route": "/our-process/",
+      "contentHash": "06a6fe82b27536d2c95a350f2b46d220f624ab4b05845e70c0e365b56e5d77dc",
+      "audience": "Experienced operators evaluating fund formation",
+      "primaryTask": "Understand each stage from discovery through formal launch",
+      "metrics": {
+        "words": 260,
+        "sentences": 31,
+        "readingEase": 48.6,
+        "longestSentenceWords": 22,
+        "longestParagraphWords": 37
+      }
+    },
+    {
+      "route": "/our-services/",
+      "contentHash": "e5670d18d2c1a110ee6a4a8243344fa7ff55c960b39035bafd361959b4c6de7c",
+      "audience": "Operators comparing private equity fund support services",
+      "primaryTask": "Understand the available support and decide whether it fits their needs",
+      "metrics": {
+        "words": 254,
+        "sentences": 37,
+        "readingEase": 48.7,
+        "longestSentenceWords": 23,
+        "longestParagraphWords": 23
+      }
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "repetitive-sentence-opening",
+      "route": "/about-impact-pockets/",
+      "message": "The sentence opening \"lorem ipsum\" appears 5 times."
+    },
+    {
+      "severity": "warning",
+      "code": "repetitive-sentence-opening",
+      "route": "/contact-us/",
+      "message": "The sentence opening \"lorem ipsum\" appears 5 times."
+    },
+    {
+      "severity": "warning",
+      "code": "repetitive-sentence-opening",
+      "route": "/",
+      "message": "The sentence opening \"impact pockets\" appears 5 times."
+    },
+    {
+      "severity": "warning",
+      "code": "repetitive-sentence-opening",
+      "route": "/our-process/",
+      "message": "The sentence opening \"our process\" appears 4 times."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-07-22T01:26:04.424Z",
+  "site": "https://www.impactpockets.com",
+  "configuration": {
+    "checkExternal": false,
+    "failOnWarnings": false,
+    "requirePageRule": true,
+    "title": {
+      "minimumCharacters": 30,
+      "maximumCharacters": 60,
+      "minimumWords": 4,
+      "minimumH1Overlap": 1,
+      "minimumContentOverlap": 2,
+      "maximumRepeatedWord": 2,
+      "ignoredTerms": []
+    },
+    "citationRoutes": [],
+    "requireCitationReviews": false
+  },
+  "counts": {
+    "pages": 5,
+    "citationChecks": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "citationChecks": []
+}

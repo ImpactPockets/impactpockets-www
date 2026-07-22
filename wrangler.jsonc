@@ -1,0 +1,70 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "impactpockets-www-staging",
+  "account_id": "588dde8dea5c387c6858b80a900a4269",
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "compatibility_date": "2026-07-21",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "workers_dev": true,
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "TURNSTILE_SITEKEY": "0x4AAAAAAD6yxt8rewqfmDCh",
+    "CONTACT_ALLOWED_ORIGINS": "https://impactpockets-www-staging.biglane.workers.dev",
+    "CONTACT_ALLOWED_HOSTNAMES": "impactpockets-www-staging.biglane.workers.dev",
+    "CONTACT_FROM": "website@impactpockets.com",
+    "CONTACT_TO": "info@impactpockets.com"
+  },
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "destination_address": "info@impactpockets.com",
+      "allowed_sender_addresses": [
+        "website@impactpockets.com"
+      ],
+      "remote": true
+    }
+  ],
+  "env": {
+    "production": {
+      "name": "impactpockets-www",
+      "workers_dev": false,
+      "routes": [
+        {
+          "pattern": "www.impactpockets.com/*",
+          "zone_id": "d3519f1a807b6b73b58b610a692b02bf"
+        }
+      ],
+      "vars": {
+        "TURNSTILE_SITEKEY": "0x4AAAAAAD6yxt8rewqfmDCh",
+        "CONTACT_ALLOWED_ORIGINS": "https://www.impactpockets.com",
+        "CONTACT_ALLOWED_HOSTNAMES": "www.impactpockets.com",
+        "CONTACT_FROM": "website@impactpockets.com",
+        "CONTACT_TO": "info@impactpockets.com"
+      },
+      "send_email": [
+        {
+          "name": "EMAIL",
+          "destination_address": "info@impactpockets.com",
+          "allowed_sender_addresses": [
+            "website@impactpockets.com"
+          ],
+          "remote": true
+        }
+      ]
+    }
+  }
+}

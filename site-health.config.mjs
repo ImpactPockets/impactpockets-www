@@ -1,0 +1,30 @@
+export default {
+  outputDirectory: "dist/client",
+  site: "https://www.impactpockets.com",
+  output: "artifacts/site-health-report.json",
+  trailingSlash: "always",
+  sitemapUrl: "https://www.impactpockets.com/sitemap.xml",
+  maximumImageBytes: 100_000,
+  imageByteLimits: [
+    { pattern: "/images/social/*", maximumBytes: 180_000 },
+    { pattern: "/images/About-hero.png", maximumBytes: 1_100_000 },
+    { pattern: "/images/hero-background.png", maximumBytes: 1_000_000 },
+    { pattern: "/images/our-process-background.png", maximumBytes: 1_300_000 },
+    { pattern: "/images/our-services/ourservices-hero-background.png", maximumBytes: 1_650_000 },
+    { pattern: "/images/team-member-first.png", maximumBytes: 300_000 },
+    { pattern: "/images/criss.png", maximumBytes: 250_000 },
+    { pattern: "/images/criss1.jpg", maximumBytes: 130_000 },
+    { pattern: "/images/team1.jpg", maximumBytes: 195_000 },
+    { pattern: "/images/lane.png", maximumBytes: 275_000 }
+  ],
+  maximumTitleLength: 60,
+  minimumDescriptionLength: 110,
+  maximumDescriptionLength: 155,
+  requireIncomingLinks: true,
+  requireUniqueTitles: true,
+  requireUniqueDescriptions: true,
+  requireRobots: true,
+  orphanAllowlist: [],
+  largeImageAllowlist: [],
+  redirectRoutes: []
+};
