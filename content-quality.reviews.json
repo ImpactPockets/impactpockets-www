@@ -2,7 +2,7 @@
   "reviews": [
     {
       "route": "/",
-      "contentHash": "d46ccfb471d3d077f8bf0849423adf63c8e79c2cfde4031361a1b551ae12912d",
+      "contentHash": "4b601c58428e21665fcc56de2dfd70b719b5ffde584c1165a0aa035921cb3b6b",
       "audience": "Experienced operators considering a private equity fund",
       "reviewer": "OpenAI Codex editorial review",
       "perspective": "senior-psychology-professor",
@@ -13,7 +13,7 @@
       "evidenceAware": true,
       "readAloud": true,
       "routeSpecific": true,
-      "notes": "The page opens with the operator opportunity, uses short benefit statements, distinguishes the team and process sections, and ends with a direct native link to the process. Claims remain proportionate to the firm's stated role."
+      "notes": "The page opens with the operator opportunity, uses short benefit statements, distinguishes the team and process sections, and ends with a direct native link to the process. The specialty and launch sequences preserve the approved graphic language in readable text. Claims remain proportionate to the firm's stated role."
     },
     {
       "route": "/about-impact-pockets/",
@@ -32,7 +32,7 @@
     },
     {
       "route": "/our-process/",
-      "contentHash": "06a6fe82b27536d2c95a350f2b46d220f624ab4b05845e70c0e365b56e5d77dc",
+      "contentHash": "4801bccd1a4f355a137fbb7d24ca39872e4a136c2554292476d1ce7de86c4638",
       "audience": "Experienced operators evaluating fund formation",
       "reviewer": "OpenAI Codex editorial review",
       "perspective": "senior-psychology-professor",
@@ -43,11 +43,11 @@
       "evidenceAware": true,
       "readAloud": true,
       "routeSpecific": true,
-      "notes": "The staged sequence answers how an operator moves from an initial conversation to formal formation. The repeated phrase Our Process is limited to navigation and section labeling, not a repeated generic argument, and the detailed stage copy remains route-specific."
+      "notes": "The staged sequence answers how an operator moves from an initial conversation to formal formation. The discovery questions, analysis checks, proforma structure, investor testing, and launch responsibilities now remain visible as page text rather than raster-only copy. The repeated phrase Our Process is limited to navigation and section labeling, not a repeated generic argument, and the detailed stage copy remains route-specific."
     },
     {
       "route": "/our-services/",
-      "contentHash": "e5670d18d2c1a110ee6a4a8243344fa7ff55c960b39035bafd361959b4c6de7c",
+      "contentHash": "c4336afb1739fe583367e1a29420f931ad7d1ad33b5d3d1d55b735d162c15267",
       "audience": "Operators comparing private equity fund support services",
       "reviewer": "OpenAI Codex editorial review",
       "perspective": "senior-psychology-professor",
@@ -58,7 +58,7 @@
       "evidenceAware": true,
       "readAloud": true,
       "routeSpecific": true,
-      "notes": "The page separates incubation, advisory, technology, tax, and fundraising capabilities so the reader can compare areas of support. The copy uses concrete service categories and avoids adding performance promises."
+      "notes": "The page separates incubation, advisory, technology, tax, and fundraising capabilities so the reader can compare areas of support. The incubation and technology sequences preserve the complete approved graphic copy as readable text. The copy uses concrete service categories and avoids adding performance promises."
     },
     {
       "route": "/contact-us/",

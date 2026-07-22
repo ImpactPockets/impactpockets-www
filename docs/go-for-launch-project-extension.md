@@ -4,7 +4,7 @@
 
 - Repository: `/Users/lane/Dev/go-for-launch`
 - Branch: `main`
-- Revision: `646a96eaafd183b83871135c7ae8ff125b9b48bf`
+- Revision: `59247c60f2bda03731ccf7f7dfa9cb948b4ae82b`
 - Integration command: `npm run verify`
 
 ## Project-owned extensions
@@ -17,6 +17,7 @@
 | Content review | `content-quality.config.mjs`, `content-quality.reviews.json`, `npm run verify:content-quality` | Impact Pockets | Defines route audiences, tasks, content families, similarity limits, and exact editorial approvals |
 | Interface contract | `interface-quality.config.mjs`, `npm run verify:interface` | Impact Pockets | Defines five route families, archetypes, selectors, and the required viewport matrix |
 | Visual composition contract | `visual-composition.config.mjs`, hero markers in `LegacyDocument.astro`, `npm run verify:composition` | Impact Pockets | Audits the four image-led hero families in Chromium and WebKit |
+| Semantic process stories | Root HTML sources, `public/css/worker-overrides.css`, `public/js/process-stories.js`, `npm run verify:composition` | Impact Pockets | Replaces raster-only process explanations with accessible HTML, responsive CSS layouts, progressive motion, and reduced-motion support |
 | Cloudflare observability | `cloudflare-observability.config.mjs`, `npm run cloudflare:observe` | Impact Pockets | Selects the account, zone, hostname, advisory window, and reviewed thresholds |
 | Contact service | `src/pages/api/contact.ts`, `src/lib/contact-form.ts`, `wrangler.jsonc`, unit tests | Impact Pockets | Enforces same-origin Turnstile validation and a fixed email recipient |
 

@@ -8,7 +8,7 @@
 - Project owner: Impact Pockets
 - Technical owner: Lane Campbell
 - Date reviewed: 2026-07-22
-- Go for Launch revision: `646a96eaafd183b83871135c7ae8ff125b9b48bf`
+- Go for Launch revision: `59247c60f2bda03731ccf7f7dfa9cb948b4ae82b`
 - Local instruction file: `AGENTS.md`
 - Project extension record: `docs/go-for-launch-project-extension.md`
 - Required build or test command that invokes project extensions: `npm run verify`

@@ -218,6 +218,8 @@ if (visualName) {
   }
 }
 
+const hasProcessStories = structuredBody.includes("data-process-story");
+
 const cleanHead = head
   .replace(/\s*<title>[\s\S]*?<\/title>/i, "")
   .replace(/\s*<link[^>]+rel=["'](?:shortcut )?icon["'][^>]*>/gi, "")
@@ -289,6 +291,7 @@ const usesFontAwesome = /\bfa(?:s|r|b)\s+fa-[a-z0-9-]+/i.test(structuredBody);
       }
     </script>}
     {contactForm && <script is:inline src="/js/contact-form.js" defer></script>}
+    {hasProcessStories && <script is:inline src="/js/process-stories.js" defer></script>}
     {usesFontAwesome && <script is:inline>
       const footer = document.querySelector("footer");
       const loadIconStyles = () => {
