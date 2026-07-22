@@ -1,4 +1,4 @@
-export const CONTACT_PATH = "/api/contact";
+export const CONTACT_PATH = "/api/contact/";
 export const MAX_BODY_BYTES = 16_384;
 
 const FIELD_NAMES = new Set([

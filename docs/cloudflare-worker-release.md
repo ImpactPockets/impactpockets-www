@@ -2,11 +2,11 @@
 
 ## Architecture
 
-Astro prerenders the five public pages and Cloudflare Workers serves the static output. Requests to `/api/contact` run through the Worker.
+Astro prerenders the five public pages and Cloudflare Workers serves the static output. Requests to `/api/contact/` run through the Worker.
 
 The contact flow is fixed:
 
-1. The browser posts to same-origin `/api/contact`.
+1. The browser posts to same-origin `/api/contact/`.
 2. The Worker validates the origin, hostname, body size, allowed fields, field lengths, and honeypot.
 3. The Worker validates the managed Turnstile token with Cloudflare Siteverify.
 4. The destination-restricted `EMAIL` binding may send only to `lane@impactpockets.com` from `hello@impactpockets.com`.

@@ -21,7 +21,7 @@ const validFields = () => {
 };
 
 const requestFrom = (form: FormData, headers: Record<string, string> = {}) =>
-  new Request(`${TEST_ORIGIN}/api/contact`, {
+  new Request(`${TEST_ORIGIN}/api/contact/`, {
     method: "POST",
     headers: { Origin: TEST_ORIGIN, ...headers },
     body: form

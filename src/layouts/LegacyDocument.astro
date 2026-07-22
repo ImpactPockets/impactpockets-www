@@ -64,7 +64,7 @@ if (contactForm) {
   source = source
     .replace(
       '<form id="my-form" action="https://formspree.io/f/xvgakozr" method="POST" class="form-fields_main">',
-      '<form id="my-form" action="/api/contact" method="POST" class="form-fields_main" data-contact-form>'
+      '<form id="my-form" action="/api/contact/" method="POST" class="form-fields_main" data-contact-form>'
     )
     .replace('<label>First & Last Name</label>', '<label for="contact-name">First & Last Name</label>')
     .replace(

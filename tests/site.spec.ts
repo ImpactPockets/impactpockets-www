@@ -77,6 +77,7 @@ test("FAQ preserves the original disclosure behavior", async ({ page }) => {
 
 test("contact form has named, labeled required fields", async ({ page }) => {
   await page.goto("/contact-us/");
+  await expect(page.locator("[data-contact-form]")).toHaveAttribute("action", "/api/contact/");
   await expect(page.getByLabel("First & Last Name")).toHaveAttribute("name", "name");
   await expect(page.getByLabel("Email")).toHaveAttribute("name", "email");
   await expect(page.getByLabel("Subject")).toHaveAttribute("name", "subject");
