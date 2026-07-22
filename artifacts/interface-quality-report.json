@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-22T17:31:53.786Z",
+  "generatedAt": "2026-07-22T18:58:31.236Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -71,11 +71,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -247,7 +247,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 23,
+      "controlCount": 22,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -296,11 +296,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -472,7 +472,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 23,
+      "controlCount": 22,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -521,11 +521,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -697,7 +697,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -746,11 +746,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -922,7 +922,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -971,11 +971,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1147,7 +1147,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1196,11 +1196,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1372,7 +1372,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 23,
+      "controlCount": 22,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1421,11 +1421,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1597,7 +1597,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 23,
+      "controlCount": 22,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1646,11 +1646,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -1822,7 +1822,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -1871,11 +1871,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -2047,7 +2047,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2096,11 +2096,11 @@
         "palette": [],
         "typography": [],
         "media": {
-          "images": 12,
+          "images": 11,
           "figures": 0,
           "videos": 0,
           "forms": 0,
-          "backgroundImages": 1
+          "backgroundImages": 0
         }
       }
     },
@@ -2272,7 +2272,7 @@
       "issues": [],
       "warnings": [],
       "horizontalOverflow": 0,
-      "controlCount": 18,
+      "controlCount": 17,
       "fingerprint": {
         "structure": [
           "section:block",
@@ -2320,7 +2320,8 @@
       "differences": [
         "structure",
         "layout",
-        "typography"
+        "typography",
+        "media"
       ]
     },
     {
@@ -2458,7 +2459,8 @@
       "differences": [
         "structure",
         "layout",
-        "typography"
+        "typography",
+        "media"
       ]
     },
     {

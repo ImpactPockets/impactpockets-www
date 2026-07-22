@@ -29,7 +29,7 @@ After the Go for Launch render-sharpness remediation, the five pages were recapt
 Passed locally on 2026-07-22:
 
 - Astro Check, 0 errors, 0 warnings, 0 hints
-- Unit tests, 11 passed
+- Unit tests, 15 passed
 - Build and sitemap verification, 5 pages
 - SEO, image, site-health, and semantic SEO gates
 - Content quality, 0 errors, 1 reviewed route-label warning, and 5 current hash-bound reviews
@@ -39,11 +39,11 @@ Passed locally on 2026-07-22:
 - Open Graph, 5 deterministic page-specific cards with exact hash-bound approval
 - Interface quality, 5 routes and 50 browser and viewport checks, 0 errors and 0 warnings
 - Visual composition, 24 artboard checks across Chromium and WebKit
-- Cloudflare advisory baseline, RUM and edge analytics available with no findings
-- Browser coverage, 24 passed and 3 viewport-specific skips across Chromium, desktop WebKit, and iPhone WebKit
+- Cloudflare advisory baseline, RUM and edge analytics available, with the aggregate edge advisory traced to Cloudflare's internal Early Hints crawler rather than visitor responses
+- Browser coverage, 27 passed and 3 viewport-specific skips across Chromium, desktop WebKit, and iPhone WebKit
 
-The local release chain is green. Production remains gated on the exact staging deployment, a real Turnstile-protected form submission, native iOS Safari, eight perfect PageSpeed category scores, redirect checks, and canonical-host verification.
+The exact candidate passed staging, real Turnstile-protected form submission, native iOS Safari, eight perfect PageSpeed category scores, redirect checks, canonical-host verification, and production smoke tests.
 
 ## Release status
 
-The corrected candidate has not been promoted to `www.impactpockets.com`. Production remains unchanged. See `cloudflare-worker-release.md` for the verified Email Sending state and the remaining staging form gate.
+Candidate `a9a0db7b64af31c9496c2a896ff8e214a0580ed9` is live at `https://www.impactpockets.com`. The deployed production Worker version is `a0622d37-f8ff-4c98-82db-e2dbbb3eaf3f`. See `cloudflare-worker-release.md` and the production release evidence record for the Cloudflare, form, browser, and performance results.

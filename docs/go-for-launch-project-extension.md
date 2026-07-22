@@ -4,7 +4,7 @@
 
 - Repository: `/Users/lane/Dev/go-for-launch`
 - Branch: `main`
-- Revision: `58edf43c5b0d08a7cd3c1e15a8c2a88493c5440d`
+- Revision: `646a96eaafd183b83871135c7ae8ff125b9b48bf`
 - Integration command: `npm run verify`
 
 ## Project-owned extensions
@@ -28,4 +28,4 @@ When Go for Launch changes, fetch its upstream first, review changes that overla
 
 ## Current validation
 
-On 2026-07-22, `npm run verify` passed the complete local chain. The one content warning for the repeated route label `Our Process` is acknowledged in the exact editorial review and does not represent repeated generic page copy. Production still requires exact-candidate staging, the real Worker form, native Safari, PageSpeed, redirects, and canonical-host verification.
+On 2026-07-22, `npm run verify` passed the complete local chain. The one content warning for the repeated route label `Our Process` is acknowledged in the exact editorial review and does not represent repeated generic page copy. Candidate `a9a0db7b64af31c9496c2a896ff8e214a0580ed9` then passed exact-candidate staging, real Worker form submissions, native Safari, PageSpeed, redirects, canonical-host verification, and production smoke tests.

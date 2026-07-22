@@ -18,5 +18,8 @@ artifacts/visual-fidelity/
 artifacts/interface-quality/
 artifacts/visual-composition/
 artifacts/open-graph-review/
+artifacts/fidelity-comparison/
+artifacts/staging-browser/
+artifacts/minimum-debug.png
 .DS_Store
 *.log

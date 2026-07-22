@@ -8,7 +8,7 @@
 - Project owner: Impact Pockets
 - Technical owner: Lane Campbell
 - Date reviewed: 2026-07-22
-- Go for Launch revision: `58edf43c5b0d08a7cd3c1e15a8c2a88493c5440d`
+- Go for Launch revision: `646a96eaafd183b83871135c7ae8ff125b9b48bf`
 - Local instruction file: `AGENTS.md`
 - Project extension record: `docs/go-for-launch-project-extension.md`
 - Required build or test command that invokes project extensions: `npm run verify`
@@ -57,7 +57,7 @@
 - Account and scope owner: Cloudflare account `00 - Impact Pockets`
 - Paid plan approved by: Lane Campbell in this task
 - Masked access check: active zone enumeration, Worker access, and Email Sending API delivery succeeded without printing credentials
-- Fallback or blocker: staging form submission and inbox receipt must pass before production
+- Fallback or blocker: none, the production form passed managed Turnstile and Worker acceptance
 
 ### Cloudflare Web Analytics and edge HTTP analytics
 
@@ -69,7 +69,7 @@
 - Canonical RUM hostname: `www.impactpockets.com`
 - Minimum samples and time window: 20 samples per route and device, 24 hours
 - Enforcement mode: advisory before release, regressions after release
-- Masked access check: baseline query returned 2 RUM route groups and 15,034 edge requests on 2026-07-22
+- Masked access check: baseline query returned 2 RUM route groups and 16,803 edge requests on 2026-07-22
 - Fallback or blocker: preserve the report and retain independent PageSpeed, WebKit, and native Safari gates
 
 ### Google PageSpeed Insights and optional API credential
@@ -78,8 +78,8 @@
 - Capability supported: production release scores for staging mobile and desktop
 - Account and scope owner: public PageSpeed service or approved 1Password credential
 - Paid plan approved by: public service requires no paid approval
-- Masked access check: pending exact staging candidate
-- Fallback or blocker: production is blocked unless all eight required category scores equal 100
+- Masked access check: exact staging candidate returned eight category scores of 100
+- Fallback or blocker: none
 
 ### Google Search Console
 
@@ -106,7 +106,7 @@
 - Account and scope owner: Impact Pockets
 - Paid plan approved by: Lane Campbell in this task
 - Masked access check: Cloudflare analytics query passed, email API message reached the fixed mailbox
-- Fallback or blocker: real Worker form flow must pass on staging
+- Fallback or blocker: none, real Worker form flows passed on staging and production
 
 ### Secret manager
 
@@ -136,7 +136,7 @@
 - iOS Simulator runtime installed: yes, iOS 26.5
 - Simulator device name: Impact Pockets Launch 2026-07-22
 - Simulator UDID: `50DAA997-6B4B-4716-9C9D-EA9CBABB5999`
-- Native Safari evidence available: pending exact staging deployment
+- Native Safari evidence available: yes, exact staging and production form submissions passed
 - If no, qualified Mac handoff runner and owner: this Mac is qualified
 - If no Mac runner exists, production status: not applicable
 
@@ -153,7 +153,7 @@
 
 ## Approval
 
-- [x] Every selected workflow has its required inputs or a recorded pending release gate.
+- [x] Every selected workflow has its required inputs and completed release evidence.
 - [x] Optional services are not presented as universal requirements.
 - [x] Paid services have an explicit owner and approval.
 - [x] External accounts passed masked access checks where required before staging.

@@ -18,22 +18,28 @@ No email credential or Turnstile secret is shipped to browser code.
 
 - Staging Worker: `impactpockets-www-staging.biglane.workers.dev`
 - Production Worker: `impactpockets-www`
-- Production route: `www.impactpockets.com/*`
+- Production routes: `www.impactpockets.com/*` and `impactpockets.com/*`
+- Released candidate: `a9a0db7b64af31c9496c2a896ff8e214a0580ed9`
+- Staging version: `6bd62a0c-1519-4c0f-a67e-23cb48cf89f7`
+- Production version: `a0622d37-f8ff-4c98-82db-e2dbbb3eaf3f`
 
-The corrected candidate has not yet replaced the previous staging version. Local Go for Launch gates are green as of 2026-07-22, and exact-candidate staging is the next release step.
+## Release verification
 
-## Current blockers
+Production promotion completed on 2026-07-22 after all release gates passed:
 
-Production promotion is prohibited until all of these pass:
+1. Real staging and production form submissions passed managed Turnstile in native Safari and were accepted by the Worker.
+2. Native Safari passed on the dedicated iOS 26.5 Simulator.
+3. Mobile and desktop PageSpeed each reported 100 for Performance, Accessibility, Best Practices, and SEO.
+4. Exact-candidate, sitemap, robots, Open Graph, redirect, Chromium, WebKit, and canonical-host checks passed.
+5. The apex host and legacy paths redirect directly to the canonical `www` route while preserving query strings.
 
-1. A real staging form submission passes Turnstile and arrives at `lane@impactpockets.com`.
-2. Native Safari passes on the dedicated iOS Simulator.
-3. Mobile and desktop PageSpeed each report 100 for Performance, Accessibility, Best Practices, and SEO.
-4. Exact-candidate, sitemap, robots, Open Graph, redirect, WebKit, and canonical-host checks pass.
+Cloudflare Email Sending is enabled for `impactpockets.com`. On 2026-07-21, a narrowly scoped Email Sending token was created for the Impact Pockets account and stored in the 1Password `AgentWork` vault. A real Cloudflare Email Sending API message from `hello@impactpockets.com` to `lane@impactpockets.com` was reported as delivered, and the matching message was confirmed in the `lane@impactpockets.com` Gmail inbox.
 
-Cloudflare Email Sending is enabled for `impactpockets.com`. On 2026-07-21, a narrowly scoped Email Sending token was created for the Impact Pockets account and stored in the 1Password `AgentWork` vault. A real Cloudflare Email Sending API message from `hello@impactpockets.com` to `lane@impactpockets.com` was reported as delivered, and the matching message was confirmed in the `lane@impactpockets.com` Gmail inbox. The exact staging Worker form flow still requires verification after the local hard gates pass. No production DNS or route change was made.
+The production Worker binding is restricted to `lane@impactpockets.com`, permits `hello@impactpockets.com` as the sender, and exposes no email credential to the browser. The public site displays `hello@impactpockets.com`.
 
-The advisory Cloudflare baseline on 2026-07-22 passed with both RUM and edge analytics available, 2 RUM route groups, 15,034 edge requests, and no findings.
+The advisory Cloudflare baseline on 2026-07-22 returned both RUM and edge analytics with 2 RUM route groups and 16,803 edge requests. Its one aggregate advisory was traced to Cloudflare's internal Early Hints crawler, not visitor responses. The affected requests had `requestSource=earlyHintsCache`, internal Early Hints user agents, no origin response, and visitor-facing checks remained 200. Early Hints was disabled for this Worker-served static site to remove that false edge-error signal.
+
+The complete evidence record is in `docs/release-evidence/2026-07-22-production/README.md`.
 
 ## Secret handling
 
