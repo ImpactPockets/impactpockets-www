@@ -19,13 +19,13 @@ No email credential or Turnstile secret is shipped to browser code.
 - Staging Worker: `impactpockets-www-staging.biglane.workers.dev`
 - Production Worker: `impactpockets-www`
 - Production routes: `www.impactpockets.com/*` and `impactpockets.com/*`
-- Released candidate: `5ef59aa92fec4557fba85bc9af979a1525ed3e5a`
-- Staging version: `2fb989ee-3e53-4c8a-af43-988fbb740616`
-- Production version: `20affc3d-aeb5-4d95-ae16-a655f3d31bf3`
+- Released candidate: `26c8e5c8dc2db4862e5dca96eb57820ce96df4bf`
+- Staging version: `070d2047-293a-4408-ab9c-fa3b227a731b`
+- Production version: `802aa04e-036c-4f06-987f-2a3733827c3e`
 
 ## Release verification
 
-Production promotion completed on 2026-07-22 after all release gates passed:
+The latest production promotion completed on 2026-07-23 after all release gates passed:
 
 1. Real staging and production form submissions passed managed Turnstile in native Safari and were accepted by the Worker.
 2. Native Safari passed on the dedicated iOS 26.5 Simulator.
@@ -44,6 +44,8 @@ The initial production evidence is in `docs/release-evidence/2026-07-22-producti
 The current sitewide visual-polish release is recorded in `docs/release-evidence/2026-07-22-sitewide-visual-polish/README.md`.
 
 The current typography-polish release is recorded in `docs/release-evidence/2026-07-22-typography-polish/README.md`.
+
+The current Services spacing release is recorded in `docs/release-evidence/2026-07-23-services-spacing/README.md`.
 
 ## Secret handling
 
