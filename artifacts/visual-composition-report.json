@@ -66,12 +66,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8408734309623431,
-        "verticalFill": 0.19612930667800935,
+        "verticalFill": 0.19908649245002127,
         "labelBounds": {
           "left": 132,
-          "top": 1063.625,
+          "top": 1062.1707763671875,
           "width": 502.421875,
-          "height": 72.046875
+          "height": 73.1331787109375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -90,12 +90,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8707692307692307,
-        "verticalFill": 0.331336273006135,
+        "verticalFill": 0.3270503319114264,
         "labelBounds": {
           "left": 295.5,
-          "top": 3521.03125,
+          "top": 3520.97412109375,
           "width": 849,
-          "height": 108.015625
+          "height": 106.618408203125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -162,12 +162,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8353104655052623,
-        "verticalFill": 0.14940733617665816,
+        "verticalFill": 0.14945118183992348,
         "labelBounds": {
           "left": 762.796875,
-          "top": 1845.5595703125,
+          "top": 1845.5281982421875,
           "width": 507.203125,
-          "height": 73.2095947265625
+          "height": 73.2310791015625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -186,12 +186,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8429941814750747,
-        "verticalFill": 0.7391412228954082,
+        "verticalFill": 0.7389593630420919,
         "labelBounds": {
           "left": 159,
-          "top": 2393.4970703125,
+          "top": 2393.494873046875,
           "width": 418.796875,
-          "height": 362.17919921875
+          "height": 362.090087890625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -210,12 +210,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.694039943387325,
-        "verticalFill": 0.5357461734693878,
+        "verticalFill": 0.5356863839285714,
         "labelBounds": {
           "left": 219,
-          "top": 3147.9658203125,
+          "top": 3147.963623046875,
           "width": 344.796875,
-          "height": 262.515625
+          "height": 262.486328125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -258,12 +258,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6535630590487507,
-        "verticalFill": 0.6493453045280613,
+        "verticalFill": 0.6491639429209184,
         "labelBounds": {
           "left": 252,
-          "top": 4478.0908203125,
+          "top": 4478.08837890625,
           "width": 309.390625,
-          "height": 318.17919921875
+          "height": 318.09033203125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -281,12 +281,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.9004566073417664,
+        "horizontalFill": 0.9004655838012695,
         "verticalFill": 0.14461805555555557,
         "labelBounds": {
-          "left": 136.02613830566406,
+          "left": 136.027099609375,
           "top": 5537.21875,
-          "width": 1152.584457397461,
+          "width": 1152.595947265625,
           "height": 52.0625
         },
         "labelCount": 3,
@@ -330,15 +330,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.766468215863261,
-        "verticalFill": 0.50123974609375,
+        "verticalFill": 0.501224853515625,
         "labelBounds": {
           "left": 195,
-          "top": 1072.864990234375,
+          "top": 992.8643798828125,
           "width": 498.875,
-          "height": 250.619873046875
+          "height": 250.6124267578125
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8984375,
+        "verticalFill": 0.7113287404615527,
+        "labelBounds": {
+          "left": 145,
+          "top": 1561.640625,
+          "width": 1150,
+          "height": 359.765625
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -354,15 +378,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.9047436143652775,
-        "verticalFill": 0.21182605832122092,
+        "verticalFill": 0.2118385492369186,
         "labelBounds": {
           "left": 127,
-          "top": 2740.46923828125,
+          "top": 2400.242431640625,
           "width": 588.875,
-          "height": 91.085205078125
+          "height": 91.090576171875
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8859375,
+        "verticalFill": 0.7055509251541924,
+        "labelBounds": {
+          "left": 153,
+          "top": 2903.40625,
+          "width": 1134,
+          "height": 330.671875
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -498,12 +546,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6497175141242938,
-        "verticalFill": 0.5152392988445378,
+        "verticalFill": 0.5157870765493697,
         "labelBounds": {
           "left": 104,
-          "top": 2365.901123046875,
+          "top": 2365.921630859375,
           "width": 230,
-          "height": 245.25390625
+          "height": 245.5146484375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -522,12 +570,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8813559322033898,
-        "verticalFill": 0.81187377382287,
+        "verticalFill": 0.8136747214826233,
         "labelBounds": {
           "left": 39,
-          "top": 3375.307373046875,
+          "top": 3375.327880859375,
           "width": 312,
-          "height": 362.095703125
+          "height": 362.89892578125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -546,12 +594,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7005649717514124,
-        "verticalFill": 0.567211140511568,
+        "verticalFill": 0.5677772406540471,
         "labelBounds": {
           "left": 91,
-          "top": 4492.3232421875,
+          "top": 4492.34375,
           "width": 248,
-          "height": 261.25390625
+          "height": 261.5146484375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -594,12 +642,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7062146892655368,
-        "verticalFill": 0.716431763795045,
+        "verticalFill": 0.7182408238316441,
         "labelBounds": {
           "left": 92,
-          "top": 6438.1044921875,
+          "top": 6438.125,
           "width": 250,
-          "height": 318.095703125
+          "height": 318.89892578125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -617,12 +665,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6457935915154925,
+        "horizontalFill": 0.6454991270593331,
         "verticalFill": 0.7747965691664834,
         "labelBounds": {
-          "left": 94.02703857421875,
+          "left": 94.018798828125,
           "top": 7219.25,
-          "width": 228.61093139648438,
+          "width": 228.5066909790039,
           "height": 330.28125
         },
         "labelCount": 3,
@@ -669,12 +717,36 @@
         "verticalFill": 0.570527172806839,
         "labelBounds": {
           "left": 97,
-          "top": 948.640625,
+          "top": 916.640625,
           "width": 236,
           "height": 262.78125
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8743169398907104,
+        "verticalFill": 0.9071827866258834,
+        "labelBounds": {
+          "left": 35,
+          "top": 1831.9375,
+          "width": 320,
+          "height": 1075.125
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -693,12 +765,36 @@
         "verticalFill": 0.5864245691183771,
         "labelBounds": {
           "left": 103,
-          "top": 3388.8125,
+          "top": 3234.46875,
           "width": 232,
           "height": 258.375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8553459119496856,
+        "verticalFill": 0.908966110385207,
+        "labelBounds": {
+          "left": 59,
+          "top": 4186.5625,
+          "width": 272,
+          "height": 858.703125
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -738,12 +834,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5475149979824673,
+        "verticalFill": 0.5475247642255839,
         "labelBounds": {
           "left": 134,
-          "top": 905.1770629882812,
+          "top": 905.177490234375,
           "width": 109,
-          "height": 270.31842041015625
+          "height": 270.3232421875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -762,12 +858,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5669291338582677,
-        "verticalFill": 0.7690253200301205,
+        "verticalFill": 0.769035124874498,
         "labelBounds": {
           "left": 112,
           "top": 6645.81787109375,
           "width": 144,
-          "height": 382.974609375
+          "height": 382.9794921875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -834,12 +930,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5633802816901409,
-        "verticalFill": 0.5286662796821141,
+        "verticalFill": 0.5292013755904507,
         "labelBounds": {
           "left": 104,
-          "top": 2430.963623046875,
+          "top": 2430.984130859375,
           "width": 160,
-          "height": 258.815185546875
+          "height": 259.0771484375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -858,12 +954,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.852112676056338,
-        "verticalFill": 0.8341141511782276,
+        "verticalFill": 0.8358291154995021,
         "labelBounds": {
           "left": 39,
-          "top": 3477.838623046875,
+          "top": 3477.859130859375,
           "width": 242,
-          "height": 392.685302734375
+          "height": 393.49267578125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -882,12 +978,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6267605633802817,
-        "verticalFill": 0.5792443513983252,
+        "verticalFill": 0.5797726734081213,
         "labelBounds": {
           "left": 91,
-          "top": 4727.29150390625,
+          "top": 4727.3125,
           "width": 178,
-          "height": 286.4091796875
+          "height": 286.67041015625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -930,12 +1026,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6338028169014085,
-        "verticalFill": 0.7425350154842343,
+        "verticalFill": 0.7443517736486487,
         "labelBounds": {
           "left": 92,
-          "top": 6786.72900390625,
+          "top": 6786.75,
           "width": 180,
-          "height": 329.685546875
+          "height": 330.4921875
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -953,12 +1049,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.5584910218144806,
+        "horizontalFill": 0.5581222050626513,
         "verticalFill": 0.8351842910027362,
         "labelBounds": {
-          "left": 94.02708435058594,
+          "left": 94.018798828125,
           "top": 7645.25,
-          "width": 158.6114501953125,
+          "width": 158.50670623779297,
           "height": 486.46875
         },
         "labelCount": 3,
@@ -1002,15 +1098,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5926686851211073,
+        "verticalFill": 0.5956984870072597,
         "labelBounds": {
           "left": 97,
-          "top": 936.989990234375,
+          "top": 905.046875,
           "width": 166,
-          "height": 272.9794921875
+          "height": 274.375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8445945945945946,
+        "verticalFill": 0.9135719108710331,
+        "labelBounds": {
+          "left": 35,
+          "top": 1859.125,
+          "width": 250,
+          "height": 1162.734375
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1026,15 +1146,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.580702037239144,
+        "verticalFill": 0.5836557859576016,
         "labelBounds": {
           "left": 103,
-          "top": 3547.880615234375,
+          "top": 3369.5625,
           "width": 162,
-          "height": 274.3544921875
+          "height": 275.75
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8145161290322581,
+        "verticalFill": 0.9165403044823194,
+        "labelBounds": {
+          "left": 59,
+          "top": 4358.40625,
+          "width": 202,
+          "height": 944.4375
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1074,12 +1218,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.840847280334728,
-        "verticalFill": 0.19803776750765828,
+        "verticalFill": 0.19810756945626276,
         "labelBounds": {
           "left": 132,
-          "top": 1062.663330078125,
+          "top": 1062.6268310546875,
           "width": 502.40625,
-          "height": 72.7293701171875
+          "height": 72.7550048828125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1098,12 +1242,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8707692307692307,
-        "verticalFill": 0.32823059456480064,
+        "verticalFill": 0.328125,
         "labelBounds": {
           "left": 295.5,
-          "top": 3521.00390625,
+          "top": 3521.001708984375,
           "width": 849,
-          "height": 107.003173828125
+          "height": 106.96875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1170,12 +1314,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8352847327654975,
-        "verticalFill": 0.19761364995216837,
+        "verticalFill": 0.1975369200414541,
         "labelBounds": {
           "left": 762.796875,
-          "top": 1845.793212890625,
+          "top": 1845.8470458984375,
           "width": 507.1875,
-          "height": 96.8306884765625
+          "height": 96.7930908203125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1194,12 +1338,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8429941814750747,
-        "verticalFill": 0.7414261798469388,
+        "verticalFill": 0.7417460538903061,
         "labelBounds": {
           "left": 159,
-          "top": 2393.32177734375,
+          "top": 2393.3251953125,
           "width": 418.796875,
-          "height": 363.298828125
+          "height": 363.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1218,12 +1362,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.694039943387325,
-        "verticalFill": 0.5363894092793368,
+        "verticalFill": 0.5364920479910714,
         "labelBounds": {
           "left": 219,
-          "top": 3147.82177734375,
+          "top": 3147.8251953125,
           "width": 344.796875,
-          "height": 262.830810546875
+          "height": 262.881103515625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1266,12 +1410,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6535630590487507,
-        "verticalFill": 0.6516302614795918,
+        "verticalFill": 0.6519501355229592,
         "labelBounds": {
           "left": 252,
-          "top": 4477.91552734375,
+          "top": 4477.9189453125,
           "width": 309.390625,
-          "height": 319.298828125
+          "height": 319.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1289,12 +1433,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.9003555774688721,
+        "horizontalFill": 0.9003398656845093,
         "verticalFill": 0.14461805555555557,
         "labelBounds": {
-          "left": 136.01507568359375,
+          "left": 136.01370239257812,
           "top": 5537.015625,
-          "width": 1152.4551391601562,
+          "width": 1152.4350280761719,
           "height": 52.0625
         },
         "labelCount": 3,
@@ -1338,15 +1482,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.766473821926687,
-        "verticalFill": 0.501818359375,
+        "verticalFill": 0.5017938232421875,
         "labelBounds": {
           "left": 195,
-          "top": 1072.904052734375,
+          "top": 992.9032592773438,
           "width": 498.890625,
-          "height": 250.9091796875
+          "height": 250.89691162109375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8984375,
+        "verticalFill": 0.7113287404615527,
+        "labelBounds": {
+          "left": 145,
+          "top": 1561.640625,
+          "width": 1150,
+          "height": 359.765625
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1362,15 +1530,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.9047459010490434,
-        "verticalFill": 0.21180277979651163,
+        "verticalFill": 0.2118317360101744,
         "labelBounds": {
           "left": 127,
-          "top": 2740.813232421875,
+          "top": 2400.581298828125,
           "width": 588.890625,
-          "height": 91.0751953125
+          "height": 91.087646484375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.88592529296875,
+        "verticalFill": 0.7055509251541924,
+        "labelBounds": {
+          "left": 153,
+          "top": 2903.40625,
+          "width": 1133.984375,
+          "height": 330.671875
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1410,12 +1602,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5927152317880795,
-        "verticalFill": 0.5289426493074294,
+        "verticalFill": 0.5289980212268394,
         "labelBounds": {
           "left": 134,
-          "top": 886.7174072265625,
+          "top": 886.718994140625,
           "width": 179,
-          "height": 229.7181396484375
+          "height": 229.7421875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1434,12 +1626,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6604938271604939,
-        "verticalFill": 0.7464457439131527,
+        "verticalFill": 0.7464702560240963,
         "labelBounds": {
           "left": 112,
-          "top": 5682.89013671875,
+          "top": 5682.890625,
           "width": 214,
-          "height": 371.72998046875
+          "height": 371.7421875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1506,12 +1698,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6497175141242938,
-        "verticalFill": 0.5160845588235294,
+        "verticalFill": 0.5161630325958508,
         "labelBounds": {
           "left": 104,
-          "top": 2365.572509765625,
+          "top": 2365.5751953125,
           "width": 230,
-          "height": 245.65625
+          "height": 245.693603515625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1530,12 +1722,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8813559322033898,
-        "verticalFill": 0.8146605897911996,
+        "verticalFill": 0.8149227946328476,
         "labelBounds": {
           "left": 39,
-          "top": 3374.806884765625,
+          "top": 3374.8095703125,
           "width": 312,
-          "height": 363.338623046875
+          "height": 363.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1554,12 +1746,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7005649717514124,
-        "verticalFill": 0.5680836132030667,
+        "verticalFill": 0.5681663019879232,
         "labelBounds": {
           "left": 91,
-          "top": 4491.68212890625,
+          "top": 4491.6845703125,
           "width": 248,
-          "height": 261.65576171875
+          "height": 261.69384765625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1602,12 +1794,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7062146892655368,
-        "verticalFill": 0.7192305831221847,
+        "verticalFill": 0.7194945189329955,
         "labelBounds": {
           "left": 92,
-          "top": 6437.24462890625,
+          "top": 6437.2470703125,
           "width": 250,
-          "height": 319.33837890625
+          "height": 319.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1625,12 +1817,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6453390821898725,
+        "horizontalFill": 0.6452966032728638,
         "verticalFill": 0.7747965691664834,
         "labelBounds": {
-          "left": 94.01472473144531,
+          "left": 94.01370239257812,
           "top": 7218.359375,
-          "width": 228.45003509521484,
+          "width": 228.43499755859375,
           "height": 330.28125
         },
         "labelCount": 3,
@@ -1674,15 +1866,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.5681118387017436,
+        "verticalFill": 0.5682190425910849,
         "labelBounds": {
           "left": 97,
-          "top": 948.6046752929688,
+          "top": 916.6080322265625,
           "width": 236,
-          "height": 261.66876220703125
+          "height": 261.7181396484375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8743169398907104,
+        "verticalFill": 0.9071827866258834,
+        "labelBounds": {
+          "left": 35,
+          "top": 1831.9375,
+          "width": 320,
+          "height": 1075.125
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1698,15 +1914,39 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.5838994565217391,
+        "verticalFill": 0.5840119423363359,
         "labelBounds": {
           "left": 103,
-          "top": 3388.776611328125,
+          "top": 3234.43603515625,
           "width": 232,
-          "height": 257.262451171875
+          "height": 257.31201171875
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8553459119496856,
+        "verticalFill": 0.908966110385207,
+        "labelBounds": {
+          "left": 59,
+          "top": 4186.5625,
+          "width": 272,
+          "height": 858.703125
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -1746,12 +1986,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5481735394645231,
+        "verticalFill": 0.5482467244762327,
         "labelBounds": {
           "left": 134,
-          "top": 905.200927734375,
+          "top": 905.203369140625,
           "width": 109,
-          "height": 270.6435546875
+          "height": 270.6796875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1770,12 +2010,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5669291338582677,
-        "verticalFill": 0.7863104455415184,
+        "verticalFill": 0.786382313258923,
         "labelBounds": {
           "left": 112,
-          "top": 6736.779296875,
+          "top": 6736.78125,
           "width": 144,
-          "height": 400.67431640625
+          "height": 400.7109375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2013,12 +2253,36 @@
         "verticalFill": 0.5934164620649298,
         "labelBounds": {
           "left": 97,
-          "top": 937.0150756835938,
+          "top": 905.0150756835938,
           "width": 166,
           "height": 273.32391357421875
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "artboard": "Advisory Services capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8445945945945946,
+        "verticalFill": 0.9135719108710331,
+        "labelBounds": {
+          "left": 35,
+          "top": 1859.125,
+          "width": 250,
+          "height": 1162.734375
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     },
     {
@@ -2037,12 +2301,36 @@
         "verticalFill": 0.5814311729007507,
         "labelBounds": {
           "left": 103,
-          "top": 3547.90576171875,
+          "top": 3369.53076171875,
           "width": 162,
           "height": 274.698974609375
         },
         "labelCount": 3,
         "decorationCount": 1
+      }
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "name": "minimum",
+        "width": 320,
+        "height": 720
+      },
+      "route": "/our-services/",
+      "artboard": "Tax Optimization capabilities",
+      "passed": true,
+      "findings": [],
+      "metrics": {
+        "horizontalFill": 0.8145161290322581,
+        "verticalFill": 0.9165403044823194,
+        "labelBounds": {
+          "left": 59,
+          "top": 4358.40625,
+          "width": 202,
+          "height": 944.4375
+        },
+        "labelCount": 4,
+        "decorationCount": 0
       }
     }
   ],

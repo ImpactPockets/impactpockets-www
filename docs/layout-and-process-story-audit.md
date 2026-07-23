@@ -45,6 +45,8 @@ The fund incubation and technology graphics compressed into small images on mobi
 
 Advisory Services now uses one balanced two-column grid with a full-width third capability on desktop and one readable stack on mobile. Tax Optimization is contained in a raised panel, the differentiator cards share the sitewide surface treatment, and the final call to action is a dark, bounded destination instead of an isolated block of text in a white field.
 
+A follow-up spacing review found that the Advisory quote rendered outside its primary grid, the Tax capability group was shifted 50 pixels beyond its intended right padding, and major Services sections used 72 to 112 pixel insets that created excessive blank transitions. The revised layout keeps the Advisory quote with its narrative, vertically balances the capability grid, removes the Tax offset, and gives all three Tax cards equal responsive geometry. Major section insets now use a 56 to 72 pixel desktop rhythm and a 48 to 56 pixel mobile rhythm. Advisory Services and Tax Optimization are now marked visual artboards, increasing automated composition coverage from 84 to 96 checks across Chromium and WebKit.
+
 ### Contact Us
 
 This route does not contain a process graphic. The address, public `hello@impactpockets.com` email, and form are now a coordinated contact surface. The form fields use a subtle paper background, visible focus treatment, and the shared corner scale. Turnstile placement and form behavior remain intact. The FAQ rhythm is tighter, with no horizontal overflow.
