@@ -16,7 +16,7 @@ Both graphics are now semantic ordered lists. The specialization story becomes a
 
 ### About Impact Pockets
 
-This route does not contain a process graphic. Its partner, value, and FAQ sections remain intact. The layout audit found no horizontal overflow and no unexplained gap larger than 60 pixels between top-level sections.
+This route does not contain a process graphic. The two partner profiles now sit in individual paper-toned panels with consistent portrait treatment and tighter spacing between them. The value points use the same white card surface used elsewhere, and the FAQ starts after a deliberate section break instead of an oversized white field.
 
 ### Our Process
 
@@ -37,13 +37,32 @@ The initial semantic conversion still inherited legacy flex, position, and card 
 
 Desktop stages use balanced alternating columns. Tablet and mobile stages put the narrative before the visual, then convert every visual sequence into a single connected vertical path. Section spacing is capped with responsive values so adjoining sections do not create the large empty fields visible in the rejected layouts.
 
+The persistent stage rail remains specific to this route. It is functional navigation for a long sequential story. Repeating it on short, non-sequential routes would add visual noise without adding orientation.
+
 ### Our Services
 
 The fund incubation and technology graphics compressed into small images on mobile and left large quiet areas around copy that was difficult to read. Both are now full-width semantic stories that remain readable at 320 pixels. The alternating service layout retains its original identity while the section rhythm is more even.
 
+Advisory Services now uses one balanced two-column grid with a full-width third capability on desktop and one readable stack on mobile. Tax Optimization is contained in a raised panel, the differentiator cards share the sitewide surface treatment, and the final call to action is a dark, bounded destination instead of an isolated block of text in a white field.
+
 ### Contact Us
 
-This route does not contain a process graphic. Its form, Turnstile placement, direct contact information, and FAQ layout remain unchanged. The measured mobile gap between its major sections is 50 pixels, with no horizontal overflow.
+This route does not contain a process graphic. The address, public `hello@impactpockets.com` email, and form are now a coordinated contact surface. The form fields use a subtle paper background, visible focus treatment, and the shared corner scale. Turnstile placement and form behavior remain intact. The FAQ rhythm is tighter, with no horizontal overflow.
+
+## Sitewide Polish System
+
+The rounded treatment introduced on Our Process is now a restrained sitewide system instead of a route-specific visual exception.
+
+- Content cards use 10, 16, 24, or 28 pixel radii according to scale.
+- Major pale sections use one paper surface, one border color, and one low-contrast shadow family.
+- Hero artboards on Home, About, and Services use rounded lower corners, while headers and footers remain square, full-width anchors.
+- Buttons use the smallest radius and a brief lift on hover or keyboard focus.
+- Headings use tighter tracking and balanced wrapping. Paragraphs use improved wrapping without changing the approved copy.
+- Section padding follows a responsive 58 to 96 pixel rhythm instead of unrelated fixed gaps.
+- Navigation labels do not wrap at desktop widths, and every link or button maintains a 44 pixel interaction height.
+- Footer spacing is tighter, the approved sharp logo is retained, and social icons remain removed.
+
+The system groups related content without turning every element into a pill. It keeps the original navy, orange, white, and pale gray identity while making the full site feel intentionally related to the improved process page.
 
 ## Content Preservation Matrix
 
@@ -76,8 +95,8 @@ Six large infographic references and ten supporting process icon references were
 
 - Interface quality: 5 routes, 50 browser and viewport checks, 0 errors, 0 warnings.
 - Visual composition: 84 artboard checks across Chromium and WebKit passed.
-- Measured horizontal overflow: 0 pixels on all five routes at 1440 and 390 pixel widths.
-- Largest measured gap between top-level sections: 60 pixels.
+- Measured horizontal overflow: 0 pixels on all five routes at 1440, 390, and 320 pixel widths.
+- Minimum-width composition checks confirm the home process cards use the available panel width without clipping.
 - Semantic story count: 2 on Home, 6 on Our Process, 2 on Our Services.
 
 Final release evidence is stored with the production candidate after the complete Go for Launch staging and production gate passes.

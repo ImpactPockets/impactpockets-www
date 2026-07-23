@@ -944,6 +944,502 @@ main[data-page-archetype="service-capability-catalog"] .tech-info {
   }
 }
 
+/* Sitewide visual polish system */
+main {
+  --site-radius-sm: 10px;
+  --site-radius-md: 16px;
+  --site-radius-lg: 24px;
+  --site-radius-xl: 28px;
+  --site-paper: #f6f7fb;
+  --site-line: #e1e4ef;
+  --site-navy: #36355d;
+  --site-navy-deep: #242441;
+  --site-orange: #b84622;
+  --site-orange-bright: #ff893b;
+  --site-shadow: 0 20px 50px rgba(35, 35, 63, 0.08);
+  background: #fff;
+}
+
+main h1,
+main h2,
+main h3,
+main .section-title {
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+main p,
+main li {
+  text-wrap: pretty;
+}
+
+header {
+  border-bottom: 1px solid rgba(54, 53, 93, 0.08);
+  box-shadow: 0 4px 18px rgba(35, 35, 63, 0.045);
+}
+
+.nav-menu a {
+  align-items: center;
+  display: flex;
+  min-height: 44px;
+  white-space: nowrap;
+}
+
+.btn,
+.form-fields_main button {
+  border-radius: var(--site-radius-sm);
+  min-height: 44px;
+  transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.btn:hover,
+.btn:focus-visible,
+.form-fields_main button:hover,
+.form-fields_main button:focus-visible {
+  box-shadow: 0 10px 24px rgba(181, 71, 32, 0.22);
+  transform: translateY(-1px);
+}
+
+main[data-page-archetype="operator-fund-landing"] .hero-section,
+main[data-page-archetype="operator-fund-landing"] .hero-section .hero,
+main[data-page-archetype="managing-partner-profile"] .hero.container,
+main[data-page-archetype="service-capability-catalog"] .hero.container {
+  border-radius: 0 0 var(--site-radius-xl) var(--site-radius-xl);
+  overflow: hidden;
+}
+
+main[data-page-archetype="managing-partner-profile"] .hero-text,
+main[data-page-archetype="service-capability-catalog"] .hero-text {
+  border-left: 5px solid var(--site-orange-bright);
+  border-radius: 0 18px 18px 0;
+  box-shadow: var(--site-shadow);
+}
+
+main[data-page-archetype="operator-fund-landing"] .about-section,
+main[data-page-archetype="operator-fund-landing"] .why-join-section,
+main[data-page-archetype="operator-fund-landing"] .team-section,
+main[data-page-archetype="operator-fund-landing"] .process-section {
+  padding-bottom: clamp(64px, 7vw, 92px);
+  padding-top: clamp(64px, 7vw, 92px);
+}
+
+main[data-page-archetype="operator-fund-landing"] .why-join-section {
+  background: var(--site-paper);
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-xl);
+  padding-left: clamp(24px, 4vw, 52px);
+  padding-right: clamp(24px, 4vw, 52px);
+}
+
+main[data-page-archetype="operator-fund-landing"] .benefits-list {
+  gap: 16px;
+}
+
+main[data-page-archetype="operator-fund-landing"] .benefit-item {
+  background: #fff;
+  border: 1px solid rgba(54, 53, 93, 0.08);
+  border-radius: var(--site-radius-md);
+  min-height: 92px;
+  padding: 14px 16px;
+}
+
+main[data-page-archetype="operator-fund-landing"] .benefit-icon {
+  flex-basis: 52px;
+  height: 52px;
+  width: 52px;
+}
+
+main[data-page-archetype="operator-fund-landing"] .info-box {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-lg);
+  box-shadow: var(--site-shadow);
+}
+
+main[data-page-archetype="operator-fund-landing"] .highlight-box {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-md);
+  box-shadow: 0 14px 32px rgba(35, 35, 63, 0.09);
+}
+
+main[data-page-archetype="operator-fund-landing"] .image-wrapper {
+  border-radius: var(--site-radius-lg);
+}
+
+main[data-page-archetype="operator-fund-landing"] .member-info1,
+main[data-page-archetype="operator-fund-landing"] .member-info2 {
+  border-radius: 0 var(--site-radius-md) 0 0;
+}
+
+main[data-page-archetype="operator-fund-landing"] .process-section {
+  background: var(--site-paper);
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-xl);
+  margin-bottom: clamp(72px, 8vw, 104px);
+  padding-left: clamp(20px, 4vw, 48px);
+  padding-right: clamp(20px, 4vw, 48px);
+}
+
+main[data-page-archetype="operator-fund-landing"] .process-diagram {
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+main[data-page-archetype="managing-partner-profile"] .about {
+  padding-bottom: 0;
+  padding-top: clamp(64px, 7vw, 96px) !important;
+}
+
+main[data-page-archetype="managing-partner-profile"] .about > .container {
+  display: grid;
+  gap: 32px;
+}
+
+main[data-page-archetype="managing-partner-profile"] .about .team-members {
+  align-items: center;
+  background: var(--site-paper);
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-lg);
+  gap: clamp(32px, 5vw, 72px);
+  margin: 0;
+  max-width: none;
+  padding: clamp(28px, 5vw, 56px);
+}
+
+main[data-page-archetype="managing-partner-profile"] .about .team-member img {
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(35, 35, 63, 0.1);
+  margin: 0;
+}
+
+main[data-page-archetype="managing-partner-profile"] .value {
+  background: var(--site-paper);
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-xl);
+  margin-top: clamp(72px, 8vw, 104px);
+  padding: clamp(64px, 7vw, 88px) clamp(24px, 4vw, 48px) !important;
+}
+
+main[data-page-archetype="managing-partner-profile"] .value-points {
+  gap: 18px;
+}
+
+main[data-page-archetype="managing-partner-profile"] .value-point {
+  background: #fff;
+  border-color: var(--site-line);
+  border-radius: var(--site-radius-md);
+  box-shadow: 0 12px 30px rgba(35, 35, 63, 0.05);
+  min-height: 150px;
+  padding: 24px 22px;
+}
+
+main[data-page-archetype="managing-partner-profile"] .faq {
+  padding-bottom: clamp(80px, 8vw, 108px);
+  padding-top: clamp(72px, 7vw, 96px);
+}
+
+main[data-page-archetype="service-capability-catalog"] .advisory-services {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-xl);
+  margin: 24px auto 0;
+  max-width: 1280px;
+  padding: clamp(64px, 7vw, 88px) 0;
+  width: calc(100% - 48px);
+}
+
+main[data-page-archetype="service-capability-catalog"] .advisory-content {
+  align-items: start;
+  display: grid;
+  gap: clamp(32px, 5vw, 64px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+main[data-page-archetype="service-capability-catalog"] .advisory-services-list {
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+main[data-page-archetype="service-capability-catalog"] .service-card,
+main[data-page-archetype="service-capability-catalog"] blockquote {
+  background: #fff;
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-md);
+  box-shadow: 0 12px 30px rgba(35, 35, 63, 0.05);
+}
+
+main[data-page-archetype="service-capability-catalog"] .service-card {
+  align-items: flex-start;
+  gap: 16px;
+  min-height: 118px;
+  padding: 20px;
+}
+
+main[data-page-archetype="service-capability-catalog"] .service-card-full {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+main[data-page-archetype="service-capability-catalog"] .service-card h4 {
+  width: auto;
+}
+
+main[data-page-archetype="service-capability-catalog"] blockquote {
+  margin: 28px 0 0;
+  position: static;
+  top: auto;
+}
+
+main[data-page-archetype="service-capability-catalog"] .tax-optimization {
+  padding: clamp(64px, 7vw, 96px) 24px;
+}
+
+main[data-page-archetype="service-capability-catalog"] .tax-optimization-content {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-xl);
+  box-shadow: var(--site-shadow);
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: clamp(54px, 7vw, 82px) clamp(32px, 6vw, 72px);
+}
+
+main[data-page-archetype="service-capability-catalog"] .tax-service-card-1,
+main[data-page-archetype="service-capability-catalog"] .tax-service-card-2 {
+  border-radius: var(--site-radius-md);
+}
+
+main[data-page-archetype="service-capability-catalog"] .what-sets-us-apart {
+  padding-bottom: clamp(72px, 7vw, 96px);
+  padding-top: clamp(72px, 7vw, 96px);
+}
+
+main[data-page-archetype="service-capability-catalog"] .feature {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-md);
+  box-shadow: 0 12px 30px rgba(35, 35, 63, 0.05);
+  min-height: 150px;
+  padding: 24px 20px;
+}
+
+main[data-page-archetype="service-capability-catalog"] .cta {
+  background: linear-gradient(145deg, var(--site-navy), var(--site-navy-deep));
+  border-radius: var(--site-radius-xl);
+  box-shadow: 0 24px 60px rgba(35, 35, 63, 0.18);
+  margin-bottom: clamp(80px, 8vw, 112px);
+  padding: clamp(54px, 7vw, 80px) clamp(24px, 5vw, 64px);
+  width: min(90%, 980px);
+}
+
+main[data-page-archetype="service-capability-catalog"] .cta h2,
+main[data-page-archetype="service-capability-catalog"] .cta p {
+  color: #fff;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .contact-section {
+  padding: clamp(42px, 6vw, 72px) 0 0;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .contact_form_main {
+  align-items: stretch;
+  gap: 28px;
+  max-width: 1280px;
+  padding: 0;
+  width: calc(100% - 48px);
+}
+
+main[data-page-archetype="qualified-contact-intake"] .contact-info {
+  flex-basis: 300px;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .cnt_loc,
+main[data-page-archetype="qualified-contact-intake"] .cnt_email {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius-md);
+  min-height: 158px;
+  padding: 32px;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main {
+  background: #fff;
+  border-color: var(--site-line);
+  border-radius: 20px;
+  box-shadow: var(--site-shadow);
+  padding: clamp(26px, 4vw, 38px);
+}
+
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main input,
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main textarea {
+  background: var(--site-paper);
+  border-color: var(--site-line);
+  border-radius: var(--site-radius-sm);
+  transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main input:focus,
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main textarea:focus {
+  background: #fff;
+  border-color: var(--site-navy);
+  box-shadow: 0 0 0 3px rgba(54, 53, 93, 0.1);
+  outline: none;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .faq {
+  padding-bottom: clamp(80px, 8vw, 108px);
+  padding-top: clamp(72px, 7vw, 96px);
+}
+
+.faq-item {
+  background: #fff;
+  border-color: var(--site-line);
+  border-radius: var(--site-radius-md);
+  margin-top: 16px;
+  padding: 20px 24px;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.faq-item.open,
+.faq-item:focus-within {
+  border-color: rgba(54, 53, 93, 0.24);
+  box-shadow: 0 14px 32px rgba(35, 35, 63, 0.06);
+}
+
+.footer {
+  padding-bottom: clamp(64px, 7vw, 82px);
+  padding-top: clamp(64px, 7vw, 82px);
+}
+
+.footer-grid {
+  gap: clamp(28px, 4vw, 52px);
+}
+
+@media (max-width: 768px) {
+  main[data-page-archetype="operator-fund-landing"] .hero-content {
+    margin-left: 32px;
+    max-width: 76%;
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .hero-section,
+  main[data-page-archetype="operator-fund-landing"] .hero-section .hero,
+  main[data-page-archetype="managing-partner-profile"] .hero.container,
+  main[data-page-archetype="service-capability-catalog"] .hero.container {
+    border-radius: 0 0 22px 22px;
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .about-section,
+  main[data-page-archetype="operator-fund-landing"] .why-join-section,
+  main[data-page-archetype="operator-fund-landing"] .team-section,
+  main[data-page-archetype="operator-fund-landing"] .process-section {
+    padding-bottom: 58px;
+    padding-top: 58px;
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .why-join-section,
+  main[data-page-archetype="operator-fund-landing"] .process-section {
+    border-radius: 22px;
+    width: calc(100% - 24px);
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .process-section > .container,
+  main[data-page-archetype="operator-fund-landing"] .process-diagram {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .benefit-item {
+    min-height: 82px;
+  }
+
+  main[data-page-archetype="operator-fund-landing"] .highlight-box {
+    position: static;
+    transform: none;
+  }
+
+  main[data-page-archetype="managing-partner-profile"] .about > .container {
+    gap: 20px;
+  }
+
+  main[data-page-archetype="managing-partner-profile"] .about .team-members {
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  main[data-page-archetype="managing-partner-profile"] .value {
+    border-radius: 22px;
+    margin-top: 58px;
+    padding: 56px 18px !important;
+    width: calc(100% - 24px);
+  }
+
+  main[data-page-archetype="managing-partner-profile"] .value-point {
+    min-height: 0;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .advisory-services,
+  main[data-page-archetype="service-capability-catalog"] .tax-optimization-content,
+  main[data-page-archetype="service-capability-catalog"] .cta {
+    border-radius: 22px;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .advisory-services {
+    padding: 54px 0;
+    width: calc(100% - 24px);
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .advisory-content {
+    gap: 28px;
+    grid-template-columns: 1fr;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .advisory-services-list {
+    grid-template-columns: 1fr;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .service-card-full {
+    grid-column: auto;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .tax-optimization {
+    padding: 56px 12px;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .tax-optimization-content {
+    padding: 42px 22px;
+  }
+
+  main[data-page-archetype="service-capability-catalog"] .cta {
+    margin-bottom: 72px;
+    padding: 50px 22px;
+    width: calc(100% - 24px);
+  }
+
+  main[data-page-archetype="qualified-contact-intake"] .contact_form_main {
+    gap: 18px;
+    width: calc(100% - 24px);
+  }
+
+  main[data-page-archetype="qualified-contact-intake"] .cnt_loc,
+  main[data-page-archetype="qualified-contact-intake"] .cnt_email,
+  main[data-page-archetype="qualified-contact-intake"] .form-fields_main {
+    border-radius: var(--site-radius-md);
+  }
+
+  .faq-item {
+    padding: 18px 20px;
+  }
+
+  .footer {
+    padding: 56px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .form-fields_main button,
+  .faq-item,
+  main[data-page-archetype="qualified-contact-intake"] .form-fields_main input,
+  main[data-page-archetype="qualified-contact-intake"] .form-fields_main textarea {
+    transition: none !important;
+  }
+}
+
 /* Our Process narrative system */
 html:has(main[data-page-archetype="fund-formation-process"]),
 body:has(main[data-page-archetype="fund-formation-process"]) {
