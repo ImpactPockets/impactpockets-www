@@ -58,13 +58,16 @@ test("mobile navigation supports touch, Escape, and scroll restoration", async (
   test.skip(!isMobile, "Mobile navigation test");
   await page.goto("/our-process/");
   const button = page.locator(".hamburger");
+  await expect(button).toHaveAccessibleName("Open navigation menu");
   await button.tap();
   await expect(button).toHaveClass(/active/);
   await expect(button).toHaveAttribute("aria-expanded", "true");
+  await expect(button).toHaveAccessibleName("Close navigation menu");
   await expect(page.locator(".nav-menu")).toHaveClass(/active/);
   await page.keyboard.press("Escape");
   await expect(button).not.toHaveClass(/active/);
   await expect(button).toHaveAttribute("aria-expanded", "false");
+  await expect(button).toHaveAccessibleName("Open navigation menu");
   await expect(page.locator(".nav-menu")).not.toHaveClass(/active/);
   await expect(button).toBeFocused();
   await button.tap();
