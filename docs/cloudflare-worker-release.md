@@ -19,9 +19,9 @@ No email credential or Turnstile secret is shipped to browser code.
 - Staging Worker: `impactpockets-www-staging.biglane.workers.dev`
 - Production Worker: `impactpockets-www`
 - Production routes: `www.impactpockets.com/*` and `impactpockets.com/*`
-- Released candidate: `26c8e5c8dc2db4862e5dca96eb57820ce96df4bf`
-- Staging version: `070d2047-293a-4408-ab9c-fa3b227a731b`
-- Production version: `802aa04e-036c-4f06-987f-2a3733827c3e`
+- Released candidate: `9bb3adef6332f13e08e4e9fbc5af3376ddf52fe2`
+- Staging version: `7042623d-7d65-40e8-a2ea-76c5e33a52c0`
+- Production version: `1d2a034b-4c98-4f92-a330-a8f3b4b772e2`
 
 ## Release verification
 
@@ -46,6 +46,8 @@ The current sitewide visual-polish release is recorded in `docs/release-evidence
 The current typography-polish release is recorded in `docs/release-evidence/2026-07-22-typography-polish/README.md`.
 
 The current Services spacing release is recorded in `docs/release-evidence/2026-07-23-services-spacing/README.md`.
+
+The current mark-favicon release is recorded in `docs/release-evidence/2026-07-23-favicon-mark/README.md`.
 
 ## Secret handling
 
