@@ -58,8 +58,8 @@ source = source
   .replaceAll("/images/our-services/ourservices-hero-background.png", "/images/optimized/services-hero.webp")
   .replaceAll("/images/criss1.jpg", "/images/optimized/chris-team.webp")
   .replaceAll("/images/team1.jpg", "/images/optimized/lane-team.webp")
-  .replaceAll('href="./images/favicon.ico"', 'href="/favicon.png"')
-  .replaceAll('href="/images/favicon.ico"', 'href="/favicon.png"')
+  .replaceAll('href="./images/favicon.ico"', 'href="/favicon-mark.png"')
+  .replaceAll('href="/images/favicon.ico"', 'href="/favicon-mark.png"')
   .replace(/\s*<link rel="preload" href="css\/main\.css" as="style">/i, "")
   .replace(/\s*<link rel="stylesheet" href="css\/main\.css">/i, "")
   .replace(/\s*<link rel="stylesheet" href="\/css\/about-impact-pocketstyles\.css">/i, "")
@@ -240,7 +240,7 @@ const usesFontAwesome = /\bfa(?:s|r|b)\s+fa-[a-z0-9-]+/i.test(structuredBody);
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="release-candidate" content={releaseCandidate} />
-    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="icon" href="/favicon-mark.png" type="image/png" sizes="120x120" />
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Impact Pockets" />
