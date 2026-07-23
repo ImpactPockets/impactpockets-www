@@ -19,9 +19,9 @@ No email credential or Turnstile secret is shipped to browser code.
 - Staging Worker: `impactpockets-www-staging.biglane.workers.dev`
 - Production Worker: `impactpockets-www`
 - Production routes: `www.impactpockets.com/*` and `impactpockets.com/*`
-- Released candidate: `4e2b77dee4d2cad9117a54dad7aeeac5a86de00c`
-- Staging version: `8a242267-d36f-4c57-9118-4d09d3e4e719`
-- Production version: `64d9cbaf-5ccb-45a9-a7da-a4fe3cc0d160`
+- Released candidate: `5ef59aa92fec4557fba85bc9af979a1525ed3e5a`
+- Staging version: `2fb989ee-3e53-4c8a-af43-988fbb740616`
+- Production version: `20affc3d-aeb5-4d95-ae16-a655f3d31bf3`
 
 ## Release verification
 
@@ -42,6 +42,8 @@ The advisory Cloudflare baseline on 2026-07-22 returned both RUM and edge analyt
 The initial production evidence is in `docs/release-evidence/2026-07-22-production/README.md`. The current Our Process redesign release is recorded in `docs/release-evidence/2026-07-22-process-page-redesign/README.md`.
 
 The current sitewide visual-polish release is recorded in `docs/release-evidence/2026-07-22-sitewide-visual-polish/README.md`.
+
+The current typography-polish release is recorded in `docs/release-evidence/2026-07-22-typography-polish/README.md`.
 
 ## Secret handling
 

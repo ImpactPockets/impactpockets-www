@@ -29,4 +29,4 @@ When Go for Launch changes, fetch its upstream first, review changes that overla
 
 ## Current validation
 
-On 2026-07-22, `npm run verify` passed the complete local chain for candidate `4e2b77dee4d2cad9117a54dad7aeeac5a86de00c`: 15 unit tests, 50 interface checks, 84 Chromium and WebKit composition checks, 30 browser tests, and no content, SEO, image, brand, or site-health findings. The candidate then passed exact-candidate staging, mobile and desktop PageSpeed at 100 in all four categories, WebKit, native iOS Safari, canonical-host verification, production cache purge, and live production smoke tests.
+On 2026-07-22, `npm run verify` passed the complete local chain for candidate `5ef59aa92fec4557fba85bc9af979a1525ed3e5a`: 15 unit tests, 50 interface checks, 84 Chromium and WebKit composition checks, 30 browser tests, and no content, SEO, image, brand, or site-health findings. The candidate then passed exact-candidate staging, mobile and desktop PageSpeed at 100 in all four categories, WebKit, native iOS Safari, canonical-host verification, production cache purge, and live production smoke tests.
