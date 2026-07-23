@@ -2659,6 +2659,10 @@ main .section-number {
   line-height: 1.45;
 }
 
+main[data-page-archetype="service-capability-catalog"] .section-number {
+  color: #b94700;
+}
+
 main .process-story__label {
   font-size: clamp(1rem, 1.15vw, 1.075rem);
   font-weight: 600;
