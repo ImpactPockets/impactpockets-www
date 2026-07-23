@@ -492,6 +492,13 @@ body {
   text-align: center;
 }
 
+@media (min-width: 769px) {
+  .process-story--technology .process-story__label {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
 .process-story--technology .process-story__number {
   height: 58px;
   width: 58px;
@@ -2421,5 +2428,302 @@ main[data-page-archetype="fund-formation-process"] .ready_build .btn {
   main[data-page-archetype="fund-formation-process"] .process-stage .stage1::after {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Typography and reading refinement */
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #454955;
+  font-size: 1rem;
+  font-kerning: normal;
+  font-optical-sizing: auto;
+  line-height: 1.65;
+}
+
+main {
+  --type-body: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --type-lede: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --type-small: 0.9375rem;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main .section-title,
+main .section-title1,
+main .section-small-title,
+main .section-subtitle {
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+
+main p,
+main li,
+main blockquote,
+main label {
+  line-height: 1.65;
+}
+
+main p,
+main li {
+  text-wrap: pretty;
+}
+
+main .Typography,
+main .about-text,
+main .discover-text,
+main .faq-answer p {
+  color: #454955;
+  font-size: var(--type-body);
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+main .hero-text .about-text,
+main .hero-text > p,
+main .conversation-section .about-text {
+  font-size: var(--type-lede);
+  line-height: 1.65;
+  max-width: 54ch;
+}
+
+main[data-page-archetype="managing-partner-profile"] .hero-text h1,
+main[data-page-archetype="service-capability-catalog"] .hero-text h1 {
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+
+main[data-page-archetype="fund-formation-process"] .hero-text h1 {
+  font-size: clamp(2.75rem, 5vw, 4.25rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+
+main[data-page-archetype="operator-fund-landing"] .hero-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.18;
+}
+
+main .section-title,
+main .section-title1 {
+  font-size: clamp(2rem, 3.6vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+main[data-page-archetype="fund-formation-process"] .process-stage .section-title,
+main[data-page-archetype="fund-formation-process"] .process-partnership .section-title,
+main[data-page-archetype="fund-formation-process"] .ohio-main .section-title,
+main[data-page-archetype="fund-formation-process"] .money_head1 {
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+
+main .section-subtitle,
+main .section-small-title {
+  font-size: clamp(1.125rem, 1.3vw, 1.4rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+main .about-content .Typography,
+main .team-member-content .Typography,
+main .fund-info .Typography,
+main .tech-info .Typography,
+main .advisory-text .Typography,
+main .tax-text .Typography {
+  max-width: 62ch;
+}
+
+main .discover-text,
+main .process-section > .container > .about-text,
+main .role_upper .about-text,
+main .faq > .container-faq > p,
+main .cta p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 62ch;
+}
+
+main[data-page-archetype="operator-fund-landing"] .info-list li,
+main[data-page-archetype="operator-fund-landing"] .highlight-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+main[data-page-archetype="operator-fund-landing"] .benefit-item .about-text {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+main .process-story__eyebrow,
+main .stage1,
+main .section-number {
+  font-size: 0.875rem;
+  letter-spacing: 0.07em;
+  line-height: 1.45;
+}
+
+main .process-story__label {
+  font-size: clamp(1rem, 1.15vw, 1.075rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+main .process-story__number {
+  font-size: 0.8125rem;
+}
+
+main .process-story__outcome {
+  font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
+  line-height: 1.45;
+}
+
+main[data-page-archetype="fund-formation-process"] .process-journey a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+main[data-page-archetype="managing-partner-profile"] .value-point p,
+main[data-page-archetype="service-capability-catalog"] .feature p {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+main[data-page-archetype="service-capability-catalog"] .service-card h4,
+main[data-page-archetype="service-capability-catalog"] .tax-services h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+main[data-page-archetype="service-capability-catalog"] blockquote {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main label,
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main input,
+main[data-page-archetype="qualified-contact-intake"] .form-fields_main textarea {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.faq-question h3 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.008em;
+  line-height: 1.4;
+}
+
+.footer {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.footer-tagline,
+.footer-contact,
+.footer-nav a,
+.footer-nav-pages a {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.footer-tagline {
+  max-width: 34ch;
+}
+
+.footer-heading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+}
+
+@media (max-width: 768px) {
+  main {
+    --type-body: 1rem;
+    --type-lede: 1.0625rem;
+  }
+
+  main[data-page-archetype="managing-partner-profile"] .hero-text h1,
+  main[data-page-archetype="service-capability-catalog"] .hero-text h1 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+  }
+
+  main[data-page-archetype="fund-formation-process"] .hero-text h1 {
+    font-size: 2.75rem;
+    line-height: 1.07;
+  }
+
+  main .section-title,
+  main .section-title1,
+  main[data-page-archetype="fund-formation-process"] .process-stage .section-title,
+  main[data-page-archetype="fund-formation-process"] .process-partnership .section-title,
+  main[data-page-archetype="fund-formation-process"] .ohio-main .section-title,
+  main[data-page-archetype="fund-formation-process"] .money_head1 {
+    font-size: 2rem;
+    line-height: 1.12;
+  }
+
+  main .section-subtitle,
+  main .section-small-title {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+
+  main .process-story__label {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  main[data-page-archetype="fund-formation-process"] .process-journey a {
+    font-size: 0.72rem;
+    line-height: 1.2;
+  }
+
+  main .discover-text,
+  main .process-section > .container > .about-text,
+  main .role_upper .about-text,
+  main .faq > .container-faq > p,
+  main .cta p {
+    max-width: 34ch;
+  }
+}
+
+@media (max-width: 340px) {
+  main[data-page-archetype="operator-fund-landing"] .hero-title {
+    font-size: 1.875rem;
+  }
+
+  main[data-page-archetype="fund-formation-process"] .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  main .section-title,
+  main .section-title1,
+  main[data-page-archetype="fund-formation-process"] .process-stage .section-title,
+  main[data-page-archetype="fund-formation-process"] .process-partnership .section-title,
+  main[data-page-archetype="fund-formation-process"] .ohio-main .section-title,
+  main[data-page-archetype="fund-formation-process"] .money_head1 {
+    font-size: 1.875rem;
+  }
+
+  main[data-page-archetype="fund-formation-process"] .process-journey a {
+    font-size: 0.69rem;
   }
 }

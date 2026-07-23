@@ -64,6 +64,22 @@ The rounded treatment introduced on Our Process is now a restrained sitewide sys
 
 The system groups related content without turning every element into a pill. It keeps the original navy, orange, white, and pale gray identity while making the full site feel intentionally related to the improved process page.
 
+## Typography And Reading Refinement
+
+The second polish pass treated legibility as a sitewide system rather than a set of isolated font-size fixes. The audit found that standard copy rendered at 14 pixels on desktop and mobile, several process labels fell below 15 pixels, long home-page paragraphs extended beyond 900 pixels, and the process page paired very large stage titles with comparatively small explanatory text.
+
+The revised system now provides:
+
+- A 16 pixel minimum for meaningful body copy, field text, process labels, and card descriptions.
+- A fluid 16 to 17 pixel body scale with a 1.65 to 1.7 line height for longer reading.
+- A restrained 17 to 19 pixel lead scale for hero and introductory copy.
+- Responsive heading scales with 600 weight, balanced wrapping, and less abrupt jumps between section titles and supporting text.
+- A maximum reading measure of approximately 62 characters on desktop and 34 characters on mobile for long narrative copy.
+- Stronger labels in the Technology and AI sequence so the content fills its artboard and remains easy to scan.
+- Native 16 pixel form controls on mobile to avoid browser zoom and preserve comfortable input reading.
+
+Small uppercase eyebrows remain at 14 pixels because they function as navigation and section labels rather than reading copy. All other meaningful copy is at least 16 pixels. The revision preserves the approved Jost typeface, page content, hierarchy, and responsive layouts while reducing strain on desktop and mobile.
+
 ## Content Preservation Matrix
 
 | Original graphic or icon group | Preserved story content |
