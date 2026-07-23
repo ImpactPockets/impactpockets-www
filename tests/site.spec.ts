@@ -60,7 +60,14 @@ test("mobile navigation supports touch, Escape, and scroll restoration", async (
   const button = page.locator(".hamburger");
   await button.tap();
   await expect(button).toHaveClass(/active/);
+  await expect(button).toHaveAttribute("aria-expanded", "true");
   await expect(page.locator(".nav-menu")).toHaveClass(/active/);
+  await page.keyboard.press("Escape");
+  await expect(button).not.toHaveClass(/active/);
+  await expect(button).toHaveAttribute("aria-expanded", "false");
+  await expect(page.locator(".nav-menu")).not.toHaveClass(/active/);
+  await expect(button).toBeFocused();
+  await button.tap();
   await Promise.all([
     page.waitForURL((url) => url.pathname === "/contact-us/"),
     page.locator("header nav").getByRole("link", { name: "CONTACT US", exact: true }).tap()

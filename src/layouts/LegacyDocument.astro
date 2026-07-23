@@ -292,6 +292,42 @@ const usesFontAwesome = /\bfa(?:s|r|b)\s+fa-[a-z0-9-]+/i.test(structuredBody);
     </script>}
     {contactForm && <script is:inline src="/js/contact-form.js" defer></script>}
     {hasProcessStories && <script is:inline src="/js/process-stories.js" defer></script>}
+    <script is:inline>
+      const mobileMenuButton = document.querySelector(".hamburger");
+      const mobileMenu = document.querySelector(".nav-menu");
+
+      if (mobileMenuButton && mobileMenu) {
+        const syncMobileMenuState = () => {
+          mobileMenuButton.setAttribute("aria-expanded", String(mobileMenu.classList.contains("active")));
+        };
+        const closeMobileMenu = () => {
+          mobileMenuButton.classList.remove("active");
+          mobileMenu.classList.remove("active");
+          syncMobileMenuState();
+        };
+
+        mobileMenuButton.setAttribute("role", "button");
+        mobileMenuButton.setAttribute("tabindex", "0");
+        mobileMenuButton.setAttribute("aria-controls", "primary-navigation");
+        mobileMenu.id ||= "primary-navigation";
+        syncMobileMenuState();
+
+        mobileMenuButton.addEventListener("click", () => requestAnimationFrame(syncMobileMenuState));
+        mobileMenuButton.addEventListener("keydown", (event) => {
+          if (!["Enter", " "].includes(event.key)) return;
+          event.preventDefault();
+          mobileMenuButton.click();
+        });
+        mobileMenu.addEventListener("click", (event) => {
+          if (event.target instanceof Element && event.target.closest("a")) closeMobileMenu();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key !== "Escape" || !mobileMenu.classList.contains("active")) return;
+          closeMobileMenu();
+          mobileMenuButton.focus();
+        });
+      }
+    </script>
     {usesFontAwesome && <script is:inline>
       const footer = document.querySelector("footer");
       const loadIconStyles = () => {
