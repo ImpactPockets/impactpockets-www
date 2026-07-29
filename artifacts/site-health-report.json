@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:23:52.476Z",
+  "generatedAt": "2026-07-28T12:13:45.199Z",
   "site": "https://www.impactpockets.com",
   "thresholds": {
     "maximumImageBytes": 100000,
@@ -45,6 +45,11 @@
         "maximumBytes": 275000
       }
     ],
+    "runtimeImagePrefixes": [],
+    "runtimeImageBaseUrl": "https://www.impactpockets.com",
+    "runtimeImageConcurrency": 16,
+    "runtimeImageTimeoutMs": 15000,
+    "runtimeImageAttempts": 3,
     "maximumTitleLength": 60,
     "minimumDescriptionLength": 110,
     "maximumDescriptionLength": 155
@@ -54,6 +59,8 @@
     "indexablePages": 5,
     "redirectRoutes": 0,
     "referencedLocalImages": 43,
+    "referencedRuntimeImages": 0,
+    "verifiedRuntimeImages": 0,
     "errors": 0
   },
   "errors": []
