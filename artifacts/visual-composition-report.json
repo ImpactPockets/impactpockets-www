@@ -66,12 +66,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8408734309623431,
-        "verticalFill": 0.19612930667800935,
+        "verticalFill": 0.1980560133985538,
         "labelBounds": {
           "left": 132,
-          "top": 1063.625,
+          "top": 1062.7135009765625,
           "width": 502.421875,
-          "height": 72.046875
+          "height": 72.754638671875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -90,12 +90,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8707692307692307,
-        "verticalFill": 0.331336273006135,
+        "verticalFill": 0.3286072900690184,
         "labelBounds": {
           "left": 295.5,
-          "top": 3521.03125,
+          "top": 3521.009521484375,
           "width": 849,
-          "height": 108.015625
+          "height": 107.1259765625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -162,12 +162,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8353104655052623,
-        "verticalFill": 0.14951495735012754,
+        "verticalFill": 0.14939438177614797,
         "labelBounds": {
           "left": 762.796875,
-          "top": 1845.482666015625,
+          "top": 1845.5687255859375,
           "width": 507.203125,
-          "height": 73.2623291015625
+          "height": 73.2032470703125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -186,12 +186,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8429941814750747,
-        "verticalFill": 0.7386972855548469,
+        "verticalFill": 0.7391945352359693,
         "labelBounds": {
           "left": 159,
-          "top": 2393.4912109375,
+          "top": 2393.497802734375,
           "width": 418.796875,
-          "height": 361.961669921875
+          "height": 362.205322265625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -210,12 +210,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.694039943387325,
-        "verticalFill": 0.5356011838329081,
+        "verticalFill": 0.5357631138392858,
         "labelBounds": {
           "left": 219,
-          "top": 3147.9599609375,
+          "top": 3147.966552734375,
           "width": 344.796875,
-          "height": 262.444580078125
+          "height": 262.52392578125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -258,12 +258,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6535630590487507,
-        "verticalFill": 0.6489018654336735,
+        "verticalFill": 0.649398118622449,
         "labelBounds": {
           "left": 252,
-          "top": 4478.0849609375,
+          "top": 4478.091796875,
           "width": 309.390625,
-          "height": 317.9619140625
+          "height": 318.205078125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -281,12 +281,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.9004787921905517,
+        "horizontalFill": 0.9004539608955383,
         "verticalFill": 0.14461805555555557,
         "labelBounds": {
-          "left": 136.02850341796875,
+          "left": 136.02586364746094,
           "top": 5537.21875,
-          "width": 1152.6128540039062,
+          "width": 1152.581069946289,
           "height": 52.0625
         },
         "labelCount": 3,
@@ -330,12 +330,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.766468215863261,
-        "verticalFill": 0.500967529296875,
+        "verticalFill": 0.5010894775390625,
         "labelBounds": {
           "left": 195,
-          "top": 992.8538818359375,
+          "top": 992.8589477539062,
           "width": 498.875,
-          "height": 250.4837646484375
+          "height": 250.54473876953125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -378,12 +378,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.9047436143652775,
-        "verticalFill": 0.21206111464389535,
+        "verticalFill": 0.21195550962936047,
         "labelBounds": {
           "left": 127,
-          "top": 2400.103271484375,
+          "top": 2400.16943359375,
           "width": 588.875,
-          "height": 91.186279296875
+          "height": 91.140869140625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -450,12 +450,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5927152317880795,
-        "verticalFill": 0.5280446123403489,
+        "verticalFill": 0.5281918960244648,
         "labelBounds": {
           "left": 134,
-          "top": 886.6884765625,
+          "top": 886.693603515625,
           "width": 179,
-          "height": 229.328125
+          "height": 229.39208984375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -474,12 +474,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6604938271604939,
-        "verticalFill": 0.7456388052208835,
+        "verticalFill": 0.7457682291666666,
         "labelBounds": {
           "left": 112,
-          "top": 5606.8916015625,
+          "top": 5606.896484375,
           "width": 214,
-          "height": 371.328125
+          "height": 371.392578125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -546,12 +546,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6497175141242938,
-        "verticalFill": 0.5152116022190126,
+        "verticalFill": 0.5152613535648635,
         "labelBounds": {
           "left": 104,
-          "top": 2365.900146484375,
+          "top": 2365.902099609375,
           "width": 230,
-          "height": 245.24072265625
+          "height": 245.264404296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -570,12 +570,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8813559322033898,
-        "verticalFill": 0.81178345273963,
+        "verticalFill": 0.8119465780899664,
         "labelBounds": {
           "left": 39,
-          "top": 3375.306396484375,
+          "top": 3375.308349609375,
           "width": 312,
-          "height": 362.055419921875
+          "height": 362.128173828125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -594,12 +594,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7005649717514124,
-        "verticalFill": 0.5671825174706561,
+        "verticalFill": 0.567234462989348,
         "labelBounds": {
           "left": 91,
-          "top": 4492.32177734375,
+          "top": 4492.32373046875,
           "width": 248,
-          "height": 261.24072265625
+          "height": 261.2646484375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -642,12 +642,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7062146892655368,
-        "verticalFill": 0.7163415857263513,
+        "verticalFill": 0.7165054458755631,
         "labelBounds": {
           "left": 92,
-          "top": 6438.10302734375,
+          "top": 6438.10498046875,
           "width": 250,
-          "height": 318.0556640625
+          "height": 318.12841796875
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -665,12 +665,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6458083977133541,
+        "horizontalFill": 0.645781565520723,
         "verticalFill": 0.7747965691664834,
         "labelBounds": {
-          "left": 94.02747344970703,
+          "left": 94.02668762207031,
           "top": 7219.25,
-          "width": 228.61617279052734,
+          "width": 228.60667419433594,
           "height": 330.28125
         },
         "labelCount": 3,
@@ -714,12 +714,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.570527172806839,
+        "verticalFill": 0.5674296562266775,
         "labelBounds": {
           "left": 97,
-          "top": 916.640625,
+          "top": 916.5812377929688,
           "width": 236,
-          "height": 262.78125
+          "height": 261.35455322265625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -762,12 +762,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.5864245691183771,
+        "verticalFill": 0.5831863075395418,
         "labelBounds": {
           "left": 103,
-          "top": 3234.46875,
+          "top": 3234.409423828125,
           "width": 232,
-          "height": 258.375
+          "height": 256.9482421875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -834,12 +834,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5476938809418318,
+        "verticalFill": 0.5476344181198177,
         "labelBounds": {
           "left": 134,
-          "top": 905.1839599609375,
+          "top": 905.1817016601562,
           "width": 109,
-          "height": 270.40673828125
+          "height": 270.37738037109375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -858,12 +858,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5669291338582677,
-        "verticalFill": 0.7692027877133534,
+        "verticalFill": 0.7691439586470884,
         "labelBounds": {
           "left": 112,
-          "top": 6645.82470703125,
+          "top": 6645.822265625,
           "width": 144,
-          "height": 383.06298828125
+          "height": 383.03369140625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -930,12 +930,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5633802816901409,
-        "verticalFill": 0.5290048911655815,
+        "verticalFill": 0.5288323439295289,
         "labelBounds": {
           "left": 104,
-          "top": 2430.976806640625,
+          "top": 2430.97021484375,
           "width": 160,
-          "height": 258.98095703125
+          "height": 258.896484375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -954,12 +954,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.852112676056338,
-        "verticalFill": 0.8351974775970793,
+        "verticalFill": 0.8346446647859277,
         "labelBounds": {
           "left": 39,
-          "top": 3477.851806640625,
+          "top": 3477.84521484375,
           "width": 242,
-          "height": 393.1953125
+          "height": 392.93505859375
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -978,12 +978,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6267605633802817,
-        "verticalFill": 0.5795781324063833,
+        "verticalFill": 0.5794082793490283,
         "labelBounds": {
           "left": 91,
-          "top": 4727.30517578125,
+          "top": 4727.29833984375,
           "width": 178,
-          "height": 286.57421875
+          "height": 286.490234375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1026,12 +1026,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6338028169014085,
-        "verticalFill": 0.7436820365287162,
+        "verticalFill": 0.7430969788147522,
         "labelBounds": {
           "left": 92,
-          "top": 6786.74267578125,
+          "top": 6786.73583984375,
           "width": 180,
-          "height": 330.19482421875
+          "height": 329.93505859375
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1049,12 +1049,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.5582576536796462,
+        "horizontalFill": 0.5583766077605772,
         "verticalFill": 0.8351842910027362,
         "labelBounds": {
-          "left": 94.02174377441406,
+          "left": 94.02442169189453,
           "top": 7645.25,
-          "width": 158.54517364501953,
+          "width": 158.5789566040039,
           "height": 486.46875
         },
         "labelCount": 3,
@@ -1098,12 +1098,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5956984870072597,
+        "verticalFill": 0.5926203174825293,
         "labelBounds": {
           "left": 97,
-          "top": 905.046875,
+          "top": 904.9882202148438,
           "width": 166,
-          "height": 274.375
+          "height": 272.95721435546875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1146,12 +1146,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5836557859576016,
+        "verticalFill": 0.580655012898105,
         "labelBounds": {
           "left": 103,
-          "top": 3369.5625,
+          "top": 3369.50390625,
           "width": 162,
-          "height": 275.75
+          "height": 274.332275390625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1218,12 +1218,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.840847280334728,
-        "verticalFill": 0.19813150155292716,
+        "verticalFill": 0.19815543364959157,
         "labelBounds": {
           "left": 132,
-          "top": 1062.6143798828125,
+          "top": 1062.601806640625,
           "width": 502.40625,
-          "height": 72.7637939453125
+          "height": 72.7725830078125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1242,12 +1242,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8707692307692307,
-        "verticalFill": 0.32808905291411045,
+        "verticalFill": 0.32805310582822084,
         "labelBounds": {
           "left": 295.5,
-          "top": 3521.0009765625,
+          "top": 3521.000244140625,
           "width": 849,
-          "height": 106.95703125
+          "height": 106.9453125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1314,12 +1314,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8352847327654975,
-        "verticalFill": 0.19755585339604592,
+        "verticalFill": 0.1975369200414541,
         "labelBounds": {
           "left": 762.796875,
-          "top": 1845.833740234375,
+          "top": 1845.8470458984375,
           "width": 507.1875,
-          "height": 96.8023681640625
+          "height": 96.7930908203125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1338,12 +1338,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8429941814750747,
-        "verticalFill": 0.741667330994898,
+        "verticalFill": 0.7417460538903061,
         "labelBounds": {
           "left": 159,
-          "top": 2393.32421875,
+          "top": 2393.3251953125,
           "width": 418.796875,
-          "height": 363.4169921875
+          "height": 363.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1362,12 +1362,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.694039943387325,
-        "verticalFill": 0.536467135682398,
+        "verticalFill": 0.5364920479910714,
         "labelBounds": {
           "left": 219,
-          "top": 3147.82421875,
+          "top": 3147.8251953125,
           "width": 344.796875,
-          "height": 262.868896484375
+          "height": 262.881103515625
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1410,12 +1410,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6535630590487507,
-        "verticalFill": 0.651871412627551,
+        "verticalFill": 0.6519501355229592,
         "labelBounds": {
           "left": 252,
-          "top": 4477.91796875,
+          "top": 4477.9189453125,
           "width": 309.390625,
-          "height": 319.4169921875
+          "height": 319.45556640625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1433,12 +1433,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.9003437042236329,
+        "horizontalFill": 0.9003357648849487,
         "verticalFill": 0.14461805555555557,
         "labelBounds": {
-          "left": 136.0140380859375,
+          "left": 136.01370239257812,
           "top": 5537.015625,
-          "width": 1152.43994140625,
+          "width": 1152.4297790527344,
           "height": 52.0625
         },
         "labelCount": 3,
@@ -1482,12 +1482,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.766473821926687,
-        "verticalFill": 0.5017186279296875,
+        "verticalFill": 0.50202880859375,
         "labelBounds": {
           "left": 195,
-          "top": 992.9006958007812,
+          "top": 992.910888671875,
           "width": 498.890625,
-          "height": 250.85931396484375
+          "height": 251.014404296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1530,12 +1530,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.9047459010490434,
-        "verticalFill": 0.2119186046511628,
+        "verticalFill": 0.2115580714026163,
         "labelBounds": {
           "left": 127,
-          "top": 2400.541259765625,
+          "top": 2400.70654296875,
           "width": 588.890625,
-          "height": 91.125
+          "height": 90.969970703125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1602,12 +1602,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5927152317880795,
-        "verticalFill": 0.5288865746986868,
+        "verticalFill": 0.5289148228098579,
         "labelBounds": {
           "left": 134,
-          "top": 886.7157592773438,
+          "top": 886.716552734375,
           "width": 179,
-          "height": 229.69378662109375
+          "height": 229.7060546875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1698,12 +1698,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6497175141242938,
-        "verticalFill": 0.5160301913734243,
+        "verticalFill": 0.5163866572019433,
         "labelBounds": {
           "left": 104,
-          "top": 2365.57080078125,
+          "top": 2365.58203125,
           "width": 230,
-          "height": 245.63037109375
+          "height": 245.800048828125
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1722,12 +1722,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.8813559322033898,
-        "verticalFill": 0.8144815898262332,
+        "verticalFill": 0.8156667119184418,
         "labelBounds": {
           "left": 39,
-          "top": 3374.80517578125,
+          "top": 3374.81640625,
           "width": 312,
-          "height": 363.2587890625
+          "height": 363.787353515625
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1746,12 +1746,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7005649717514124,
-        "verticalFill": 0.5680284873464957,
+        "verticalFill": 0.5683974065404709,
         "labelBounds": {
           "left": 91,
-          "top": 4491.68017578125,
+          "top": 4491.69140625,
           "width": 248,
-          "height": 261.63037109375
+          "height": 261.80029296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1794,12 +1794,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.7062146892655368,
-        "verticalFill": 0.7190513267173423,
+        "verticalFill": 0.720241237331081,
         "labelBounds": {
           "left": 92,
-          "top": 6437.24267578125,
+          "top": 6437.25390625,
           "width": 250,
-          "height": 319.2587890625
+          "height": 319.787109375
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -1817,12 +1817,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.6453680695786987,
+        "horizontalFill": 0.6451764726369394,
         "verticalFill": 0.7747965691664834,
         "labelBounds": {
-          "left": 94.01544189453125,
+          "left": 94.01093292236328,
           "top": 7218.359375,
-          "width": 228.46029663085938,
+          "width": 228.39247131347656,
           "height": 330.28125
         },
         "labelCount": 3,
@@ -1866,12 +1866,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6900584795321637,
-        "verticalFill": 0.5681391366018725,
+        "verticalFill": 0.5684212590745641,
         "labelBounds": {
           "left": 97,
-          "top": 916.6055297851562,
+          "top": 916.614013671875,
           "width": 236,
-          "height": 261.68133544921875
+          "height": 261.811279296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1914,12 +1914,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6783625730994152,
-        "verticalFill": 0.5839282706220299,
+        "verticalFill": 0.5842230610326974,
         "labelBounds": {
           "left": 103,
-          "top": 3234.43359375,
+          "top": 3234.442138671875,
           "width": 232,
-          "height": 257.275146484375
+          "height": 257.405029296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -1986,12 +1986,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.4698275862068966,
-        "verticalFill": 0.5481486911750744,
+        "verticalFill": 0.5484316649787961,
         "labelBounds": {
           "left": 134,
-          "top": 905.2001342773438,
+          "top": 905.2091064453125,
           "width": 109,
-          "height": 270.63128662109375
+          "height": 270.77099609375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2010,12 +2010,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5669291338582677,
-        "verticalFill": 0.7862874478719489,
+        "verticalFill": 0.7865615034343186,
         "labelBounds": {
           "left": 112,
-          "top": 6736.7783203125,
+          "top": 6736.787109375,
           "width": 144,
-          "height": 400.66259765625
+          "height": 400.80224609375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2082,12 +2082,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5633802816901409,
-        "verticalFill": 0.529437755330014,
+        "verticalFill": 0.5297379675730882,
         "labelBounds": {
           "left": 104,
-          "top": 2460.83642578125,
+          "top": 2460.84619140625,
           "width": 160,
-          "height": 259.19287109375
+          "height": 259.33984375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2106,12 +2106,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.852112676056338,
-        "verticalFill": 0.8365935114503816,
+        "verticalFill": 0.837564823265848,
         "labelBounds": {
           "left": 39,
-          "top": 3507.50830078125,
+          "top": 3507.51806640625,
           "width": 242,
-          "height": 393.8525390625
+          "height": 394.309814453125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -2130,12 +2130,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6267605633802817,
-        "verticalFill": 0.5800077026386475,
+        "verticalFill": 0.5803049454890188,
         "labelBounds": {
           "left": 91,
-          "top": 4756.75830078125,
+          "top": 4756.76806640625,
           "width": 178,
-          "height": 286.78662109375
+          "height": 286.93359375
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2178,12 +2178,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6338028169014085,
-        "verticalFill": 0.7451633762668919,
+        "verticalFill": 0.7461927259290541,
         "labelBounds": {
           "left": 92,
-          "top": 6815.91455078125,
+          "top": 6815.92431640625,
           "width": 180,
-          "height": 330.8525390625
+          "height": 331.3095703125
         },
         "labelCount": 4,
         "decorationCount": 1
@@ -2201,12 +2201,12 @@
       "passed": true,
       "findings": [],
       "metrics": {
-        "horizontalFill": 0.5579587909537302,
+        "horizontalFill": 0.5577521256997552,
         "verticalFill": 0.8422350041084634,
         "labelBounds": {
-          "left": 94.01544189453125,
+          "left": 94.01150512695312,
           "top": 7674.40625,
-          "width": 158.46029663085938,
+          "width": 158.40160369873047,
           "height": 512.5
         },
         "labelCount": 3,
@@ -2250,12 +2250,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.6102941176470589,
-        "verticalFill": 0.5933104508022933,
+        "verticalFill": 0.5935925732749847,
         "labelBounds": {
           "left": 97,
-          "top": 905.0117797851562,
+          "top": 905.020263671875,
           "width": 166,
-          "height": 273.27508544921875
+          "height": 273.405029296875
         },
         "labelCount": 3,
         "decorationCount": 1
@@ -2298,12 +2298,12 @@
       "findings": [],
       "metrics": {
         "horizontalFill": 0.5955882352941176,
-        "verticalFill": 0.5813278227006647,
+        "verticalFill": 0.5816027342328934,
         "labelBounds": {
           "left": 103,
-          "top": 3369.52734375,
+          "top": 3369.535888671875,
           "width": 162,
-          "height": 274.650146484375
+          "height": 274.780029296875
         },
         "labelCount": 3,
         "decorationCount": 1

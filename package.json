@@ -36,16 +36,16 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
-    "@astrojs/cloudflare": "14.1.5",
-    "@cloudflare/vite-plugin": "1.47.0",
-    "@cloudflare/workers-types": "5.20260728.1",
+    "@astrojs/cloudflare": "14.1.6",
+    "@cloudflare/vite-plugin": "1.48.0",
+    "@cloudflare/workers-types": "5.20260729.1",
     "@playwright/test": "1.62.0",
     "@types/node": "^26.1.1",
-    "astro": "7.1.4",
+    "astro": "7.1.5",
     "csso": "^5.0.5",
     "sharp": "^0.35.3",
     "typescript": "6.0.3",
     "vitest": "^4.1.10",
-    "wrangler": "4.114.0"
+    "wrangler": "4.115.0"
   }
 }

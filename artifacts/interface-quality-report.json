@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-28T12:14:05.473Z",
+  "generatedAt": "2026-07-29T12:08:41.912Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -40,6 +40,7 @@
     "viewports": 5,
     "browsers": 2,
     "checks": 50,
+    "fontReadinessRecoveries": 0,
     "errors": 0,
     "warnings": 0
   },
@@ -2445,6 +2446,7 @@
       }
     }
   ],
+  "fontReadinessRecoveries": [],
   "differentiation": [
     {
       "engine": "chromium",
