@@ -1,6 +1,6 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-29T12:08:41.912Z",
+  "generatedAt": "2026-07-30T12:10:49.229Z",
   "status": "passed",
   "root": "/Users/lane/Dev/impactpockets-www/dist/client",
   "viewports": [
@@ -35,8 +35,23 @@
     "webkit"
   ],
   "minimumDistinctiveDimensions": 2,
+  "coverageMode": "every-route",
+  "coverageKeyFields": [
+    "family",
+    "archetype"
+  ],
+  "network": {
+    "policy": "block",
+    "maximumCompletedExternalRequests": 0,
+    "attemptedExternalRequests": 0,
+    "blockedExternalRequests": 0,
+    "completedExternalRequests": 0,
+    "reportedExternalTransferBytes": 0,
+    "externalOrigins": {}
+  },
   "counts": {
     "routes": 5,
+    "inventoryRoutes": 5,
     "viewports": 5,
     "browsers": 2,
     "checks": 50,
