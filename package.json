@@ -8,7 +8,7 @@
     "start": "astro dev",
     "check": "astro check",
     "styles:minify": "node scripts/generate-minified-styles.mjs",
-    "build:site": "npm run styles:minify && node scripts/generate-image-dimensions.mjs && astro build",
+    "build:site": "npm run styles:minify && node scripts/generate-image-dimensions.mjs && CLOUDFLARE_VITE_FORCE_LOCAL=true astro build",
     "sitemap:generate": "node scripts/generate-sitemap.mjs",
     "build": "npm run verify:open-graph && npm run build:site && npm run sitemap:generate && npm run verify:sitemap",
     "preview": "astro preview",
@@ -37,15 +37,15 @@
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "@astrojs/cloudflare": "14.1.7",
-    "@cloudflare/vite-plugin": "1.48.0",
-    "@cloudflare/workers-types": "5.20260730.1",
-    "@playwright/test": "1.62.0",
-    "@types/node": "^26.1.1",
+    "@cloudflare/vite-plugin": "1.49.1",
+    "@cloudflare/workers-types": "5.20260731.1",
+    "@playwright/test": "1.62.1",
+    "@types/node": "26.1.2",
     "astro": "7.1.6",
     "csso": "^5.0.5",
     "sharp": "^0.35.3",
     "typescript": "6.0.3",
     "vitest": "^4.1.10",
-    "wrangler": "4.115.0"
+    "wrangler": "4.117.0"
   }
 }
