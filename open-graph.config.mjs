@@ -39,7 +39,7 @@ export default {
   },
   reviewContract: {
     reviewer: "Lane Campbell",
-    reviewedOn: "2026-07-22",
+    reviewedOn: "2026-08-10",
     brandReference: "Impact Pockets Brand Guide, SHA-256 265967ec51729f23978ce23a59ebf0b97c59ac1b8bf795c1f37e663bd048a161",
     readabilityApproved: true,
     brandIntegrityApproved: true,
