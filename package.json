@@ -11,12 +11,13 @@
     "build:site": "npm run styles:minify && node scripts/generate-image-dimensions.mjs && CLOUDFLARE_VITE_FORCE_LOCAL=true astro build",
     "sitemap:generate": "node scripts/generate-sitemap.mjs",
     "build": "npm run verify:open-graph && npm run build:site && npm run sitemap:generate && npm run verify:sitemap",
-    "preview": "astro preview",
+    "preview": "CLOUDFLARE_VITE_FORCE_LOCAL=true astro preview",
     "test:unit": "vitest run",
     "deploy:staging": "npm run build && wrangler deploy --config dist/server/wrangler.json",
     "deploy:production": "CLOUDFLARE_ENV=production npm run build && wrangler deploy --config dist/server/wrangler.json",
     "verify:sitemap": "node scripts/run-go-for-launch.mjs verify-sitemap.mjs --dir=dist/client --site=https://www.impactpockets.com --sitemap=sitemap.xml",
     "verify:seo": "node scripts/run-go-for-launch.mjs verify-seo.mjs --dir=dist/client --site=https://www.impactpockets.com --trailing-slash=always",
+    "verify:aeo": "node scripts/run-go-for-launch.mjs verify-aeo.mjs --dir=dist/client --site=https://www.impactpockets.com",
     "verify:images": "node scripts/run-go-for-launch.mjs verify-images.mjs --dir=dist/client",
     "verify:brand": "node scripts/run-go-for-launch.mjs verify-brand-assets.mjs --config=brand-assets.config.mjs",
     "verify:site-health": "node scripts/run-go-for-launch.mjs verify-site-health.mjs --config=site-health.config.mjs",
@@ -32,20 +33,21 @@
     "og:review": "node scripts/run-go-for-launch.mjs review-open-graph.mjs --config=open-graph.config.mjs",
     "verify:open-graph": "node scripts/run-go-for-launch.mjs generate-open-graph.mjs --config=open-graph.config.mjs && node scripts/run-go-for-launch.mjs review-open-graph.mjs --config=open-graph.config.mjs --check",
     "test:browser": "playwright test",
-    "verify": "npm run check && npm run test:unit && npm run build && npm run verify:seo && npm run verify:images && npm run verify:brand && npm run verify:site-health && npm run verify:semantic-seo && npm run verify:content-quality && npm run verify:render && npm run verify:side-navigation && npm run verify:design && npm run verify:interface && npm run verify:composition && npm run test:browser"
+    "verify": "npm run check && npm run test:unit && npm run build && npm run verify:seo && npm run verify:aeo && npm run verify:images && npm run verify:brand && npm run verify:site-health && npm run verify:semantic-seo && npm run verify:content-quality && npm run verify:render && npm run verify:side-navigation && npm run verify:design && npm run verify:interface && npm run verify:composition && npm run test:browser"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
-    "@astrojs/cloudflare": "14.2.0",
-    "@cloudflare/vite-plugin": "1.51.1",
-    "@cloudflare/workers-types": "5.20260810.1",
+    "@astrojs/cloudflare": "14.2.4",
+    "@cloudflare/vite-plugin": "1.53.1",
+    "@cloudflare/workers-types": "5.20260825.1",
     "@playwright/test": "1.62.1",
-    "@types/node": "26.1.2",
-    "astro": "7.2.0",
+    "@types/node": "26.3.0",
+    "astro": "7.2.6",
     "csso": "^5.0.5",
     "sharp": "^0.35.3",
     "typescript": "6.0.3",
-    "vitest": "^4.1.10",
-    "wrangler": "4.120.0"
+    "vite": "8.2.2",
+    "vitest": "^4.1.11",
+    "wrangler": "4.125.0"
   }
 }

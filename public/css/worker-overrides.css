@@ -2474,6 +2474,10 @@ main[data-page-archetype="fund-formation-process"] .ready_build .btn {
     padding: 28px 20px;
   }
 
+  main[data-page-archetype="fund-formation-process"] .process-story--analysis {
+    padding-bottom: 36px;
+  }
+
   main[data-page-archetype="fund-formation-process"] .process-story--launch-sequence {
     padding-left: 14px;
     padding-right: 14px;

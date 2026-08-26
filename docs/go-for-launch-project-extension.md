@@ -19,6 +19,7 @@
 | Visual composition contract | `visual-composition.config.mjs`, hero markers in `LegacyDocument.astro`, `npm run verify:composition` | Impact Pockets | Audits the four image-led hero families in Chromium and WebKit |
 | Semantic process stories | Root HTML sources, `public/css/worker-overrides.css`, `public/js/process-stories.js`, `npm run verify:composition` | Impact Pockets | Replaces raster-only process explanations with accessible HTML, responsive CSS layouts, progressive motion, and reduced-motion support |
 | Cloudflare observability | `cloudflare-observability.config.mjs`, `npm run cloudflare:observe` | Impact Pockets | Selects the account, zone, hostname, advisory window, and reviewed thresholds |
+| Agent discovery | `public/llms.txt`, `public/_headers`, `npm run verify:aeo` | Impact Pockets | Publishes the factual public route inventory and advertises it with the canonical sitemap |
 | Contact service | `src/pages/api/contact.ts`, `src/lib/contact-form.ts`, `wrangler.jsonc`, unit tests | Impact Pockets | Enforces same-origin Turnstile validation and a fixed email recipient |
 
 ## Upgrade handling

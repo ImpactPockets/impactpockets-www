@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "status": "passed",
+  "phase": "candidate-frozen",
+  "counts": {
+    "findings": 0,
+    "checkpoints": 2,
+    "blockers": 2
+  },
+  "findings": []
+}
