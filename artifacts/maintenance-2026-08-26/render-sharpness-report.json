@@ -1,0 +1,12 @@
+{
+  "gate": "render-sharpness",
+  "status": "passed",
+  "blocking": false,
+  "root": "/workspace/impactpockets/dist/client",
+  "scanned": {
+    "css": 2,
+    "markup": 5
+  },
+  "fixedFiles": [],
+  "findings": []
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-26T12:09:50.303Z",
+  "status": "passed",
+  "candidate": "impactpockets-maintenance-20260826",
+  "selectedMode": "forced",
+  "assessment": {
+    "reviewedAt": "2026-08-26T08:06:50-04:00",
+    "maximumDecisionAgeMinutes": 240,
+    "reviewer": "Astro maintenance automation",
+    "rationale": "A source compromise and dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
+    "astro": {
+      "version": "7.2.7",
+      "output": "static",
+      "incrementalBuildEnabled": false,
+      "buildConcurrency": 1
+    },
+    "inventory": {
+      "totalPrerenderedPages": 5,
+      "getStaticPathsPages": 0,
+      "pagesWithCacheKey": 0,
+      "expectedRestoredPages": 0
+    },
+    "change": {
+      "filesReviewed": [
+        "astro.config.mjs",
+        "package.json",
+        "package-lock.json"
+      ],
+      "classes": [
+        "dependency-change",
+        "configuration-change"
+      ],
+      "middlewareAffectsPrerenderedHtml": false,
+      "cacheImplementationChanged": false,
+      "unknownRenderingInputs": false,
+      "forceBuildReasons": [
+        "Astro, adapter, Cloudflare plugin, Workers types, and Wrangler version changes"
+      ]
+    },
+    "cache": {
+      "directory": "node_modules/.astro",
+      "available": false,
+      "persistentBetweenBuilds": false,
+      "isolatedToProject": true,
+      "source": "",
+      "lineage": ""
+    },
+    "contract": {
+      "cacheKeysReviewed": true,
+      "crossPageDependenciesReviewed": true,
+      "volatileInputsReviewed": true,
+      "serverIslands": false,
+      "stableAstroKey": false,
+      "parity": {
+        "status": "not-run",
+        "verifiedAt": "",
+        "evidence": "",
+        "contractFingerprint": "",
+        "fullBuildHash": "",
+        "incrementalBuildHash": ""
+      }
+    },
+    "benefit": {
+      "baselineFullBuildSeconds": 0,
+      "expectedBuildSeconds": 0,
+      "minimumSavingsSeconds": 5,
+      "minimumSavingsPercent": 10
+    },
+    "override": null
+  },
+  "recommendation": {
+    "mode": "forced",
+    "reasons": [
+      "Astro, adapter, Cloudflare plugin, Workers types, and Wrangler version changes"
+    ]
+  },
+  "counts": {
+    "findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": []
+}

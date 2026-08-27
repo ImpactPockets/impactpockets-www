@@ -3,8 +3,8 @@
 ## Toolkit source
 
 - Repository: `/Users/lane/Dev/go-for-launch`
-- Branch: `main`
-- Revision: `59247c60f2bda03731ccf7f7dfa9cb948b4ae82b`
+- Branch: `codex/preflight-go-for-launch-20260819`
+- Revision: `8eeae5fdda7cdde53521c8c6df674429ea4f92c8`
 - Integration command: `npm run verify`
 
 ## Project-owned extensions

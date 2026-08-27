@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "impactpockets-www-staging" generated at 2026-08-26T12:11:01.347Z.

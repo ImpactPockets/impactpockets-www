@@ -5,10 +5,10 @@
 - Requested outcome: Upgrade and validate the synchronized Impact Pockets Astro release source while removing the discovered source compromise.
 - Acceptance owner: Lane Campbell
 - Technical owner: Lane Campbell
-- Date opened: 2026-08-25
-- Target repository and branch: Impact Pockets website, `codex/astro-maintenance-20260824-impactpockets`
-- Initial commit: `9ddda80e6d3b2a8b3f90df1d26510e38d33b1202`
-- Initial working-tree state: Clean after fetch and fast-forward-only pull, then compromised `astro.config.mjs` was discovered before any project command ran.
+- Date opened: 2026-08-26
+- Target repository and branch: Impact Pockets website, `codex/preflight-astro-20260826-impactpockets`
+- Initial commit: `2b693d4b264a67ecbe4f76f7b14efc01521fc43d`
+- Initial working-tree state: Clean after preserving the August 25 maintenance as a local snapshot commit, restoring the prior tracked upstream, fetching, and completing a fast-forward-only pull.
 - Go for Launch revision: `8eeae5fdda7cdde53521c8c6df674429ea4f92c8`
 - Routes, systems, and environments in scope: Five public routes, contact Worker, local Podman validation on `10.13.37.151`, and dry Cloudflare packaging.
 - Explicit exclusions: Production deployment, DNS changes, form delivery, production email, and production migration.
@@ -18,7 +18,7 @@
 
 ## Completion conditions
 
-- Required functional result: Remove the obfuscated payload, update the compatible framework set, and pass the strongest safe local validation.
+- Required functional result: Preserve the source compromise repair, update the compatible framework set, and pass the strongest safe local validation.
 - Required user-visible result: No intended public content or design change.
 - Required build and test commands: Execution control, incremental decision, clean install, audit, `npm run verify`, and Wrangler dry packaging.
 - Required browser and device evidence: Complete Chromium and Playwright WebKit suite in Podman. Native Safari remains a production gate only after exact staging.
@@ -50,17 +50,17 @@ These thresholds control when work pauses. They do not waive or downgrade any ma
 - Stop evidence when a maximum was reached: Not reached
 
 - Machine-readable control config: `execution-control.config.mjs`
-- Latest control report: `artifacts/execution-control-report-20260825.json`
-- Latest control report status: Candidate frozen, production blocked by external release gates
+- Latest control report: `artifacts/maintenance-2026-08-26/execution-control-report-20260826.json`
+- Latest control report status: Maintenance validation passed, production blocked by toolkit tracking and external release gates
 
 ## Representative proof
 
-- Smallest vertical slice or prototype: Restore the exact clean Astro configuration from the parent revision and prove the malicious signature is absent.
-- Failure hypothesis it is intended to test: The compromise is isolated to an appended payload in `astro.config.mjs`.
-- Automated checks: Repository signature scan and source diff review.
+- Smallest vertical slice or prototype: Update the five compatible runtime packages and prove the unchanged source compromise repair remains clean.
+- Failure hypothesis it is intended to test: The August 26 patch set may expose a compatibility or packaging regression.
+- Automated checks: Repository signature scan, clean install, audit, complete verification, and dry packaging.
 - Human reviewer: Pending owner review
 - Reviewed artifact: `astro.config.mjs`
-- Decision: Technical repair applied, release approval remains pending.
+- Decision: Technical repair preserved, maintenance validation in progress, release approval remains pending.
 - Approval date: Pending
 
 ## Finding register
@@ -71,8 +71,8 @@ These thresholds control when work pauses. They do not waive or downgrade any ma
 
 ## Checkpoints
 
-- `2026-08-25T08:07:55-04:00`, orientation at `9ddda80e`: synchronized the clean upstream worktree and found the appended payload before execution. Evidence: signature scan found one affected path. Blocker: source compromise. Next action: restore clean config, update dependencies, and validate in Podman.
-- `2026-08-25T08:26:00-04:00`, candidate frozen as `993191fce57e846ad1547e8d17bb7e14fe3c4b1dc41a3ec2f15ece2eec5f28f7`: removed the payload, upgraded the compatible stack, added AEO discovery, and corrected mobile process spacing. Evidence: mandatory checks passed in Podman, 30 browser checks passed with 3 intentional skips, 96 composition checks passed, dry package passed. Blockers: toolkit upstream, exact staging, PageSpeed, native Safari, and named approval. Next action: obtain the reviewed toolkit upstream decision and named approval before exact staging.
+- `2026-08-26T08:06:50-04:00`, maintenance start at `2b693d4b`: preserved the August 25 candidate, fetched and completed a fast-forward-only pull, confirmed the source compromise signature remains absent, and updated five compatible patch dependencies. Evidence: lockfile-only audit reports zero vulnerabilities. Blockers: validation pending, toolkit upstream, prior build-host review, exact staging, PageSpeed, native Safari, and named approval. Next action: run the complete Podman suite and dry package.
+- `2026-08-26T08:12:00-04:00`, candidate frozen as `4d10031d86983feb9400f4b0a1e6d1e27952582a75c7422f78e8481393ae6524`: the complete Podman suite passed after preparing the toolkit runtime, and the Wrangler dry package contained 13 modules and 132 static assets. Evidence: 15 unit tests, five route sitemap equality, all mandatory local static gates, 50 interface checks, 96 composition checks, and 30 browser checks passed with three intentional profile skips. Blockers: toolkit upstream, prior build-host review, exact staging, PageSpeed, native Safari, and named approval. Next action: complete external reviews and approve exact staging.
 
 ## Blocker record
 
@@ -105,17 +105,17 @@ These thresholds control when work pauses. They do not waive or downgrade any ma
 
 ## Candidate freeze
 
-- Frozen commit: Uncommitted maintenance candidate based on `9ddda80e`
-- Build identity: `993191fce57e846ad1547e8d17bb7e14fe3c4b1dc41a3ec2f15ece2eec5f28f7`
-- Freeze time: 2026-08-25T08:26:00-04:00
-- Incremental-build decision report: `artifacts/incremental-build-decision-20260825.json`
+- Frozen commit: Working tree based on `2b693d4b264a67ecbe4f76f7b14efc01521fc43d`
+- Build identity: `4d10031d86983feb9400f4b0a1e6d1e27952582a75c7422f78e8481393ae6524`
+- Freeze time: 2026-08-26T08:12:00-04:00
+- Incremental-build decision report: `artifacts/maintenance-2026-08-26/incremental-build-decision-20260826.json`
 - Selected build mode, `standard`, `incremental`, or `forced`: `forced`
 - Cache source and expected restored pages: No cache, zero restored pages
 - Full-render parity evidence when incremental: Not applicable
 - Features and routes included: Five public pages and the contact Worker
 - Follow-up work excluded: Staging, native Safari, PageSpeed, production, and real form delivery
 - Complete mandatory suite command: `npm run verify`
-- Complete mandatory suite result: Passed after clearing one stale generated preview reservation and rerunning the unchanged browser candidate
+- Complete mandatory suite result: Passed after preparing the copied toolkit runtime with its locked dependencies and rerunning the unchanged candidate
 - Mobile PageSpeed result: Pending
 - Desktop PageSpeed result: Pending
 - Chromium result: Passed
