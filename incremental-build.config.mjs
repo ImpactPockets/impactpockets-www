@@ -1,14 +1,14 @@
 export default {
   schemaVersion: 1,
-  candidate: "impactpockets-maintenance-20260831",
-  reviewedAt: "2026-08-31T08:02:36-04:00",
+  candidate: "impactpockets-maintenance-20260901",
+  reviewedAt: "2026-09-01T08:07:42-04:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-08-31/incremental-build-decision.json",
+  report: "artifacts/maintenance-2026-09-01/incremental-build-decision.json",
   selectedMode: "forced",
-  rationale: "A source compromise and dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
+  rationale: "Astro and integration dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
   astro: {
-    version: "7.2.9",
+    version: "7.2.10",
     output: "static",
     incrementalBuildEnabled: false,
     buildConcurrency: 1,
@@ -25,7 +25,7 @@ export default {
     middlewareAffectsPrerenderedHtml: false,
     cacheImplementationChanged: false,
     unknownRenderingInputs: false,
-    forceBuildReasons: ["Cloudflare Vite plugin and Workers types version changes"],
+    forceBuildReasons: ["Astro, Cloudflare adapter, and Workers types version changes"],
   },
   cache: {
     directory: "node_modules/.astro",
