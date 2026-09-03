@@ -1,10 +1,10 @@
 export default {
   schemaVersion: 1,
-  candidate: "impactpockets-maintenance-20260901",
-  reviewedAt: "2026-09-01T08:07:42-04:00",
+  candidate: "impactpockets-maintenance-20260902",
+  reviewedAt: "2026-09-02T08:06:08-04:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-09-01/incremental-build-decision.json",
+  report: "artifacts/maintenance-2026-09-02/incremental-build-decision.json",
   selectedMode: "forced",
   rationale: "Astro and integration dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
   astro: {
