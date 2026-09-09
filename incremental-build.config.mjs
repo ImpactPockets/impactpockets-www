@@ -1,10 +1,10 @@
 export default {
   schemaVersion: 1,
-  candidate: "impactpockets-maintenance-20260906",
-  reviewedAt: "2026-09-06T08:09:25-04:00",
+  candidate: "impactpockets-maintenance-20260907",
+  reviewedAt: "2026-09-07T08:12:41-04:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-09-06/incremental-build-decision.json",
+  report: "artifacts/maintenance-2026-09-07/incremental-build-decision.json",
   selectedMode: "forced",
   rationale: "Astro and integration dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
   astro: {
@@ -25,7 +25,7 @@ export default {
     middlewareAffectsPrerenderedHtml: false,
     cacheImplementationChanged: false,
     unknownRenderingInputs: false,
-    forceBuildReasons: ["Cloudflare tooling, Workers types, and Playwright version changes"],
+    forceBuildReasons: ["Workers types dependency change"],
   },
   cache: {
     directory: "node_modules/.astro",
