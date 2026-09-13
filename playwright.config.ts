@@ -5,6 +5,7 @@ export default defineConfig({
   testMatch: "**/*.spec.ts",
   timeout: 30_000,
   fullyParallel: true,
+  workers: 1,
   forbidOnly: true,
   retries: 0,
   reporter: [["list"]],
@@ -32,7 +33,7 @@ export default defineConfig({
     }
   ],
   webServer: {
-    command: "npm run preview -- --port 4399",
+    command: "npm run preview -- --port 4399 --ignore-lock",
     url: "http://127.0.0.1:4399",
     reuseExistingServer: false,
     timeout: 120_000

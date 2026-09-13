@@ -1,7 +1,7 @@
 export default {
   schemaVersion: 1,
   candidate: "impactpockets-maintenance-20260912",
-  reviewedAt: "2026-09-12T08:08:53-04:00",
+  reviewedAt: "2026-09-12T23:12:25.205582+00:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
   report: "artifacts/maintenance-2026-09-12/incremental-build-decision.json",

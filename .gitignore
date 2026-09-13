@@ -22,3 +22,8 @@ artifacts/minimum-debug.png
 .DS_Store
 *.log
 config.bat
+
+# Local credentials
+.env
+.env.*
+!.env.example

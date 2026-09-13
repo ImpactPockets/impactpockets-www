@@ -1,4 +1,4 @@
-import { readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, writeFile } from "node:fs/promises";
 import { extname, join, relative, resolve } from "node:path";
 import sharp from "sharp";
 
@@ -23,6 +23,13 @@ async function collectFiles(directory) {
 
   return files;
 }
+
+// Lossless static derivative, strip metadata through Sharp's default output behavior.
+// Build locally so the header does not require runtime image transformations.
+await mkdir(join(imagesDirectory, "optimized"), { recursive: true });
+await sharp(join(imagesDirectory, "Logo.png"))
+  .webp({ lossless: true, effort: 6 })
+  .toFile(join(imagesDirectory, "optimized", "header-logo.webp"));
 
 const dimensions = {};
 

@@ -100,6 +100,8 @@ test("footer uses a high-density logo and omits placeholder social links", async
     await page.goto(route);
     const footerLogo = page.locator(".footer-brand img");
     await expect(footerLogo).toHaveAttribute("src", "/images/Logo.png");
+    await footerLogo.scrollIntoViewIfNeeded();
+    await expect.poll(() => footerLogo.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
     const logoDensity = await footerLogo.evaluate((image: HTMLImageElement) => image.naturalWidth / image.getBoundingClientRect().width);
     expect(logoDensity).toBeGreaterThanOrEqual(2);
     await expect(page.locator("footer .social-links")).toHaveCount(0);
