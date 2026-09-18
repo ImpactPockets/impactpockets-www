@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-18T00:59:15.822403+00:00",
+  "sessionPreserved": true,
+  "turnstileSecretPresent": true,
+  "productionOriginCorrect": true,
+  "bindings": [
+    {
+      "name": "ASSETS",
+      "type": "assets"
+    },
+    {
+      "name": "CONTACT_ALLOWED_HOSTNAMES",
+      "type": "plain_text"
+    },
+    {
+      "name": "CONTACT_ALLOWED_ORIGINS",
+      "type": "plain_text"
+    },
+    {
+      "name": "CONTACT_FROM",
+      "type": "plain_text"
+    },
+    {
+      "name": "CONTACT_TO",
+      "type": "plain_text"
+    },
+    {
+      "name": "EMAIL",
+      "type": "send_email"
+    },
+    {
+      "name": "IMAGES",
+      "type": "images"
+    },
+    {
+      "name": "SESSION",
+      "type": "kv_namespace"
+    },
+    {
+      "name": "TURNSTILE_SECRET",
+      "type": "secret_text"
+    },
+    {
+      "name": "TURNSTILE_SITEKEY",
+      "type": "plain_text"
+    }
+  ]
+}

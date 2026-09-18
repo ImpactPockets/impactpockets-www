@@ -52,3 +52,8 @@ The current mark-favicon release is recorded in `docs/release-evidence/2026-07-2
 ## Secret handling
 
 `TURNSTILE_SECRET` belongs in Wrangler secrets for both environments. It must never be committed or printed.
+
+
+## September 17, 2026 production promotion
+
+Worker version 97ea4607-0d2d-4e89-ae3e-ea0f8957e7de is live following the explicit production instruction. See [production evidence](release-evidence/2026-09-17-production/README.md) for exact candidate identity, local checks, live verification and the recorded PageSpeed and acceptance exceptions.

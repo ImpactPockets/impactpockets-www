@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-09-18T00:49:04.156543+00:00",
+  "udid": "D5801FFC-9A12-4025-996F-790177E2874E",
+  "device": "iPhone 17 Pro",
+  "runtime": "iOS 26.5",
+  "scope": "Private repaired build and exact staged candidate; production not tested",
+  "observed": [
+    "Private Process quote stays inside card after CSS containment repair",
+    "Process stage Testing link navigates and clears fixed header",
+    "Native menu reaches Services",
+    "Services scrolls to footer using Page Down",
+    "Footer Home link returns to homepage",
+    "Staged contact page displays managed Turnstile Success without challenge interaction",
+    "Empty staged contact submission is blocked by native required-field validation"
+  ],
+  "limitations": [
+    "No email sent or real delivery test",
+    "Wheel and drag simulation did not establish native touch scrolling; keyboard scrolling worked",
+    "Reduced motion and complete native production acceptance are not yet recorded"
+  ],
+  "candidate": "c60653f235e1ae2bbce50caabf4aad524a431ee62d23803c74b69b067f27ad84"
+}

@@ -1,14 +1,14 @@
 export default {
   schemaVersion: 1,
-  candidate: "00-impactpockets-20260824-upstream-maintenance-20260916",
-  reviewedAt: "2026-09-16T12:04:48.407648+00:00",
+  candidate: "00-impactpockets-20260824-upstream-maintenance-20260917",
+  reviewedAt: "2026-09-18T00:41:27.360847+00:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-09-16/incremental-build-decision.json",
+  report: "artifacts/maintenance-2026-09-17/incremental-build-decision.json",
   selectedMode: "forced",
-  rationale: "Astro and integration dependency changes invalidate all reusable rendering state, so every page must render from a clean boundary.",
+  rationale: "Astro and integration dependency changes invalidate all reusable rendering state, and the native quote containment repair, so every page must render from a clean boundary.",
   astro: {
-    version: "7.3.2",
+    version: "7.3.3",
     output: "static",
     incrementalBuildEnabled: false,
     buildConcurrency: 1,
@@ -20,7 +20,7 @@ export default {
     expectedRestoredPages: 0,
   },
   change: {
-    filesReviewed: ["astro.config.mjs", "package.json", "package-lock.json"],
+    filesReviewed: ["astro.config.mjs", "package.json", "package-lock.json", "public/css/worker-overrides.css", "tests/site.spec.ts"],
     classes: ["dependency-change", "configuration-change"],
     middlewareAffectsPrerenderedHtml: false,
     cacheImplementationChanged: false,

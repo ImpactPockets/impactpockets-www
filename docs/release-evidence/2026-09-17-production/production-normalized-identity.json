@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-09-18T01:00:11.073623+00:00",
+  "candidate": "c60653f235e1ae2bbce50caabf4aad524a431ee62d23803c74b69b067f27ad84",
+  "normalization": "Remove only observed Cloudflare hidden content link and JavaScript detection script; retain raw responses and initial byte comparisons. No source content normalization.",
+  "routes": [
+    {
+      "route": "/",
+      "rawSha256": "9de98df9d29bad921f930800eaf46635a22b984fd2367aa4d9e259c9a3956492",
+      "expectedSha256": "7af23312af838735150710b31ce0bd2259b849919c8342b94ded8bad78b40867",
+      "normalizedSha256": "7af23312af838735150710b31ce0bd2259b849919c8342b94ded8bad78b40867",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 2
+    },
+    {
+      "route": "/about-impact-pockets/",
+      "rawSha256": "b74de4d0220cba3ed84516a4ddc08eaf98719b2c29db635d54cd70c72912874e",
+      "expectedSha256": "2734f005e42879476f06c3675a1044385ff1d0b5aee5dd1fd56767ed73585fad",
+      "normalizedSha256": "2734f005e42879476f06c3675a1044385ff1d0b5aee5dd1fd56767ed73585fad",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 2
+    },
+    {
+      "route": "/our-process/",
+      "rawSha256": "95c1532684fee6a3c67a4de2f5ae61a14426031f1ac3bc04bf10914e32e219d5",
+      "expectedSha256": "18535535f8f61447d3c73f0d4b80bbfa69448ee6190ba8568492dafe50da64bb",
+      "normalizedSha256": "18535535f8f61447d3c73f0d4b80bbfa69448ee6190ba8568492dafe50da64bb",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 2
+    },
+    {
+      "route": "/our-services/",
+      "rawSha256": "c092a03cf0b9008eed93e1450f2bdacb99e82146b0b28824e30feb98798b7209",
+      "expectedSha256": "da744e25ec909f57067478692db05b35f6a6116d25c51d76663004cc1bfc03d6",
+      "normalizedSha256": "da744e25ec909f57067478692db05b35f6a6116d25c51d76663004cc1bfc03d6",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 2
+    },
+    {
+      "route": "/contact-us/",
+      "rawSha256": "fe291f7c8e5f5d3fb8e6f65960ee9eb6e64280cd2371bd349d71eb18b6600939",
+      "expectedSha256": "c42637ed72faa39b97693e3bf921f973ff9eeed2bd5b612f839121581ece5cde",
+      "normalizedSha256": "c42637ed72faa39b97693e3bf921f973ff9eeed2bd5b612f839121581ece5cde",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 2
+    },
+    {
+      "route": "/sitemap.xml",
+      "rawSha256": "efc50cf9b474a7b7ffa03a40f1bcf09b20c0369b0b09cad1f2e8d87666b06530",
+      "expectedSha256": "efc50cf9b474a7b7ffa03a40f1bcf09b20c0369b0b09cad1f2e8d87666b06530",
+      "normalizedSha256": "efc50cf9b474a7b7ffa03a40f1bcf09b20c0369b0b09cad1f2e8d87666b06530",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 0
+    },
+    {
+      "route": "/robots.txt",
+      "rawSha256": "176a7a15d9e0bca8639d57c5cca05843d82b3ad724723c0bccf986decb95ccca",
+      "expectedSha256": "176a7a15d9e0bca8639d57c5cca05843d82b3ad724723c0bccf986decb95ccca",
+      "normalizedSha256": "176a7a15d9e0bca8639d57c5cca05843d82b3ad724723c0bccf986decb95ccca",
+      "matchesCandidate": true,
+      "removedEdgeInjectionCount": 0
+    }
+  ],
+  "passed": true
+}

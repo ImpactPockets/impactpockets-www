@@ -145,3 +145,19 @@ test("first-viewport hero requests and preloads match the measured LCP resource"
     }
   }
 });
+
+
+test("process quote stays inside its card at the current viewport", async ({ page }) => {
+  await page.goto("/our-process/");
+  const card = page.locator(".service_contract");
+  const quote = card.locator(".inner_section");
+  await quote.scrollIntoViewIfNeeded();
+  const outer = await card.boundingBox();
+  const inner = await quote.boundingBox();
+  expect(outer).not.toBeNull();
+  expect(inner).not.toBeNull();
+  expect(inner!.x).toBeGreaterThanOrEqual(outer!.x);
+  expect(inner!.y).toBeGreaterThanOrEqual(outer!.y);
+  expect(inner!.x + inner!.width).toBeLessThanOrEqual(outer!.x + outer!.width);
+  expect(inner!.y + inner!.height).toBeLessThanOrEqual(outer!.y + outer!.height);
+});

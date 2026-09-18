@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://impactpockets.com/?releasecheck=20260917",
+    "status": 308,
+    "location": "https://www.impactpockets.com/?releasecheck=20260917",
+    "passed": true
+  },
+  {
+    "url": "https://www.impactpockets.com/our-process.html?releasecheck=20260917",
+    "status": 308,
+    "location": "https://www.impactpockets.com/our-process/?releasecheck=20260917",
+    "passed": true
+  },
+  {
+    "url": "https://www.impactpockets.com/api/contact/",
+    "status": 404,
+    "location": null,
+    "passed": true,
+    "expectedStatus": 404,
+    "contractEvidence": "src/pages/api/contact.ts ALL handler returns 404"
+  }
+]

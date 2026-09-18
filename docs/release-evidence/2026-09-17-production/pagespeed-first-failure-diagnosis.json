@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-09-18T00:54:13.421989+00:00",
+  "candidate": "c60653f235e1ae2bbce50caabf4aad524a431ee62d23803c74b69b067f27ad84",
+  "url": "https://impactpockets-www-staging.biglane.workers.dev/",
+  "strategy": "mobile",
+  "fetchedAt": "2026-09-18T00:48:41.963Z",
+  "scores": {
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "validResultPreserved": true,
+  "remainingMatrixStopped": true,
+  "rawReport": "pagespeed-mobile-provider-retry.json",
+  "rawReportSha256": "2dcec259b500a199d311ea29d2d8a13127cc4115488b318c4f8ceb88508cd25c",
+  "dominantFailedAudit": "speed-index",
+  "speedIndexMs": 3818,
+  "diagnosis": "Filmstrip blank through 2250 ms, visible at 2625 ms. Observed first paint 2456 ms. Hero request completed 609 ms, followed by 1847 ms element render delay. Simulated LCP 1438 ms, TBT 0, CLS 0. No scored render-blocking, compression, image delivery or main-thread findings. Cause of paint delay unresolved; no evidence-backed source repair identified. No further PSI request issued.",
+  "lcpElement": "body > main > section.hero-section > div.hero",
+  "lcpResource": "https://impactpockets-www-staging.biglane.workers.dev/images/optimized/home-hero.avif",
+  "lcpRequestStartMs": 321.11,
+  "lcpRequestEndMs": 609.294,
+  "priority": "High; preloaded; discovery checklist confirms eager and high priority",
+  "responsiveContract": "CSS background image; no img srcset or sizes. The same hero URL is preloaded and downloaded.",
+  "filmstripEvidence": "screenshot-thumbnails.json and filmstrip-0.jpg through filmstrip-7.jpg",
+  "networkEvidence": "network-requests.json",
+  "lcpEvidence": [
+    "lcp-breakdown-insight.json",
+    "lcp-discovery-insight.json"
+  ],
+  "passingSameAssetRoute": "No current passing PSI route available; private compressed Lighthouse all-100 results are diagnostic only.",
+  "nextBoundedAction": "Capture an isolated private Chrome performance trace of this exact staged artifact under matching mobile settings, identify a reproducible cause of delayed first paint, and validate a targeted fix before a new frozen candidate and full PSI matrix."
+}
