@@ -1,12 +1,12 @@
 export default {
   "phase": "implementation",
-  "output": "artifacts/maintenance-2026-09-21/execution-control.json",
+  "output": "artifacts/maintenance-2026-09-23/execution-control.json",
   "taskEnvelope": {
     "requestedOutcome": "Maintain current compatible Astro and Cloudflare dependencies and repair safely verifiable release blockers",
     "acceptanceOwner": "Lane Campbell",
     "targetRepository": "/Users/lane/Dev/.codex-worktrees/impactpockets-20260824-upstream",
-    "targetBranch": "codex/preflight-astro-20260921-impactpockets-20260824-upstream",
-    "initialRevision": "75e4b215227a864b5435d5729f4f5a55dc42d408",
+    "targetBranch": "codex/preflight-astro-20260923-impactpockets-20260824-upstream",
+    "initialRevision": "86fbe2c1406f57e0fa2319679de821dd9a115747",
     "toolkitRevision": "837f39fc24f3053110f17bae1d69bd2f31e1fe20",
     "rollbackMethod": "Preserve the preflight snapshot and reverse only the explicit maintenance diff if rejected",
     "scope": [
@@ -41,11 +41,11 @@ export default {
   "findings": [],
   "checkpoints": [
     {
-      "recordedAt": "2026-09-21T12:04:56.291837+00:00",
+      "recordedAt": "2026-09-23T12:07:01.830476+00:00",
       "phase": "implementation",
       "candidate": "No frozen candidate",
       "change": "Completed qualified fast-forward pull and current registry comparison",
-      "evidence": "/Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/run-2026-09-21/priority-sync.json",
+      "evidence": "/Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/run-2026-09-23/priority-sync.json",
       "nextAction": "Install compatible patches and validate on Podman"
     }
   ],
