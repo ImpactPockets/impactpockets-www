@@ -190,6 +190,18 @@ function addIntrinsicImageMetadata(markup: string) {
   return output;
 }
 
+// Homepage supporting icons and portraits sit below the hero. Defer their
+// requests while keeping the header and CSS hero preload eager.
+if (canonicalPath === "/") {
+  body = body.replace(/<img\b[^>]*>/gi, (tag, offset) => {
+    const headerEnd = body.indexOf("</header>");
+    if (headerEnd < 0 || offset < headerEnd) return tag;
+    return tag
+      .replace(/\s(?:loading|decoding)=["'][^"']*["']/gi, "")
+      .replace(/(\s*\/?>)$/, ' loading="lazy" decoding="async"$1');
+  });
+}
+
 const semanticBody = addIntrinsicImageMetadata(bridgeHeadingLevels(body, hasH1 ? 0 : 1));
 let structuredBody = semanticBody.replace(/<header\b/i, '<header data-site-header');
 structuredBody = structuredBody

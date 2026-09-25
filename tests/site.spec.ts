@@ -161,3 +161,15 @@ test("process quote stays inside its card at the current viewport", async ({ pag
   expect(inner!.x + inner!.width).toBeLessThanOrEqual(outer!.x + outer!.width);
   expect(inner!.y + inner!.height).toBeLessThanOrEqual(outer!.y + outer!.height);
 });
+
+
+test("homepage supporting images defer work without delaying the header", async ({ page }) => {
+  await page.goto("/", { waitUntil: "networkidle" });
+  const images = await page.locator("main img, footer img").evaluateAll((items) =>
+    items.map((image) => ({ loading: image.getAttribute("loading"), decoding: image.getAttribute("decoding") }))
+  );
+  expect(images.length).toBeGreaterThan(0);
+  expect(images.every((image) => image.loading === "lazy" && image.decoding === "async")).toBe(true);
+  await expect(page.locator("header img")).not.toHaveAttribute("loading", "lazy");
+  await expect(page.locator('link[rel="preload"][as="image"]')).toHaveAttribute("fetchpriority", "high");
+});
