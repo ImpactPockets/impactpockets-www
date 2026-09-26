@@ -2,7 +2,7 @@ export default {
   outputDirectory: "dist/client",
   report: "artifacts/interface-quality-report.json",
   screenshotDirectory: "artifacts/interface-quality",
-  screenshots: "failures",
+  screenshots: "all",
   requireIndexableCoverage: true,
   exemptRoutes: [],
   browsers: ["chromium", "webkit"],
@@ -13,6 +13,9 @@ export default {
     { name: "mobile", width: 390, height: 844 },
     { name: "minimum", width: 320, height: 720 }
   ],
+  // Accessibility-only bridge headings are fully clipped by design.
+  // site.spec.ts verifies that every excluded heading remains fully nonvisual.
+  headings: { selector: "h1:not(.conversion-heading), h2:not(.conversion-heading), h3:not(.conversion-heading)" },
   overlapTolerance: 1,
   overflowTolerance: 1,
   minimumDistinctiveDimensions: 2,

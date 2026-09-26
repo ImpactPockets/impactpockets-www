@@ -1926,7 +1926,7 @@ main[data-page-archetype="fund-formation-process"] .process-story--launch-sequen
 }
 
 main[data-page-archetype="fund-formation-process"] .process-story--analysis .process-story__progress {
-  bottom: 126px;
+  bottom: 144px;
 }
 
 main[data-page-archetype="fund-formation-process"] .process-story--analysis .process-story__progress::after,
@@ -2820,4 +2820,21 @@ main[data-page-archetype="qualified-contact-intake"] .form-fields_main textarea 
   main[data-page-archetype="fund-formation-process"] .process-journey a {
     font-size: 0.69rem;
   }
+}
+
+/* Keep partner names within their portrait caption at narrow widths. */
+main[data-page-archetype="operator-fund-landing"] :is(.member-info1, .member-info2) {
+  max-width: 100%;
+  padding-inline: 12px;
+}
+main[data-page-archetype="operator-fund-landing"] :is(.member-info1, .member-info2) h3 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+/* Keep accessibility bridge boxes independent of section heading padding. */
+h1.conversion-heading, h2.conversion-heading, h3.conversion-heading {
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
 }

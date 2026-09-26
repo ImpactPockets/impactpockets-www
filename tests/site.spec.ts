@@ -27,6 +27,17 @@ for (const route of routes) {
 
     await page.goto(route, { waitUntil: "networkidle" });
     await expect(page.locator("h1")).toHaveCount(1);
+    // Visual heading exclusions must never conceal a visible heading regression.
+    const invalidExclusions = await page.locator("h1.conversion-heading, h2.conversion-heading, h3.conversion-heading").evaluateAll((headings) =>
+      headings.filter((heading) => {
+        const style = getComputedStyle(heading);
+        const rect = heading.getBoundingClientRect();
+        return rect.width > 1 || rect.height > 1 || style.position !== "absolute" ||
+          style.overflow !== "hidden" || style.clip !== "rect(0px, 0px, 0px, 0px)" ||
+          heading.getAttribute("aria-hidden") === "true";
+      }).map((heading) => heading.textContent)
+    );
+    expect(invalidExclusions).toEqual([]);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", new RegExp(`${route.replaceAll("/", "\\/")}$`));
     await expect(page.locator("body")).toBeVisible();
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
