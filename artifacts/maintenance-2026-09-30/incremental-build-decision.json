@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T16:53:31.889Z",
+  "status": "passed",
+  "candidate": "00-impactpockets-20260824-upstream-maintenance-20260930",
+  "selectedMode": "forced",
+  "assessment": {
+    "reviewedAt": "2026-09-30T16:45:00.000Z",
+    "maximumDecisionAgeMinutes": 240,
+    "reviewer": "Astro maintenance automation, technical build assessment",
+    "rationale": "Cold Podman validation of the production-authorized dependency maintenance candidate. No prior output or incremental page cache is reused. User authorization does not waive technical release gates.",
+    "astro": {
+      "version": "7.3.5",
+      "output": "static",
+      "incrementalBuildEnabled": false,
+      "buildConcurrency": 1
+    },
+    "inventory": {
+      "totalPrerenderedPages": 5,
+      "getStaticPathsPages": 0,
+      "pagesWithCacheKey": 0,
+      "expectedRestoredPages": 0
+    },
+    "change": {
+      "filesReviewed": [
+        "astro.config.mjs",
+        "package.json",
+        "package-lock.json",
+        "public/css/worker-overrides.css",
+        "tests/site.spec.ts"
+      ],
+      "classes": [
+        "dependency-change",
+        "configuration-change"
+      ],
+      "middlewareAffectsPrerenderedHtml": false,
+      "cacheImplementationChanged": false,
+      "unknownRenderingInputs": false,
+      "forceBuildReasons": [
+        "Cloudflare Vite plugin and Wrangler dependency changes",
+        "Security overrides for fast-uri and undici"
+      ]
+    },
+    "cache": {
+      "directory": "node_modules/.astro",
+      "available": false,
+      "persistentBetweenBuilds": false,
+      "isolatedToProject": true,
+      "source": "",
+      "lineage": ""
+    },
+    "contract": {
+      "cacheKeysReviewed": true,
+      "crossPageDependenciesReviewed": true,
+      "volatileInputsReviewed": true,
+      "serverIslands": false,
+      "stableAstroKey": false,
+      "parity": {
+        "status": "not-run",
+        "verifiedAt": "",
+        "evidence": "",
+        "contractFingerprint": "",
+        "fullBuildHash": "",
+        "incrementalBuildHash": ""
+      }
+    },
+    "benefit": {
+      "baselineFullBuildSeconds": 0,
+      "expectedBuildSeconds": 0,
+      "minimumSavingsSeconds": 5,
+      "minimumSavingsPercent": 10
+    },
+    "override": null
+  },
+  "recommendation": {
+    "mode": "forced",
+    "reasons": [
+      "Cloudflare Vite plugin and Wrangler dependency changes",
+      "Security overrides for fast-uri and undici"
+    ]
+  },
+  "counts": {
+    "findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": []
+}

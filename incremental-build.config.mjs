@@ -1,12 +1,12 @@
 export default {
   schemaVersion: 1,
   candidate: "00-impactpockets-20260824-upstream-maintenance-20260930",
-  reviewedAt: "2026-09-30T12:06:58.947090+00:00",
+  reviewedAt: "2026-09-30T16:45:00.000Z",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation, technical build assessment",
   report: "artifacts/maintenance-2026-09-30/incremental-build-decision.json",
   selectedMode: "forced",
-  rationale: "Cold Podman validation of the current dependency maintenance candidate. No prior output or incremental page cache is reused. This technical assessment does not grant editorial or production approval.",
+  rationale: "Cold Podman validation of the production-authorized dependency maintenance candidate. No prior output or incremental page cache is reused. User authorization does not waive technical release gates.",
   astro: {
     version: "7.3.5",
     output: "static",
@@ -25,7 +25,7 @@ export default {
     middlewareAffectsPrerenderedHtml: false,
     cacheImplementationChanged: false,
     unknownRenderingInputs: false,
-    forceBuildReasons: ["Cloudflare Vite plugin and Wrangler dependency changes"],
+    forceBuildReasons: ["Cloudflare Vite plugin and Wrangler dependency changes", "Security overrides for fast-uri and undici"],
   },
   cache: {
     directory: "node_modules/.astro",

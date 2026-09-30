@@ -1,8 +1,8 @@
 {
   "gate": "interface quality and page differentiation",
-  "generatedAt": "2026-07-31T12:12:48.531Z",
+  "generatedAt": "2026-09-30T16:55:22.252Z",
   "status": "passed",
-  "root": "/Users/lane/Dev/impactpockets-www/dist/client",
+  "root": "/home/lane/impact-prod-20260930.9u7nUp/site/dist/client",
   "viewports": [
     {
       "name": "expanded",
@@ -1333,7 +1333,7 @@
           "jost, sans-serif",
           "52px",
           "600",
-          "56.16px",
+          "56.160004px",
           "start"
         ],
         "media": {
@@ -1397,7 +1397,7 @@
           "jost, sans-serif",
           "68px",
           "600",
-          "71.400002px",
+          "71.399994px",
           "start"
         ],
         "media": {
@@ -1451,7 +1451,7 @@
           "jost, sans-serif",
           "52px",
           "600",
-          "56.16px",
+          "56.160004px",
           "start"
         ],
         "media": {
@@ -1573,7 +1573,7 @@
           "jost, sans-serif",
           "40.959999px",
           "600",
-          "44.236797px",
+          "44.236801px",
           "start"
         ],
         "media": {
@@ -1635,9 +1635,9 @@
         ],
         "typography": [
           "jost, sans-serif",
-          "51.199997px",
+          "51.200001px",
           "600",
-          "53.759995px",
+          "53.759998px",
           "start"
         ],
         "media": {
@@ -1691,7 +1691,7 @@
           "jost, sans-serif",
           "40.959999px",
           "600",
-          "44.236797px",
+          "44.236801px",
           "start"
         ],
         "media": {
@@ -1813,7 +1813,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {
@@ -1931,7 +1931,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {
@@ -2053,7 +2053,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {
@@ -2171,7 +2171,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {
@@ -2293,7 +2293,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {
@@ -2357,7 +2357,7 @@
           "jost, sans-serif",
           "40px",
           "600",
-          "42.799999px",
+          "42.800003px",
           "start"
         ],
         "media": {
@@ -2411,7 +2411,7 @@
           "jost, sans-serif",
           "36px",
           "600",
-          "39.599998px",
+          "39.600002px",
           "start"
         ],
         "media": {

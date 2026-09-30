@@ -80,3 +80,9 @@ After every deploy, verify the real public hostname, canonical Pages URL, or Wor
 Report for each project, Astro root, git root, Cloudflare evidence, whether AGENTS.md existed or was created, toolkit files read, git remediation result, GovSoft URL migration result, upgraded version set, checks run, production candidate build result, Playwright WebKit result, Simulator UDID or Simulator blocker, staging target and verification result, PageSpeed mobile and desktop scores, deploy target, live verification result, skipped projects with reason, and remaining manual decisions. Update the automation memory with the current run time, what changed, what deployed, GovSoft URL migration results, what was blocked, and which toolkit gates were applied.
 
 After every successful production deploy you will commit the changes in the project folder with a descriptive name for the work done, you will push to github, and you will move onto the next project until you are done.
+
+## Follow-up production instruction
+
+User instruction received after the maintenance pass:
+
+> overcome blockers and push to prod

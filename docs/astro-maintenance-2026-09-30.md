@@ -18,10 +18,16 @@ Evidence: /Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/ru
 
 ## Final validation outcome
 
-Complete private verification passes, including composition, static checks and 36 browser tests with 3 intentional skips. Historical PageSpeed evidence is retained separately and is not current-candidate acceptance.
+The final candidate passed complete private verification on the Podman host, including dependency audit, Astro check, 15 unit tests, build, sitemap, SEO, AEO, image, brand, site health, semantic SEO, content quality, render sharpness, side navigation, interface quality, visual composition, and 36 browser tests with 3 profile-inapplicable skips.
 
 No active public legacy GovSoft destination required replacement. Generated HTML scan has zero govsoft.us references.
 
-Remaining action: Restore Simulator.app and native GUI control. Review the preserved September 25 first-failure filmstrip, qualify this exact candidate, stage it, then run the required mobile/desktop PSI matrix without discarding the first valid failure.
+Xcode 27 Device Hub replaced the missing Simulator.app workflow. Native Safari passed on an isolated iPhone 17 Pro simulator running iOS 26.5, UDID 01472FC1-95D2-42EE-97FB-7BDA34E086D6. Staging and production screenshots are preserved under artifacts/maintenance-2026-09-30/native-safari.
 
-No staging or production deployment occurred. Current PageSpeed and native Safari gates remain unsatisfied. See [portfolio report](/Users/lane/Dev/astro-pipeline-run-2026-09-30.md) for upstream hashes, checks, retained failures and target evidence.
+The exact candidate was deployed to https://impactpockets-www-staging.biglane.workers.dev and passed 24 staged WebKit tests with 2 profile-inapplicable skips. PageSpeed returned 100 for Performance, Accessibility, Best Practices, and SEO for both mobile and desktop.
+
+Production Worker version 586da9cd-72c2-4f5f-a3e2-a50d137bbb5e was deployed to https://www.impactpockets.com/. All five HTML routes, sitemap.xml, and robots.txt returned HTTP 200. The apex redirects to the canonical www hostname with HTTP 308. The canonical link is correct.
+
+Post-release WebKit passed 24 tests with 2 profile-inapplicable skips in the existing Playwright 1.63.0 Podman image. The host DNS policy sinkholes Cloudflare's injected analytics hostname, so the isolated browser container mapped that provider hostname to its current authoritative address without changing host DNS or test assertions. Native Safari then passed the production homepage, mobile menu, About route, and scrolling on the same explicit UDID.
+
+See [production evidence](release-evidence/2026-09-30-production/README.md) and [portfolio report](/Users/lane/Dev/astro-pipeline-run-2026-09-30.md) for the complete run context.

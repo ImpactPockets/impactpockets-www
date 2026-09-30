@@ -1,0 +1,69 @@
+
+ ⛅️ wrangler 4.145.0
+────────────────────
+Attaching additional modules:
+┌───────────────────────────────────────────────────────────┬──────┬────────────┐
+│ Name                                                      │ Type │ Size       │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/_virtual_astro_server-island-manifest_q0HM18kM.mjs │ esm  │ 0.27 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/_virtual_astro_session-driver_TyipGO2P.mjs         │ esm  │ 2.88 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/assets_Bml5tHrV.mjs                                │ esm  │ 82.43 KiB  │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/console_goll36u4.mjs                               │ esm  │ 253.85 KiB │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/contact_D_8CWVk_.mjs                               │ esm  │ 7.11 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/entrypoints_DupjmZPC.mjs                           │ esm  │ 236.19 KiB │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/image-binding-transform_CH7P-ONS.mjs               │ esm  │ 24.51 KiB  │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/image-service-workerd_BCq87vaf.mjs                 │ esm  │ 0.43 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/image-transform-endpoint_C1bBo2Od.mjs              │ esm  │ 1.28 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/noop-entrypoint_BYLrzUxc.mjs                       │ esm  │ 0.15 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/rolldown-runtime_D7vh-g_o.mjs                      │ esm  │ 0.41 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ chunks/static-image-collection_oXnPSZW7.mjs               │ esm  │ 2.41 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ virtual_astro_middleware.mjs                              │ esm  │ 0.15 KiB   │
+├───────────────────────────────────────────────────────────┼──────┼────────────┤
+│ Total (13 modules)                                        │      │ 612.06 KiB │
+└───────────────────────────────────────────────────────────┴──────┴────────────┘
+🌀 Building list of assets...
+✨ Read 133 files from the assets directory /Users/lane/Dev/.codex-worktrees/impactpockets-20260824-upstream/dist/client
+🌀 Starting asset upload...
+🌀 Found 6 new or modified static assets to upload. Proceeding with upload...
++ /css/worker-overrides.css
++ /our-services/index.html
++ /contact-us/index.html
++ /index.html
++ /about-impact-pockets/index.html
++ /our-process/index.html
+Uploaded 2 of 6 assets
+Uploaded 4 of 6 assets
+Uploaded 6 of 6 assets
+✨ Success! Uploaded 6 files (113 already uploaded) (1.26 sec)
+
+Total Upload: 618.00 KiB / gzip: 155.14 KiB
+Worker Startup Time: 25 ms
+Your Worker has access to the following bindings:
+Binding                                                                                        Resource
+env.SESSION (inherited)                                                                        KV Namespace
+env.EMAIL (lane@impactpockets.com - senders: hello@impactpockets.com)                          Send Email
+env.IMAGES                                                                                     Images
+env.ASSETS                                                                                     Assets
+env.TURNSTILE_SITEKEY ("0x4AAAAAAD6yxt8rewqfmDCh")                                             Environment Variable
+env.CONTACT_ALLOWED_ORIGINS ("https://www.impactpockets.com")                                  Environment Variable
+env.CONTACT_ALLOWED_HOSTNAMES ("www.impactpockets.com")                                        Environment Variable
+env.CONTACT_FROM ("hello@impactpockets.com")                                                   Environment Variable
+env.CONTACT_TO ("lane@impactpockets.com")                                                      Environment Variable
+
+Uploaded impactpockets-www (4.79 sec)
+Deployed impactpockets-www triggers (2.24 sec)
+  www.impactpockets.com/* (zone id: d3519f1a807b6b73b58b610a692b02bf)
+  impactpockets.com/* (zone id: d3519f1a807b6b73b58b610a692b02bf)
+Current Version ID: 586da9cd-72c2-4f5f-a3e2-a50d137bbb5e

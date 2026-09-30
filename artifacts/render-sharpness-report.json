@@ -2,7 +2,7 @@
   "gate": "render-sharpness",
   "status": "passed",
   "blocking": false,
-  "root": "/Users/lane/Dev/impactpockets-www/dist/client",
+  "root": "/home/lane/impact-prod-20260930.9u7nUp/site/dist/client",
   "scanned": {
     "css": 2,
     "markup": 5
