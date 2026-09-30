@@ -1,13 +1,13 @@
 export default {
   "phase": "implementation",
-  "output": "artifacts/maintenance-2026-09-29/execution-control.json",
+  "output": "artifacts/maintenance-2026-09-30/execution-control.json",
   "taskEnvelope": {
     "requestedOutcome": "Maintain current compatible Astro and Cloudflare dependencies and repair safely verifiable release blockers",
     "acceptanceOwner": "Lane Campbell",
     "targetRepository": "/Users/lane/Dev/.codex-worktrees/impactpockets-20260824-upstream",
-    "targetBranch": "codex/preflight-astro-20260929-impactpockets-20260824-upstream",
-    "initialRevision": "6a4bf33b9b3dfb89da3f92a5e4cc0ebe81f7a255",
-    "toolkitRevision": "9b5b89988ef1ce26e4c9fd3bbc83ea50c44975a5",
+    "targetBranch": "codex/preflight-astro-20260930-impactpockets-20260824-upstream",
+    "initialRevision": "e8b1374d00ea1b267427e40037c8818860951ca1",
+    "toolkitRevision": "1275b680e3cc3c2d0446fdb346891f92f25ce4d5",
     "rollbackMethod": "Preserve the preflight snapshot and reverse only the explicit maintenance diff if rejected",
     "scope": [
       "Astro application .",
@@ -41,15 +41,44 @@ export default {
   "findings": [],
   "checkpoints": [
     {
-      "recordedAt": "2026-09-29T12:05:20.736196+00:00",
+      "recordedAt": "2026-09-30T12:06:58.947090+00:00",
       "phase": "implementation",
       "candidate": "No frozen candidate",
       "change": "Completed qualified fast-forward pull and current registry comparison",
-      "evidence": "/Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/run-2026-09-29/priority-sync.json",
+      "evidence": "/Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/run-2026-09-30/priority-sync.json",
       "nextAction": "Install compatible patches and validate on Podman"
+    },
+    {
+      "recordedAt": "2026-09-30T12:26:19.963036+00:00",
+      "phase": "implementation",
+      "candidate": "Unfrozen maintenance output",
+      "change": "Complete private verification passes, including composition, static checks and 36 browser tests with 3 intentional skips. Historical PageSpeed evidence is retained separately and is not current-candidate acceptance.",
+      "evidence": "/Users/lane/.codex/automations/astro-static-site-upgrade-and-deploy/run-2026-09-30/site-results.json",
+      "nextAction": "Restore Simulator.app and native GUI control. Review the preserved September 25 first-failure filmstrip, qualify this exact candidate, stage it, then run the required mobile/desktop PSI matrix without discarding the first valid failure."
     }
   ],
-  "blockers": [],
+  "blockers": [
+    {
+      "category": "Retained PageSpeed failure and native acceptance",
+      "scope": "Staging and production",
+      "evidence": "Complete private verification passes, including composition, static checks and 36 browser tests with 3 intentional skips. Historical PageSpeed evidence is retained separately and is not current-candidate acceptance.",
+      "nextAction": "Restore Simulator.app and native GUI control. Review the preserved September 25 first-failure filmstrip, qualify this exact candidate, stage it, then run the required mobile/desktop PSI matrix without discarding the first valid failure.",
+      "summary": "Retained PageSpeed failure and native acceptance",
+      "status": "blocked",
+      "activeMinutes": 0,
+      "attempts": []
+    },
+    {
+      "category": "Native Safari and PageSpeed",
+      "scope": "Staging and production",
+      "evidence": "Simulator.app missing; no verified staged candidate or current PSI matrix",
+      "nextAction": "Restore complete Simulator application, validate exact candidate with an isolated explicit UDID, then stage and score all eight PSI categories.",
+      "summary": "Native Safari and PageSpeed",
+      "status": "blocked",
+      "activeMinutes": 0,
+      "attempts": []
+    }
+  ],
   "candidate": {
     "frozenRevision": "",
     "buildIdentity": "",

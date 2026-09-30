@@ -1,12 +1,12 @@
 export default {
   schemaVersion: 1,
-  candidate: "00-impactpockets-20260824-upstream-maintenance-20260929",
-  reviewedAt: "2026-09-29T12:05:20.736196+00:00",
+  candidate: "00-impactpockets-20260824-upstream-maintenance-20260930",
+  reviewedAt: "2026-09-30T12:06:58.947090+00:00",
   maximumDecisionAgeMinutes: 240,
-  reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-09-29/incremental-build-decision.json",
+  reviewer: "Astro maintenance automation, technical build assessment",
+  report: "artifacts/maintenance-2026-09-30/incremental-build-decision.json",
   selectedMode: "forced",
-  rationale: "Astro and integration dependency changes invalidate all reusable rendering state, and the native quote containment repair, so every page must render from a clean boundary.",
+  rationale: "Cold Podman validation of the current dependency maintenance candidate. No prior output or incremental page cache is reused. This technical assessment does not grant editorial or production approval.",
   astro: {
     version: "7.3.5",
     output: "static",
