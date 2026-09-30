@@ -1,10 +1,10 @@
 export default {
   schemaVersion: 1,
-  candidate: "00-impactpockets-20260824-upstream-maintenance-20260928",
-  reviewedAt: "2026-09-28T12:05:38.372355+00:00",
+  candidate: "00-impactpockets-20260824-upstream-maintenance-20260929",
+  reviewedAt: "2026-09-29T12:05:20.736196+00:00",
   maximumDecisionAgeMinutes: 240,
   reviewer: "Astro maintenance automation",
-  report: "artifacts/maintenance-2026-09-28/incremental-build-decision.json",
+  report: "artifacts/maintenance-2026-09-29/incremental-build-decision.json",
   selectedMode: "forced",
   rationale: "Astro and integration dependency changes invalidate all reusable rendering state, and the native quote containment repair, so every page must render from a clean boundary.",
   astro: {
